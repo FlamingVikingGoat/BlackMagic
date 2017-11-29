@@ -2,6 +2,7 @@ package com.fvg.blackmagic.core;
 
 import com.fvg.blackmagic.BootsOfSpeed;
 import com.fvg.blackmagic.SpawnBlock;
+import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -25,7 +26,8 @@ public class BlackMagic {
 
     @EventHandler
     public  static void preInit(FMLPreInitializationEvent event){
-
+        ModItems.init();
+        ModItems.register();
     }
 
     @EventHandler
