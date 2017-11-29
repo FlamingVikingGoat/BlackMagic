@@ -3,6 +3,10 @@ package com.fvg.blackmagic;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+import static com.fvg.blackmagic.BootsOfSpeed.bootsOfSpeed;
+import static com.fvg.blackmagic.BootsOfSpeed.demonArmor;
 
 @Mod(modid = BlackMagic.MODID, version = BlackMagic.VERSION)
 public class BlackMagic {
@@ -11,6 +15,10 @@ public class BlackMagic {
 
     @EventHandler
     public void init(FMLInitializationEvent event){
+        SpawnBlock spawnBlock = new SpawnBlock();
+        GameRegistry.registerBlock(spawnBlock, "spawnBlock");
+        bootsOfSpeed = new BootsOfSpeed(demonArmor, 0, 3);
+        GameRegistry.registerItem(bootsOfSpeed, "bootsOfSpeed");
 
     }
 }
