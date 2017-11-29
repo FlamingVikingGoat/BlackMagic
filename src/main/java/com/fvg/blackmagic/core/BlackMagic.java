@@ -1,6 +1,6 @@
 package com.fvg.blackmagic.core;
 
-import com.fvg.blackmagic.BootsOfSpeed;
+
 import com.fvg.blackmagic.SpawnBlock;
 import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.proxy.CommonProxy;
@@ -12,8 +12,6 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-import static com.fvg.blackmagic.BootsOfSpeed.bootsOfSpeed;
-import static com.fvg.blackmagic.BootsOfSpeed.demonArmor;
 
 @Mod(modid = Reference.MODID, version = Reference.VERSION)
 public class BlackMagic {
@@ -34,8 +32,8 @@ public class BlackMagic {
     public static void init(FMLInitializationEvent event){
         SpawnBlock spawnBlock = new SpawnBlock();
         GameRegistry.registerBlock(spawnBlock, "spawnBlock");
-        bootsOfSpeed = new BootsOfSpeed(demonArmor, 0, 3);
-        GameRegistry.registerItem(bootsOfSpeed, "bootsOfSpeed");
+        proxy.registerRenders();
+
 
     }
 
