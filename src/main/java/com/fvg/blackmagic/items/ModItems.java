@@ -1,5 +1,6 @@
 package com.fvg.blackmagic.items;
 
+import com.fvg.blackmagic.core.BlackMagic;
 import com.fvg.blackmagic.core.Reference;
 import com.fvg.blackmagic.items.gear.ItemModSword;
 import net.minecraft.client.Minecraft;
@@ -27,6 +28,7 @@ public class ModItems {
 
         //Generic Items
         infernus = new Item().setUnlocalizedName("infernus");
+        infernus.setCreativeTab(BlackMagic.TabBlackMagicCore);
 
     }
 

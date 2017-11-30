@@ -1,3 +1,5 @@
 tile.spawnBlock.name=Spawn Block
 item.infernus.name=Infernus
 item.deathbringer.name=Deathbringer
+
+itemGroup.tabBlackMagicCore=Black Magic

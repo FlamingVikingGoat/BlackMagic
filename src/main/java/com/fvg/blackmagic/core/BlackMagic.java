@@ -2,9 +2,11 @@ package com.fvg.blackmagic.core;
 
 
 import com.fvg.blackmagic.blocks.ModBlocks;
+import com.fvg.blackmagic.creativetab.TabBlackMagicCore;
 import com.fvg.blackmagic.handlers.RecipeHandler;
 import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.proxy.CommonProxy;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -21,6 +23,8 @@ public class BlackMagic {
 
     @Mod.Instance("blackamgic")
     public static BlackMagic instance;
+
+    public static CreativeTabs TabBlackMagicCore = new TabBlackMagicCore("tabBlackMagicCore");
 
     @EventHandler
     public  static void preInit(FMLPreInitializationEvent event){

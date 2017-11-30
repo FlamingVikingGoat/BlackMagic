@@ -2,77 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1bced0-7a48-4d88-abdc-125749fdf578" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/assets/blackmagic/textures/items/deathbringer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/items/gear/IBlackMagicGear.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/items/gear/ItemModSword.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages_nether.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM-1/forcedchunks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages_end.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM1/forcedchunks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/forcedchunks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat_mcr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/6116e2fa-a2e7-3242-8217-a93e1a963211.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/68cf6d02-03bc-3f3b-ab98-76a8ec749597.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/7fac0f4d-6ee9-33e9-a874-7b4a3cc238c6.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/fb8576b0-fae6-3c1e-b44e-6422260d3c41.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.-1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.-2.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-2.-1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-2.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.-1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.-2.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.1.-1.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.1.-2.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/session.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/6116e2fa-a2e7-3242-8217-a93e1a963211.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/93122710-9b50-34d0-8726-c7db8c850b07.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/d066f17c-ceec-354b-93ca-2bac5b52f993.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e98cb9c7-30ea-33d5-9363-b24219bed40f.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/textures/items/deathbringer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/assets/blackmagic/models/item/deathbringer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/6116e2fa-a2e7-3242-8217-a93e1a963211.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/68cf6d02-03bc-3f3b-ab98-76a8ec749597.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/7fac0f4d-6ee9-33e9-a874-7b4a3cc238c6.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/fb8576b0-fae6-3c1e-b44e-6422260d3c41.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/stats/6116e2fa-a2e7-3242-8217-a93e1a963211.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/stats/93122710-9b50-34d0-8726-c7db8c850b07.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/stats/d066f17c-ceec-354b-93ca-2bac5b52f993.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run/saves/New World/stats/e98cb9c7-30ea-33d5-9363-b24219bed40f.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/handlers/RecipeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/deathbringer.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/IDemonicArmor.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/IDemonicArmor.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/IBlackMagicGear.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/container/creative_inventory/tab_items.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetab/TabBlackMagicCore.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/SpawnBlock.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/SpawnBlock.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/core/BlackMagic.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/core/BlackMagic.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/items/ModItems.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/items/ModItems.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2017-11-29-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2017-11-29-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2017-11-29-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-4.log.gz" afterPath="$PROJECT_DIR$/run/logs/2017-11-29-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-5.log.gz" afterPath="$PROJECT_DIR$/run/logs/2017-11-29-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-6.log.gz" afterPath="$PROJECT_DIR$/run/logs/2017-11-29-6.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-7.log.gz" afterPath="$PROJECT_DIR$/run/logs/2017-11-29-7.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5862.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5862.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5863.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5863.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5862.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5862.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5863.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5863.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/items/gear/ItemModSword.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/items/gear/ItemModSword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages_nether.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages_nether.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages_end.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages_end.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World-/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/assets/blackmagic/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/assets/blackmagic/lang/en_US.lang" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
@@ -82,11 +24,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/options.txt" afterPath="$PROJECT_DIR$/run/options.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -137,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BlackMagic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlackMagic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="145">
+              <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java">
+      <file leaf-file-name="TabBlackMagicCore.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetab/TabBlackMagicCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,48 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecipeHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/handlers/RecipeHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CraftingManager.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/crafting/CraftingManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockStone.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/BlockStone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="World.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/world/World.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="3629" column="16" lean-forward="false" selection-start-line="3629" selection-start-column="16" selection-end-line="3629" selection-end-column="16" />
-              <folding>
-                <element signature="e#123305#123306#0" expanded="true" />
-                <element signature="e#123356#123357#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="tab_items.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/container/creative_inventory/tab_items.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -757,14 +661,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/altSpawn.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/blockstates/altSpawn.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/IBlackMagicGear.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/deathbringer.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/handlers/RecipeHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetab/TabBlackMagicCore.java" />
       </list>
     </option>
   </component>
@@ -847,6 +752,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="creativetab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -872,7 +786,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
@@ -880,65 +794,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="blockstates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="creative_inventory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
@@ -991,6 +848,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="getWorldTime&#9;PSI&#9;JAVA://net.minecraft.world.World#getWorldTime&#10;flying&#9;PSI&#9;JAVA://net.minecraft.entity.EntityFlying&#10;landM&#9;PSI&#9;JAVA://net.minecraft.entity.EntityLivingBase#landMovementFactor&#10;landmo&#9;PSI&#9;JAVA://net.minecraft.entity.EntityLivingBase#landMovementFactor&#10;motionY&#9;PSI&#9;JAVA://net.minecraft.entity.Entity#motionY&#10;onBlockAc&#9;PSI&#9;JAVA://net.minecraft.block.Block#onBlockActivated&#10;onBlo&#9;PSI&#9;JAVA://com.fvg.blackmagic.SpawnBlock#OnBlockActivated" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Desktop\IntJ\BlackMagic\src\main\resources\assets\minecraft\textures\gui\container\creative_inventory" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Desktop\IntJ\BlackMagic\src\main\resources\assets\minecraft\textures\gui\container\creative_inventory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1140,6 +1005,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1149,12 +1015,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693795" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31622177" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31622177" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27661794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27661794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1180,24 +1046,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14501">
-          <caret line="853" column="36" lean-forward="false" selection-start-line="853" selection-start-column="36" selection-end-line="853" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1438,22 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/deathbringer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1472,26 +1304,8 @@
         <state relative-caret-position="315">
           <caret line="3629" column="16" lean-forward="false" selection-start-line="3629" selection-start-column="16" selection-end-line="3629" selection-end-column="16" />
           <folding>
-            <element signature="e#123305#123306#0" expanded="true" />
-            <element signature="e#123356#123357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="74" lean-forward="false" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#123305#123306#0" expanded="false" />
+            <element signature="e#123356#123357#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1500,14 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/crafting/CraftingManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1522,21 +1328,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetabs/TabBlackMagic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/crafting/CraftingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetabs/TabBlackMagic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/container/creative_inventory/tab_items.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetab/TabBlackMagicCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
