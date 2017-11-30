@@ -11,6 +11,7 @@ public class ModBlocks {
 
     public static Block spawnBlock;
 
+
     public static void init(){
         spawnBlock = new SpawnBlock("spawnBlock");
     }
@@ -19,7 +20,9 @@ public class ModBlocks {
         registerBlock(spawnBlock);
     }
 
-    public static void registerRenders(){}
+    public static void registerRenders(){
+        registerRender(spawnBlock);
+    }
 
     public static void registerBlock(Block block){
         GameRegistry.registerBlock(block, block.getUnlocalizedName().substring(5));

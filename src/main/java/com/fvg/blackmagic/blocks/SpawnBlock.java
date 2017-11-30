@@ -11,9 +11,9 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.world.World;
 
 public class SpawnBlock extends Block{
-    public SpawnBlock(String unlocalizedname){
+    public SpawnBlock(String unlocalizedName){
         super(Material.iron);
-        this.setUnlocalizedName(unlocalizedname);
+        this.setUnlocalizedName(unlocalizedName);
         this.setCreativeTab(CreativeTabs.tabBlock);
         this.setLightLevel(1.0F);
         this.setHardness(10.0F);
@@ -24,9 +24,8 @@ public class SpawnBlock extends Block{
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumFacing side, float hitX, float hitY, float hitZ){
 
         EntityZombie demon = new EntityZombie(worldIn);
-        double raiseSpawn = pos.getY() + 2;
 
-        demon.setLocationAndAngles(pos.getX(), raiseSpawn, pos.getZ(), 0, 0);
+        demon.setLocationAndAngles(pos.getX()+0.5, pos.getY()+1, pos.getZ()+0.5, 0, 0);
         worldIn.spawnEntityInWorld(demon);
 
         return false;

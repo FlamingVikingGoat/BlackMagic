@@ -2,7 +2,6 @@ package com.fvg.blackmagic.core;
 
 
 import com.fvg.blackmagic.blocks.ModBlocks;
-import com.fvg.blackmagic.blocks.SpawnBlock;
 import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -11,7 +10,6 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
 @Mod(modid = Reference.MODID, version = Reference.VERSION)
