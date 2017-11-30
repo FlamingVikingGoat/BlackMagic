@@ -1,8 +1,8 @@
-package com.fvg.blackmagic;
+package com.fvg.blackmagic.items.gear;
 
 import net.minecraft.entity.player.EntityPlayer;
 
-public interface IDemonicArmor {
+public interface IBlackMagicGear {
 
     void addPositiveEffect(EntityPlayer player);
 

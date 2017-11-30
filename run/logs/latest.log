@@ -1,40 +1,40 @@
-[21:19:26] [Client thread/INFO]: Setting user: Player697
-[21:19:30] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:19:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
-[21:19:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[21:19:45] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[21:19:45] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:19:46] [Thread-9/INFO]: OpenAL initialized.
-[21:19:46] [Sound Library Loader/INFO]: Sound engine started
-[21:20:01] [Client thread/INFO]: Created: 16x16 textures-atlas
-[21:20:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
-[21:20:02] [Client thread/INFO]: SoundSystem shutting down...
-[21:20:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[21:20:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[21:20:02] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[21:20:02] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:20:02] [Thread-11/INFO]: OpenAL initialized.
-[21:20:02] [Sound Library Loader/INFO]: Sound engine started
-[21:20:04] [Client thread/INFO]: Created: 512x512 textures-atlas
-[21:20:29] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[21:20:29] [Server thread/INFO]: Generating keypair
-[21:20:29] [Server thread/INFO]: Preparing start region for level 0
-[21:20:30] [Server thread/INFO]: Changing view distance to 12, from 10
-[21:20:32] [Server thread/INFO]: Player697[local:E:6b5292b4] logged in with entity id 126 at (3001347.8588830032, 64.0, 3001791.619976902)
-[21:20:32] [Server thread/INFO]: Player697 joined the game
-[21:20:47] [Server thread/INFO]: Player697 has just earned the achievement [Taking Inventory]
-[21:20:47] [Client thread/INFO]: [CHAT] Player697 has just earned the achievement [Taking Inventory]
-[21:21:10] [Server thread/INFO]: Saving and pausing game...
-[21:21:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:21:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:21:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:21:11] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
-[21:21:11] [Server thread/INFO]: Stopping server
-[21:21:11] [Server thread/INFO]: Saving players
-[21:21:11] [Server thread/INFO]: Saving worlds
-[21:21:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[21:21:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[21:21:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[21:21:14] [Client thread/INFO]: Stopping!
-[21:21:14] [Client thread/INFO]: SoundSystem shutting down...
-[21:21:14] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:47:34] [Client thread/INFO]: Setting user: Player341
+[16:47:36] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:47:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
+[16:47:41] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:47:41] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[16:47:41] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:47:41] [Thread-9/INFO]: OpenAL initialized.
+[16:47:42] [Sound Library Loader/INFO]: Sound engine started
+[16:47:51] [Client thread/INFO]: Created: 16x16 textures-atlas
+[16:47:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
+[16:47:52] [Client thread/INFO]: SoundSystem shutting down...
+[16:47:52] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:47:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:47:53] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[16:47:53] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:47:53] [Thread-11/INFO]: OpenAL initialized.
+[16:47:53] [Sound Library Loader/INFO]: Sound engine started
+[16:47:55] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:47:59] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[16:47:59] [Server thread/INFO]: Generating keypair
+[16:47:59] [Server thread/INFO]: Preparing start region for level 0
+[16:48:00] [Server thread/INFO]: Changing view distance to 5, from 10
+[16:48:01] [Server thread/INFO]: Player341[local:E:578313e4] logged in with entity id 21 at (-329.0548051994015, 53.79764863032761, 223.703757900535)
+[16:48:01] [Server thread/INFO]: Player341 joined the game
+[16:48:37] [Server thread/INFO]: Player341 has just earned the achievement [Taking Inventory]
+[16:48:37] [Client thread/INFO]: [CHAT] Player341 has just earned the achievement [Taking Inventory]
+[16:48:58] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[16:48:59] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[16:49:02] [Client thread/INFO]: [CHAT] blackmagic:infernus, blackmagic:deathbringer, blackmagic:spawnBlock
+[16:49:03] [Server thread/INFO]: [Player341: Given [Infernus] * 1 to Player341]
+[16:49:03] [Client thread/INFO]: [CHAT] Given [Infernus] * 1 to Player341
+[16:49:37] [Client thread/INFO]: Stopping!
+[16:49:37] [Client thread/INFO]: SoundSystem shutting down...
+[16:49:38] [Server thread/INFO]: Stopping server
+[16:49:38] [Server thread/INFO]: Saving players
+[16:49:38] [Server thread/INFO]: Saving worlds
+[16:49:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:49:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:49:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:49:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

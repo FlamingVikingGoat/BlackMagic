@@ -2,6 +2,7 @@ package com.fvg.blackmagic.core;
 
 
 import com.fvg.blackmagic.blocks.ModBlocks;
+import com.fvg.blackmagic.handlers.RecipeHandler;
 import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -32,6 +33,7 @@ public class BlackMagic {
     @EventHandler
     public static void init(FMLInitializationEvent event){
        proxy.registerRenders();
+        RecipeHandler.registerCraftingRecipes();
     }
 
     @EventHandler
