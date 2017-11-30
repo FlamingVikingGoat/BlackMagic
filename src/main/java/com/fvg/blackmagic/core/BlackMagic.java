@@ -1,7 +1,8 @@
 package com.fvg.blackmagic.core;
 
 
-import com.fvg.blackmagic.SpawnBlock;
+import com.fvg.blackmagic.blocks.ModBlocks;
+import com.fvg.blackmagic.blocks.SpawnBlock;
 import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -26,15 +27,13 @@ public class BlackMagic {
     public  static void preInit(FMLPreInitializationEvent event){
         ModItems.init();
         ModItems.register();
+        ModBlocks.init();
+        ModBlocks.register();
     }
 
     @EventHandler
     public static void init(FMLInitializationEvent event){
-        SpawnBlock spawnBlock = new SpawnBlock();
-        GameRegistry.registerBlock(spawnBlock, "spawnBlock");
-        proxy.registerRenders();
-
-
+       proxy.registerRenders();
     }
 
     @EventHandler

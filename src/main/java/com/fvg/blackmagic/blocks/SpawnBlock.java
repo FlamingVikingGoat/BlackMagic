@@ -1,4 +1,4 @@
-package com.fvg.blackmagic;
+package com.fvg.blackmagic.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -11,9 +11,9 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.world.World;
 
 public class SpawnBlock extends Block{
-    public SpawnBlock(){
+    public SpawnBlock(String unlocalizedname){
         super(Material.iron);
-        this.setUnlocalizedName("spawnBlock");
+        this.setUnlocalizedName(unlocalizedname);
         this.setCreativeTab(CreativeTabs.tabBlock);
         this.setLightLevel(1.0F);
         this.setHardness(10.0F);
@@ -22,10 +22,13 @@ public class SpawnBlock extends Block{
 
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumFacing side, float hitX, float hitY, float hitZ){
+
         EntityZombie demon = new EntityZombie(worldIn);
         double raiseSpawn = pos.getY() + 2;
+
         demon.setLocationAndAngles(pos.getX(), raiseSpawn, pos.getZ(), 0, 0);
         worldIn.spawnEntityInWorld(demon);
+
         return false;
     }
 }
