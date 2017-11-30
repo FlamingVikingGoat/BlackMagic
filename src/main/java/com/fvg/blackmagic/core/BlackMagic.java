@@ -37,7 +37,8 @@ public class BlackMagic {
     @EventHandler
     public static void init(FMLInitializationEvent event){
        proxy.registerRenders();
-        RecipeHandler.registerCraftingRecipes();
+       proxy.registerWorldGenerator();
+       RecipeHandler.registerCraftingRecipes();
     }
 
     @EventHandler

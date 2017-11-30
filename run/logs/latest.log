@@ -1,35 +1,50 @@
-[17:27:30] [Client thread/INFO]: Setting user: Player84
-[17:27:32] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:27:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
-[17:27:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:27:36] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[17:27:36] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:27:36] [Thread-9/INFO]: OpenAL initialized.
-[17:27:37] [Sound Library Loader/INFO]: Sound engine started
-[17:27:46] [Client thread/INFO]: Created: 16x16 textures-atlas
-[17:27:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
-[17:27:47] [Client thread/INFO]: SoundSystem shutting down...
-[17:27:47] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:27:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:27:47] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[17:27:47] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:27:47] [Thread-11/INFO]: OpenAL initialized.
-[17:27:48] [Sound Library Loader/INFO]: Sound engine started
-[17:27:51] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:27:55] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[17:27:55] [Server thread/INFO]: Generating keypair
-[17:27:56] [Server thread/INFO]: Preparing start region for level 0
-[17:27:56] [Server thread/INFO]: Changing view distance to 5, from 10
-[17:27:57] [Server thread/INFO]: Player84[local:E:09beb4c2] logged in with entity id 21 at (-340.944278125347, 53.739016789304436, 217.63401758692484)
-[17:27:57] [Server thread/INFO]: Player84 joined the game
-[17:28:00] [Server thread/INFO]: Player84 has just earned the achievement [Taking Inventory]
-[17:28:00] [Client thread/INFO]: [CHAT] Player84 has just earned the achievement [Taking Inventory]
-[17:29:03] [Client thread/INFO]: Stopping!
-[17:29:03] [Client thread/INFO]: SoundSystem shutting down...
-[17:29:03] [Server thread/INFO]: Stopping server
-[17:29:03] [Server thread/INFO]: Saving players
-[17:29:03] [Server thread/INFO]: Saving worlds
-[17:29:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:29:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:29:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:29:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:39:26] [Client thread/INFO]: Setting user: Player740
+[17:39:29] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:39:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
+[17:39:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:39:33] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[17:39:33] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:39:33] [Thread-9/INFO]: OpenAL initialized.
+[17:39:34] [Sound Library Loader/INFO]: Sound engine started
+[17:39:39] [Client thread/INFO]: Created: 16x16 textures-atlas
+[17:39:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
+[17:39:40] [Client thread/INFO]: SoundSystem shutting down...
+[17:39:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:39:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:39:40] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[17:39:40] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:39:40] [Thread-11/INFO]: OpenAL initialized.
+[17:39:41] [Sound Library Loader/INFO]: Sound engine started
+[17:39:53] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:40:03] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[17:40:03] [Server thread/INFO]: Generating keypair
+[17:40:03] [Server thread/INFO]: Converting map!
+[17:40:03] [Server thread/INFO]: Scanning folders...
+[17:40:03] [Server thread/INFO]: Total conversion count is 0
+[17:40:04] [Server thread/INFO]: Preparing start region for level 0
+[17:40:05] [Server thread/INFO]: Preparing spawn area: 9%
+[17:40:06] [Server thread/INFO]: Preparing spawn area: 22%
+[17:40:07] [Server thread/INFO]: Preparing spawn area: 38%
+[17:40:08] [Server thread/INFO]: Preparing spawn area: 57%
+[17:40:09] [Server thread/INFO]: Preparing spawn area: 77%
+[17:40:10] [Server thread/INFO]: Preparing spawn area: 97%
+[17:40:10] [Server thread/INFO]: Changing view distance to 5, from 10
+[17:40:11] [Server thread/INFO]: Player740[local:E:70271193] logged in with entity id 204 at (-235.5, 71.0, 69.5)
+[17:40:11] [Server thread/INFO]: Player740 joined the game
+[17:40:39] [Server thread/INFO]: Saving and pausing game...
+[17:40:39] [Server thread/INFO]: Saving chunks for level 'World gen'/Overworld
+[17:40:39] [Server thread/INFO]: Saving chunks for level 'World gen'/Nether
+[17:40:39] [Server thread/INFO]: Saving chunks for level 'World gen'/The End
+[17:40:40] [Client thread/INFO]: Stopping!
+[17:40:40] [Client thread/INFO]: SoundSystem shutting down...
+[17:40:40] [Server thread/INFO]: Stopping server
+[17:40:40] [Server thread/INFO]: Saving players
+[17:40:40] [Server thread/INFO]: Saving worlds
+[17:40:40] [Server thread/INFO]: Saving chunks for level 'World gen'/Overworld
+[17:40:40] [Server thread/INFO]: Saving chunks for level 'World gen'/Nether
+[17:40:40] [Server thread/INFO]: Saving chunks for level 'World gen'/The End
+[17:40:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:40:40] [Client Shutdown Thread/INFO]: Stopping server
+[17:40:40] [Client Shutdown Thread/INFO]: Saving players
+[17:40:40] [Client Shutdown Thread/INFO]: Saving worlds
+[17:40:40] [Client Shutdown Thread/INFO]: Saving chunks for level 'World gen'/Overworld

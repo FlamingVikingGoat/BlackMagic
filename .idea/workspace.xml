@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1bced0-7a48-4d88-abdc-125749fdf578" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/InfernusInfusedStone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/ModBlocks.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/ModBlocks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages_nether.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages_nether.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages_end.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages_end.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-2.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-2.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World-/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World-/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-2.log" />
@@ -23,7 +10,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BlackMagic.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlackMagic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+            <state relative-caret-position="298">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,12 +77,26 @@
       <file leaf-file-name="OreGen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="30" column="89" lean-forward="false" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+            <state relative-caret-position="196">
+              <caret line="19" column="93" lean-forward="false" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -655,7 +658,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/BootsOfSpeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/BlackMagic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/BootsOfSpeed.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/infernus.json" />
@@ -674,15 +676,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/IBlackMagicGear.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/deathbringer.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/handlers/RecipeHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetab/TabBlackMagicCore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/InfernusInfusedStone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
       </list>
     </option>
   </component>
@@ -747,7 +750,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
@@ -1144,14 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/infernus.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1328,18 +1323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="89" lean-forward="false" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/material/Material.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1356,6 +1339,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/InfernusInfusedStone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1366,21 +1357,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+        <state relative-caret-position="196">
+          <caret line="19" column="93" lean-forward="false" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
