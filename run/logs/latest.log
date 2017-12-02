@@ -1,42 +1,40 @@
-[20:18:42] [Client thread/INFO]: Setting user: Player510
-[20:18:44] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:18:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:blackMagic
-[20:18:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[20:18:48] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[20:18:48] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:18:48] [Thread-9/INFO]: OpenAL initialized.
-[20:18:48] [Sound Library Loader/INFO]: Sound engine started
-[20:18:57] [Client thread/INFO]: Created: 16x16 textures-atlas
-[20:18:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:blackMagic
-[20:18:58] [Client thread/INFO]: SoundSystem shutting down...
-[20:18:58] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[20:18:58] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[20:18:59] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[20:18:59] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:18:59] [Thread-11/INFO]: OpenAL initialized.
-[20:18:59] [Sound Library Loader/INFO]: Sound engine started
-[20:19:00] [Client thread/INFO]: Created: 512x512 textures-atlas
-[20:19:03] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[20:19:03] [Server thread/INFO]: Generating keypair
-[20:19:04] [Server thread/INFO]: Preparing start region for level 0
-[20:19:05] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:19:06] [Server thread/INFO]: Player510[local:E:0b781dea] logged in with entity id 118 at (3000727.4818694233, 83.10456967908607, 3001002.0637080884)
-[20:19:06] [Server thread/INFO]: Player510 joined the game
-[20:19:12] [Server thread/INFO]: Player510 has just earned the achievement [Taking Inventory]
-[20:19:12] [Client thread/INFO]: [CHAT] Player510 has just earned the achievement [Taking Inventory]
-[20:19:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8774ms behind, skipping 175 tick(s)
-[20:19:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3158ms behind, skipping 63 tick(s)
-[20:19:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2408ms behind, skipping 48 tick(s)
-[20:20:37] [Client thread/INFO]: Stopping!
-[20:20:37] [Client thread/INFO]: SoundSystem shutting down...
-[20:20:37] [Server thread/INFO]: Stopping server
-[20:20:37] [Server thread/INFO]: Saving players
-[20:20:37] [Server thread/INFO]: Saving worlds
-[20:20:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[20:20:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[20:20:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[20:20:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[20:20:38] [Client Shutdown Thread/INFO]: Stopping server
-[20:20:38] [Client Shutdown Thread/INFO]: Saving players
-[20:20:38] [Client Shutdown Thread/INFO]: Saving worlds
-[20:20:38] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:19:26] [Client thread/INFO]: Setting user: Player697
+[21:19:30] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:19:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
+[21:19:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:19:45] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[21:19:45] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:19:46] [Thread-9/INFO]: OpenAL initialized.
+[21:19:46] [Sound Library Loader/INFO]: Sound engine started
+[21:20:01] [Client thread/INFO]: Created: 16x16 textures-atlas
+[21:20:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Black Magic
+[21:20:02] [Client thread/INFO]: SoundSystem shutting down...
+[21:20:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:20:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:20:02] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[21:20:02] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:20:02] [Thread-11/INFO]: OpenAL initialized.
+[21:20:02] [Sound Library Loader/INFO]: Sound engine started
+[21:20:04] [Client thread/INFO]: Created: 512x512 textures-atlas
+[21:20:29] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[21:20:29] [Server thread/INFO]: Generating keypair
+[21:20:29] [Server thread/INFO]: Preparing start region for level 0
+[21:20:30] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:20:32] [Server thread/INFO]: Player697[local:E:6b5292b4] logged in with entity id 126 at (3001347.8588830032, 64.0, 3001791.619976902)
+[21:20:32] [Server thread/INFO]: Player697 joined the game
+[21:20:47] [Server thread/INFO]: Player697 has just earned the achievement [Taking Inventory]
+[21:20:47] [Client thread/INFO]: [CHAT] Player697 has just earned the achievement [Taking Inventory]
+[21:21:10] [Server thread/INFO]: Saving and pausing game...
+[21:21:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:21:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:21:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:21:11] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[21:21:11] [Server thread/INFO]: Stopping server
+[21:21:11] [Server thread/INFO]: Saving players
+[21:21:11] [Server thread/INFO]: Saving worlds
+[21:21:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:21:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:21:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:21:14] [Client thread/INFO]: Stopping!
+[21:21:14] [Client thread/INFO]: SoundSystem shutting down...
+[21:21:14] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
