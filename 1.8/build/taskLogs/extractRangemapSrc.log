@@ -1,0 +1,15 @@
+Symbol range map extraction starting
+Processing 13 files
+processing com\fvg\blackmagic\blocks\InfernusInfusedStone.java
+processing com\fvg\blackmagic\blocks\ModBlocks.java
+processing com\fvg\blackmagic\blocks\SpawnBlock.java
+processing com\fvg\blackmagic\core\BlackMagic.java
+processing com\fvg\blackmagic\core\Reference.java
+processing com\fvg\blackmagic\creativetab\TabBlackMagicCore.java
+processing com\fvg\blackmagic\handlers\RecipeHandler.java
+processing com\fvg\blackmagic\items\ModItems.java
+processing com\fvg\blackmagic\items\gear\IBlackMagicGear.java
+processing com\fvg\blackmagic\items\gear\ItemModSword.java
+processing com\fvg\blackmagic\proxy\ClientProxy.java
+processing com\fvg\blackmagic\proxy\CommonProxy.java
+processing com\fvg\blackmagic\worldgen\OreGen.java
