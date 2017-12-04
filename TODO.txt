@@ -1,4 +1,0 @@
-Bugs & Unintended features:
-	Check out Ghost Spawn of Zombie
-Partial Implimentations:
-	Infernus Infused Stone needs to be textured
