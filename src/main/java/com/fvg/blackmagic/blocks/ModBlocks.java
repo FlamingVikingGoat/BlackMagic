@@ -10,17 +10,21 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 
     public static Block spawnBlock;
+    public static Block infernusInfusedStone;
 
 
     public static void init(){
         spawnBlock = new SpawnBlock("spawnBlock");
+        infernusInfusedStone = new InfernusInfusedStone("infernusInfusedStone");
     }
 
     public static void register(){
         registerBlock(spawnBlock);
+        registerBlock(infernusInfusedStone);
     }
 
     public static void registerRenders(){
+        registerRender(spawnBlock);
         registerRender(spawnBlock);
     }
 

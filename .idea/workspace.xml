@@ -2,41 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1bced0-7a48-4d88-abdc-125749fdf578" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/spawnBlock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/assets/blackmagic/textures/items/infernus.png" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/assets/blackmagic/textures/items/infernus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/ModBlocks.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/ModBlocks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/SpawnBlock.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/blocks/SpawnBlock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/core/BlackMagic.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/core/BlackMagic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/proxy/ClientProxy.class" afterPath="$PROJECT_DIR$/out/production/BlackMagic_main/com/fvg/blackmagic/proxy/ClientProxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/Village.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/Village.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5862.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5862.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5863.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5863.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5862.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5862.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5863.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5863.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/textures/items/infernus.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/textures/items/infernus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Michael.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/block/spawnBlock.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/block/spawnBlock.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/config/forge.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/config/forgeChunkLoading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2017-11-28_20.53.45-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/crash-reports/crash-2017-11-28_20.56.49-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-26-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-26-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-28-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-28-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-28-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-28-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-28-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-28-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-28-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-29-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-30-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-30-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-30-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-30-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-30-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-30-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-11-30-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-12-03-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-12-03-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-12-03-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/2017-12-03-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/fml-client-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/fml-client-2.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/fml-client-3.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/options.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages_nether.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM-1/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages_end.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/DIM1/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_mcr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/11e9bf70-b06d-37b5-8fe5-cb8c8adfd22c.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/19487181-3859-391a-bf75-143cc8396d12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/1acd01f1-1c8b-3758-959b-fdf4d16bd5de.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/3040503a-3235-3de3-b74a-4cf8adeec910.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/43c314ca-2c75-349f-b8fe-ad7c6fada15e.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/5daba5f8-966b-3165-8089-02aaa9b1e740.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/6116e2fa-a2e7-3242-8217-a93e1a963211.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/68cf6d02-03bc-3f3b-ab98-76a8ec749597.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/6aa22a6e-01b2-3515-a387-e8c7e0793117.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/7fac0f4d-6ee9-33e9-a874-7b4a3cc238c6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/b24e58a9-7e4c-3f19-91fc-3074c8cfe34b.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/b2d19156-5364-397f-8e33-abd769d6319d.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/bdc5f32b-6d6c-3510-b82f-68a782d73b82.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/d3aa0338-14e5-3fd8-aca9-5e19667fa0b6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/fb8576b0-fae6-3c1e-b44e-6422260d3c41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.-2.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-2.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-2.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.0.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.0.-2.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.1.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.1.-2.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/session.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/11e9bf70-b06d-37b5-8fe5-cb8c8adfd22c.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/19487181-3859-391a-bf75-143cc8396d12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/1acd01f1-1c8b-3758-959b-fdf4d16bd5de.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/3040503a-3235-3de3-b74a-4cf8adeec910.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/43c314ca-2c75-349f-b8fe-ad7c6fada15e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/5daba5f8-966b-3165-8089-02aaa9b1e740.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/6116e2fa-a2e7-3242-8217-a93e1a963211.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/68cf6d02-03bc-3f3b-ab98-76a8ec749597.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/6aa22a6e-01b2-3515-a387-e8c7e0793117.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/7fac0f4d-6ee9-33e9-a874-7b4a3cc238c6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/b24e58a9-7e4c-3f19-91fc-3074c8cfe34b.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/b2d19156-5364-397f-8e33-abd769d6319d.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/bdc5f32b-6d6c-3510-b82f-68a782d73b82.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/d3aa0338-14e5-3fd8-aca9-5e19667fa0b6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-/stats/fb8576b0-fae6-3c1e-b44e-6422260d3c41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-20171128-221200.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-20171128-222423.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World-20171129-211430.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/data/Mineshaft.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/data/Temple.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/data/Village.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_mcr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/004652a1-10cb-3d6a-84b1-92d0322911a0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/005a1bfb-b3e4-37aa-87e8-3ba2c8463cf4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/09444461-95e8-3d4c-b4c8-61c0297ca18f.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/09805145-bb70-3fc1-9783-30845f8dd6d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/0ee0c13d-70e5-3031-ae99-c5b7b6d44331.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/183eef8c-2608-3c01-af67-e8b358459ccf.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/2ce4ef37-1586-3eaf-ba6f-4b93d1e38829.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/42468be1-4059-36e2-be82-cb1721e83191.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/5031b283-213a-3769-9d06-07f0ca40feb8.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/5234a5c3-20f2-3d6d-975b-3ec31fe1a944.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/56194db1-2459-3533-bada-8561030dd064.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/6116e2fa-a2e7-3242-8217-a93e1a963211.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/6216d3be-96f5-3b55-9404-8ae4f0bc7784.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/68723020-3c7d-332b-9007-b1f8c7a00304.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/6be062b2-d5f9-3e2d-be7e-7d0540b46d78.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/8b8434b7-4246-3db8-89e4-a51a52bc8fc9.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/93122710-9b50-34d0-8726-c7db8c850b07.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/9f83efe4-f945-3a62-8c8a-b62cdf1ee258.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/a3e619b4-d03e-3df6-bc8e-533c5d67e6da.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/aa02bf6c-4f02-33d2-9844-c1af5eb9bb36.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/b555fe5e-72e9-3ef4-9fb1-1ed3982e7f32.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/c6c946a7-7334-3c2c-8670-50d9130a2dd5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/cc8f980e-8ea7-381a-8715-01149d418cfb.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/ccd8a3d4-50c5-39f5-a01f-10958af9df66.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/d066f17c-ceec-354b-93ca-2bac5b52f993.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/d4625839-68ff-34de-8208-19f0e474753e.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e10ba356-0952-343e-8ccb-a3b6e69bf75e.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e5a660b6-9d51-36ee-858e-f73e02a3f36f.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e98cb9c7-30ea-33d5-9363-b24219bed40f.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/f25f601d-4501-33e2-b5d9-0d4e52342d0d.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/f4755d8e-161a-3abe-8338-935e4189097a.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/f72636fb-c7db-3c44-8cd4-8a6790fd9b69.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/f9567117-2555-3219-a3d6-01de0ddd7332.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/fd6f2cd7-e2c4-325a-9688-114cce28bfc9.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5858.5859.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5859.5858.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5859.5859.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5859.5860.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5859.5861.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5860.5859.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5860.5860.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5860.5861.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5860.5862.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5860.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5861.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5862.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5861.5863.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5861.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5862.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.5862.5863.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/004652a1-10cb-3d6a-84b1-92d0322911a0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/005a1bfb-b3e4-37aa-87e8-3ba2c8463cf4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/09444461-95e8-3d4c-b4c8-61c0297ca18f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/09805145-bb70-3fc1-9783-30845f8dd6d0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/0ee0c13d-70e5-3031-ae99-c5b7b6d44331.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/183eef8c-2608-3c01-af67-e8b358459ccf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/2ce4ef37-1586-3eaf-ba6f-4b93d1e38829.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/42468be1-4059-36e2-be82-cb1721e83191.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/5031b283-213a-3769-9d06-07f0ca40feb8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/5234a5c3-20f2-3d6d-975b-3ec31fe1a944.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/56194db1-2459-3533-bada-8561030dd064.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/6116e2fa-a2e7-3242-8217-a93e1a963211.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/6216d3be-96f5-3b55-9404-8ae4f0bc7784.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/68723020-3c7d-332b-9007-b1f8c7a00304.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/6be062b2-d5f9-3e2d-be7e-7d0540b46d78.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/8b8434b7-4246-3db8-89e4-a51a52bc8fc9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/93122710-9b50-34d0-8726-c7db8c850b07.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/9f83efe4-f945-3a62-8c8a-b62cdf1ee258.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/a3e619b4-d03e-3df6-bc8e-533c5d67e6da.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/aa02bf6c-4f02-33d2-9844-c1af5eb9bb36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/b555fe5e-72e9-3ef4-9fb1-1ed3982e7f32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/c6c946a7-7334-3c2c-8670-50d9130a2dd5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/cc8f980e-8ea7-381a-8715-01149d418cfb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/ccd8a3d4-50c5-39f5-a01f-10958af9df66.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/d066f17c-ceec-354b-93ca-2bac5b52f993.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/d4625839-68ff-34de-8208-19f0e474753e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e10ba356-0952-343e-8ccb-a3b6e69bf75e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e5a660b6-9d51-36ee-858e-f73e02a3f36f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e98cb9c7-30ea-33d5-9363-b24219bed40f.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/f25f601d-4501-33e2-b5d9-0d4e52342d0d.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/f4755d8e-161a-3abe-8338-935e4189097a.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/f72636fb-c7db-3c44-8cd4-8a6790fd9b69.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/f9567117-2555-3219-a3d6-01de0ddd7332.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/New World/stats/fd6f2cd7-e2c4-325a-9688-114cce28bfc9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/DIM-1/data/villages_nether.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/DIM-1/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/DIM1/data/villages_end.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/DIM1/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/data/Mineshaft.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/data/Temple.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/data/Village.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/data/villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/level.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/level.dat_mcr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/level.dat_old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/playerdata/80db04bb-566c-3ad4-b0e2-8e4330dc410b.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/playerdata/bdc5f32b-6d6c-3510-b82f-68a782d73b82.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/region/r.-1.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/region/r.-1.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/session.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/stats/80db04bb-566c-3ad4-b0e2-8e4330dc410b.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/saves/World gen/stats/bdc5f32b-6d6c-3510-b82f-68a782d73b82.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/screenshots/2017-11-28_19.29.39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -89,8 +270,8 @@
       <file leaf-file-name="BlackMagic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="578">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,30 +279,97 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpawnBlock.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
+      <file leaf-file-name="ItemModSword.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="353">
+              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="201" column="19" lean-forward="false" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java">
+      <file leaf-file-name="ItemBanner.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/ItemBanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="68">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Items.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/init/Items.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3298">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemEvent.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/item/ItemEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LivingHurtEvent.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/living/LivingHurtEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityEvent.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/EntityEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="World.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/world/World.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54400">
+              <caret line="3629" column="16" lean-forward="false" selection-start-line="3629" selection-start-column="16" selection-end-line="3629" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#123305#123306#0" expanded="true" />
+                <element signature="e#123356#123357#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpawnBlock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -660,16 +908,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/BootsOfSpeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/BlackMagic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/BootsOfSpeed.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/infernus.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/SpawnBlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/IDemonicArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/block/spawnBlock.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/spawnBlock.json" />
@@ -679,16 +923,27 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/blockstates/spawnBlock.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/altSpawn.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/blockstates/altSpawn.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/IBlackMagicGear.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/deathbringer.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/handlers/RecipeHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetab/TabBlackMagicCore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/InfernusInfusedStone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="402" />
-    <option name="y" value="39" />
-    <option name="width" value="1400" />
-    <option name="height" value="1049" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="327" />
+    <option name="y" value="-28" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -707,6 +962,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -756,7 +1012,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
@@ -766,6 +1022,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="gear" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
@@ -789,6 +1046,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -797,78 +1063,107 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="blockstates" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="creative_inventory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="block" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraft" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraft" type="462c0819:PsiDirectoryNode" />
               <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraft" type="462c0819:PsiDirectoryNode" />
+              <item name="world" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraftforge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackMagic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="blackmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraftforge" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraftforge" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackMagic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forgeSrc-1.8-11.14.4.1577.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="minecraftforge" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="living" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="flying&#9;PSI&#9;JAVA://net.minecraft.entity.EntityFlying&#10;landM&#9;PSI&#9;JAVA://net.minecraft.entity.EntityLivingBase#landMovementFactor&#10;landmo&#9;PSI&#9;JAVA://net.minecraft.entity.EntityLivingBase#landMovementFactor&#10;motionY&#9;PSI&#9;JAVA://net.minecraft.entity.Entity#motionY&#10;onBlockAc&#9;PSI&#9;JAVA://net.minecraft.block.Block#onBlockActivated&#10;onBlo&#9;PSI&#9;JAVA://com.fvg.blackmagic.SpawnBlock#OnBlockActivated" />
+    <property name="SearchEverywhereHistoryKey" value="getWorldTime&#9;PSI&#9;JAVA://net.minecraft.world.World#getWorldTime&#10;flying&#9;PSI&#9;JAVA://net.minecraft.entity.EntityFlying&#10;landM&#9;PSI&#9;JAVA://net.minecraft.entity.EntityLivingBase#landMovementFactor&#10;landmo&#9;PSI&#9;JAVA://net.minecraft.entity.EntityLivingBase#landMovementFactor&#10;motionY&#9;PSI&#9;JAVA://net.minecraft.entity.Entity#motionY&#10;onBlockAc&#9;PSI&#9;JAVA://net.minecraft.block.Block#onBlockActivated&#10;onBlo&#9;PSI&#9;JAVA://com.fvg.blackmagic.SpawnBlock#OnBlockActivated" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Desktop\IntJ\BlackMagic\src\main\resources\assets\minecraft\textures\gui\container\creative_inventory" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Desktop\IntJ\BlackMagic\src\main\resources\assets\minecraft\textures\gui\container\creative_inventory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1017,7 +1312,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="39" width="1400" height="1049" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1027,13 +1323,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693795" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31536114" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23916185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1046,6 +1341,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1058,166 +1354,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14501">
-          <caret line="853" column="36" lean-forward="false" selection-start-line="853" selection-start-column="36" selection-end-line="853" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14501">
-          <caret line="853" column="36" lean-forward="false" selection-start-line="853" selection-start-column="36" selection-end-line="853" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="726" column="26" lean-forward="true" selection-start-line="726" selection-start-column="26" selection-end-line="726" selection-end-column="26" />
-          <caret line="725" column="0" lean-forward="true" selection-start-line="725" selection-start-column="0" selection-end-line="725" selection-end-column="0" />
-          <caret line="724" column="9" lean-forward="true" selection-start-line="724" selection-start-column="9" selection-end-line="724" selection-end-column="9" />
-          <caret line="723" column="25" lean-forward="true" selection-start-line="723" selection-start-column="25" selection-end-line="723" selection-end-column="25" />
-          <caret line="722" column="9" lean-forward="true" selection-start-line="722" selection-start-column="9" selection-end-line="722" selection-end-column="9" />
-          <caret line="721" column="45" lean-forward="true" selection-start-line="721" selection-start-column="45" selection-end-line="721" selection-end-column="45" />
-          <caret line="720" column="0" lean-forward="true" selection-start-line="720" selection-start-column="0" selection-end-line="720" selection-end-column="0" />
-          <caret line="719" column="9" lean-forward="true" selection-start-line="719" selection-start-column="9" selection-end-line="719" selection-end-column="9" />
-          <caret line="718" column="25" lean-forward="true" selection-start-line="718" selection-start-column="25" selection-end-line="718" selection-end-column="25" />
-          <caret line="717" column="9" lean-forward="true" selection-start-line="717" selection-start-column="9" selection-end-line="717" selection-end-column="9" />
-          <caret line="716" column="45" lean-forward="true" selection-start-line="716" selection-start-column="45" selection-end-line="716" selection-end-column="45" />
-          <caret line="715" column="0" lean-forward="true" selection-start-line="715" selection-start-column="0" selection-end-line="715" selection-end-column="0" />
-          <caret line="714" column="9" lean-forward="true" selection-start-line="714" selection-start-column="9" selection-end-line="714" selection-end-column="9" />
-          <caret line="713" column="25" lean-forward="true" selection-start-line="713" selection-start-column="25" selection-end-line="713" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/player/PlayerEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3315">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/player/PlayerUseItemEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/EntityEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/living/ZombieEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/living/LivingAttackEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/living/LivingEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/fml/common/registry/GameRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5834">
-          <caret line="496" column="100" lean-forward="false" selection-start-line="496" selection-start-column="100" selection-end-line="496" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/ItemArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="81" column="38" lean-forward="false" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/entity/player/EntityPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="166" column="38" lean-forward="false" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
-          <folding>
-            <element signature="e#61287#61288#0" expanded="false" />
-            <element signature="e#61325#61326#0" expanded="false" />
-            <element signature="e#72537#72538#0" expanded="false" />
-            <element signature="e#72574#72575#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,7 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,7 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,7 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,7 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,7 +1393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,22 +1401,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/BootsOfSpeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/BootsOfSpeed.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1290,64 +1410,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/IDemonicArmor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/infernus.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/TestBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/AnotherSpawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/TestBlocks.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/AnotherSpawn.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/ClientProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1356,7 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,7 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,56 +1447,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/AltSpawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/textures/blocks/altSpawn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/altSpawn.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/block/altSpawn.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/blockstates/altSpawn.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/AltSpawn.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/textures/blocks/altSpawn.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/altSpawn.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/block/altSpawn.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/blockstates/altSpawn.json" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/textures/blocks/spawnBlock.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/IDemonicArmor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/IBlackMagicGear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/models/item/deathbringer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/textures/items/deathbringer.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/BlockStone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/handlers/RecipeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetabs/TabBlackMagic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/blackmagic/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/crafting/CraftingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/gui/container/creative_inventory/tab_items.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/matgen.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/creativetab/TabBlackMagicCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/block/material/Material.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/InfernusInfusedStone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1430,24 +1556,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/ModBlocks.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/worldgen/OreGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="93" lean-forward="false" selection-start-line="19" selection-start-column="93" selection-end-line="19" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/world/BlockEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54400">
+          <caret line="3629" column="16" lean-forward="false" selection-start-line="3629" selection-start-column="16" selection-end-line="3629" selection-end-column="16" />
+          <folding>
+            <element signature="e#123305#123306#0" expanded="true" />
+            <element signature="e#123356#123357#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/blocks/SpawnBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/core/BlackMagic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/living/LivingHurtEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/EntityEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraftforge/event/entity/item/ItemEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fvg/blackmagic/items/gear/ItemModSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="201" column="19" lean-forward="false" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/item/ItemBanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.4.1577/snapshot/20141130/forgeSrc-1.8-11.14.4.1577-sources.jar!/net/minecraft/init/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3298">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>

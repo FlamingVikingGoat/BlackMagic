@@ -1,9 +1,10 @@
 package com.fvg.blackmagic.blocks;
 
+import com.fvg.blackmagic.core.BlackMagic;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.BlockPos;
@@ -14,7 +15,7 @@ public class SpawnBlock extends Block{
     public SpawnBlock(String unlocalizedName){
         super(Material.iron);
         this.setUnlocalizedName(unlocalizedName);
-        this.setCreativeTab(CreativeTabs.tabBlock);
+        this.setCreativeTab(BlackMagic.TabBlackMagicCore);
         this.setLightLevel(1.0F);
         this.setHardness(10.0F);
         this.setResistance(5.0F);
@@ -25,9 +26,19 @@ public class SpawnBlock extends Block{
 
         EntityZombie demon = new EntityZombie(worldIn);
 
-        demon.setLocationAndAngles(pos.getX()+0.5, pos.getY()+1, pos.getZ()+0.5, 0, 0);
-        worldIn.spawnEntityInWorld(demon);
+        if(worldIn.getWorldTime() > 17000 && worldIn.getWorldTime() < 19000){
 
-        return false;
+            demon.setLocationAndAngles(pos.getX()+0.5, pos.getY()+1, pos.getZ()+0.5, 0, 0);
+            worldIn.spawnEntityInWorld(demon);
+
+            return false;
+        }
+
+        else {
+            worldIn.addWeatherEffect(
+                new EntityLightningBolt(worldIn, playerIn.posX, playerIn.posY, playerIn.posZ)
+            );
+            return false;
+        }
     }
 }
