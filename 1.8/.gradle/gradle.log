@@ -1,5 +1,24 @@
-:genIntellijRuns
+#################################################
+         ForgeGradle 2.0-SNAPSHOT        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP 9.10               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:help
+
+Welcome to Gradle 2.7.
+
+To run a build, run gradlew <task> ...
+
+To see a list of available tasks, run gradlew tasks
+
+To see a list of command-line options, run gradlew --help
+
+To see more detail about a task, run gradlew help --task <task>
 
 BUILD SUCCESSFUL
 
-Total time: 0.705 secs
+Total time: 6.181 secs

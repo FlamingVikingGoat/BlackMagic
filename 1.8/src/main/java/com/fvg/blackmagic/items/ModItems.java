@@ -3,6 +3,7 @@ package com.fvg.blackmagic.items;
 import com.fvg.blackmagic.core.BlackMagic;
 import com.fvg.blackmagic.core.Reference;
 import com.fvg.blackmagic.items.gear.ItemModSword;
+import com.fvg.blackmagic.items.gear.ItemStaff;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -17,6 +18,7 @@ public class ModItems {
 
     //Tools
     public static ItemSword deathbringer;
+    public static ItemStaff basicStaff;
 
     //Generic Items
     public static Item infernus;
@@ -25,6 +27,7 @@ public class ModItems {
 
         //Tools
         deathbringer = new ItemModSword(satanicMaterial, "deathbringer");
+        basicStaff = new ItemStaff(Item.ToolMaterial.WOOD, "basicStaff");
 
         //Generic Items
         infernus = new Item().setUnlocalizedName("infernus");
@@ -36,6 +39,7 @@ public class ModItems {
 
         //Tools
         registerItem(deathbringer);
+        registerItem(basicStaff);
 
         //Generic Items
         registerItem(infernus);
@@ -46,6 +50,7 @@ public class ModItems {
 
         //Tools
         registerRender(deathbringer);
+        registerRender(basicStaff);
 
         //Generic Items
         registerRender(infernus);
