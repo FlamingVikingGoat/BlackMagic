@@ -1,9 +1,7 @@
 package com.fvg.blackmagic.items.gear;
 
 
-
 import com.fvg.blackmagic.blocks.AMagicActivated;
-import com.fvg.blackmagic.blocks.ModBlocks;
 import com.fvg.blackmagic.core.BlackMagic;
 import com.google.common.collect.Sets;
 import net.minecraft.block.Block;

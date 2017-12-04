@@ -15,10 +15,15 @@ public class ModItems {
 
     //Tool Materials
     public static Item.ToolMaterial satanicMaterial = EnumHelper.addToolMaterial("satanicMaterial",3, 9999999, 35.0F, 20.0F, 999);
+    public static Item.ToolMaterial blackInfernus = EnumHelper.addToolMaterial("blackInfernus", 3, 66666, 0.45F, 0.45F, 7);
+    public static Item.ToolMaterial redInfernus = EnumHelper.addToolMaterial("redInfernus", 2, 6666, 0.25F, 0.25F, 6);
+    public static Item.ToolMaterial purpleInfernus = EnumHelper.addToolMaterial("purpleInfernus", 1, 666, 0.10F, 0.10F, 5);
 
     //Tools
     public static ItemSword deathbringer;
-    public static ItemStaff basicStaff;
+    public static ItemStaff blackStaff;
+    public static ItemStaff redStaff;
+    public static ItemStaff purpleStaff;
 
     //Generic Items
     public static Item infernus;
@@ -27,7 +32,9 @@ public class ModItems {
 
         //Tools
         deathbringer = new ItemModSword(satanicMaterial, "deathbringer");
-        basicStaff = new ItemStaff(Item.ToolMaterial.WOOD, "basicStaff");
+        blackStaff = new ItemStaff(blackInfernus, "blackStaff");
+        redStaff = new ItemStaff(redInfernus, "redStaff");
+        purpleStaff = new ItemStaff(purpleInfernus, "purpleStaff");
 
         //Generic Items
         infernus = new Item().setUnlocalizedName("infernus");
@@ -39,7 +46,9 @@ public class ModItems {
 
         //Tools
         registerItem(deathbringer);
-        registerItem(basicStaff);
+        registerItem(blackStaff);
+        registerItem(redStaff);
+        registerItem(purpleStaff);
 
         //Generic Items
         registerItem(infernus);
@@ -50,7 +59,9 @@ public class ModItems {
 
         //Tools
         registerRender(deathbringer);
-        registerRender(basicStaff);
+        registerRender(blackStaff);
+        registerRender(redStaff);
+        registerRender(purpleStaff);
 
         //Generic Items
         registerRender(infernus);
