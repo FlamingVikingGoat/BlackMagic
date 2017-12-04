@@ -24,13 +24,18 @@ public class SpawnBlock extends Block{
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumFacing side, float hitX, float hitY, float hitZ){
 
-        EntityZombie demon = new EntityZombie(worldIn);
+
+
 
         if(worldIn.getWorldTime() > 17000 && worldIn.getWorldTime() < 19000){
 
-            demon.setLocationAndAngles(pos.getX()+0.5, pos.getY()+1, pos.getZ()+0.5, 0, 0);
-            worldIn.spawnEntityInWorld(demon);
+            EntityZombie demon = new EntityZombie(worldIn);
 
+            demon.setPosition(pos.getX()+0.5, pos.getY()+1, pos.getZ()+0.5);
+
+            if(!worldIn.isRemote) {
+                worldIn.spawnEntityInWorld(demon);
+            }
             return false;
         }
 
