@@ -3,10 +3,12 @@ package com.fvg.blackmagic.core;
 
 import com.fvg.blackmagic.blocks.ModBlocks;
 import com.fvg.blackmagic.creativetab.TabBlackMagicCore;
+import com.fvg.blackmagic.handlers.BlackEvents;
 import com.fvg.blackmagic.handlers.RecipeHandler;
 import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -43,6 +45,6 @@ public class BlackMagic {
 
     @EventHandler
     public static void postInit(FMLPostInitializationEvent event){
-
+        MinecraftForge.EVENT_BUS.register(new BlackEvents());
     }
 }
