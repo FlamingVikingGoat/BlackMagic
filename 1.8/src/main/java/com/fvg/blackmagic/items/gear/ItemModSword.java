@@ -1,5 +1,6 @@
 package com.fvg.blackmagic.items.gear;
 
+import com.fvg.blackmagic.MagicEffects.ASpells;
 import com.fvg.blackmagic.core.BlackMagic;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -18,16 +19,14 @@ public class ItemModSword extends ItemSword{
 
     @Override
     public boolean onLeftClickEntity(ItemStack stack, EntityPlayer player, Entity entity){
+        ASpells.summonLightningOnEntity(entity);
         return false;
     }
 
     @Override
     public boolean onItemUse(ItemStack stack, EntityPlayer playerIn, World worldIn, BlockPos pos, EnumFacing side, float hitX, float hitY, float hitZ) {
+        ASpells.summonLightningOnBlock(worldIn, pos);
         return false;
     }
 
-    @Override
-    public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn) {
-        return itemStackIn;
-    }
 }

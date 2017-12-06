@@ -1,7 +1,7 @@
 package com.fvg.blackmagic.items.gear;
 
 
-import com.fvg.blackmagic.blocks.AMagicActivated;
+import com.fvg.blackmagic.MagicEffects.ASpells;
 import com.fvg.blackmagic.core.BlackMagic;
 import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
@@ -21,13 +21,7 @@ public class ItemStaff extends ItemTool{
 
     @Override
     public boolean onItemUse(ItemStack stack, EntityPlayer playerIn, World worldIn, BlockPos pos, EnumFacing side, float hitX, float hitY, float hitZ) {
-
-        Block block = worldIn.getBlockState(pos).getBlock();
-
-        if(block instanceof AMagicActivated);{
-            ((AMagicActivated) block).setActivated(true);
-        }
-
+        ASpells.activateMagicBlock(worldIn, pos);
         return false;
     }
 }

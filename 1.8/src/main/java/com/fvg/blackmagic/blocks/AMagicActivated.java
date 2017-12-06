@@ -16,4 +16,8 @@ public abstract class AMagicActivated extends net.minecraft.block.Block{
     public boolean isActivated() {
         return isActivated;
     }
+
+    public void printActivationStatusToDebug(){
+        System.out.println(this.isActivated);
+    }
 }
