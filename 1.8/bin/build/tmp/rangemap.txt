@@ -1,0 +1,503 @@
+Symbol range map extraction starting
+Processing 13 files
+processing com\fvg\blackmagic\blocks\InfernusInfusedStone.java
+@|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|8|33|com.fvg.blackmagic.blocks|package|com.fvg.blackmagic.blocks|(file)
+Class Start: com.fvg.blackmagic.blocks.InfernusInfusedStone
+   Method Start: InfernusInfusedStone(Ljava/lang/String;)V
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|221|241|InfernusInfusedStone|method|com.fvg.blackmagic.blocks.InfernusInfusedStone|InfernusInfusedStone|(Ljava/lang/String;)V
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|242|248|String|class|java.lang.String
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|249|264|unlocalizedName|param|com.fvg.blackmagic.blocks.InfernusInfusedStone|InfernusInfusedStone|(Ljava/lang/String;)V|unlocalizedName|0
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|281|289|Material|class|net.minecraft.block.material.Material
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|290|294|rock|field|net.minecraft.block.material.Material|rock
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|310|328|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|329|344|unlocalizedName|param|com.fvg.blackmagic.blocks.InfernusInfusedStone|InfernusInfusedStone|(Ljava/lang/String;)V|unlocalizedName|0
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|360|374|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|375|385|BlackMagic|class|com.fvg.blackmagic.core.BlackMagic
+      @|com\fvg\blackmagic\blocks\InfernusInfusedStone.java|386|403|TabBlackMagicCore|field|com.fvg.blackmagic.core.BlackMagic|TabBlackMagicCore
+   Method End: InfernusInfusedStone(Ljava/lang/String;)V
+Class End  : com.fvg.blackmagic.blocks.InfernusInfusedStone
+endProcessing com\fvg\blackmagic\blocks\InfernusInfusedStone.java
+
+processing com\fvg\blackmagic\blocks\ModBlocks.java
+@|com\fvg\blackmagic\blocks\ModBlocks.java|8|33|com.fvg.blackmagic.blocks|package|com.fvg.blackmagic.blocks|(file)
+Class Start: com.fvg.blackmagic.blocks.ModBlocks
+   @|com\fvg\blackmagic\blocks\ModBlocks.java|355|360|Block|class|net.minecraft.block.Block
+   @|com\fvg\blackmagic\blocks\ModBlocks.java|361|371|spawnBlock|field|com.fvg.blackmagic.blocks.ModBlocks|spawnBlock|
+   @|com\fvg\blackmagic\blocks\ModBlocks.java|391|396|Block|class|net.minecraft.block.Block
+   @|com\fvg\blackmagic\blocks\ModBlocks.java|397|417|infernusInfusedStone|field|com.fvg.blackmagic.blocks.ModBlocks|infernusInfusedStone|
+   Method Start: init()V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|444|448|init|method|com.fvg.blackmagic.blocks.ModBlocks|init|()V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|460|470|spawnBlock|field|com.fvg.blackmagic.blocks.ModBlocks|spawnBlock
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|477|487|SpawnBlock|class|com.fvg.blackmagic.blocks.SpawnBlock
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|511|531|infernusInfusedStone|field|com.fvg.blackmagic.blocks.ModBlocks|infernusInfusedStone
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|538|558|InfernusInfusedStone|class|com.fvg.blackmagic.blocks.InfernusInfusedStone
+   Method End: init()V
+   Method Start: register()V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|614|622|register|method|com.fvg.blackmagic.blocks.ModBlocks|register|()V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|634|647|registerBlock|method|com.fvg.blackmagic.blocks.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|648|658|spawnBlock|field|com.fvg.blackmagic.blocks.ModBlocks|spawnBlock
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|669|682|registerBlock|method|com.fvg.blackmagic.blocks.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|683|703|infernusInfusedStone|field|com.fvg.blackmagic.blocks.ModBlocks|infernusInfusedStone
+   Method End: register()V
+   Method Start: registerRenders()V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|736|751|registerRenders|method|com.fvg.blackmagic.blocks.ModBlocks|registerRenders|()V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|763|777|registerRender|method|com.fvg.blackmagic.blocks.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|778|788|spawnBlock|field|com.fvg.blackmagic.blocks.ModBlocks|spawnBlock
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|799|813|registerRender|method|com.fvg.blackmagic.blocks.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|814|824|spawnBlock|field|com.fvg.blackmagic.blocks.ModBlocks|spawnBlock
+   Method End: registerRenders()V
+   Method Start: registerBlock(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|857|870|registerBlock|method|com.fvg.blackmagic.blocks.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|871|876|Block|class|net.minecraft.block.Block
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|877|882|block|param|com.fvg.blackmagic.blocks.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|893|905|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|906|919|registerBlock|method|net.minecraftforge.fml.common.registry.GameRegistry|registerBlock|(Lnet/minecraft/block/Block;Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|920|925|block|param|com.fvg.blackmagic.blocks.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|927|932|block|param|com.fvg.blackmagic.blocks.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|933|951|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|954|963|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+   Method End: registerBlock(Lnet/minecraft/block/Block;)V
+   Method Start: registerRender(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|999|1013|registerRender|method|com.fvg.blackmagic.blocks.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1014|1019|Block|class|net.minecraft.block.Block
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1020|1025|block|param|com.fvg.blackmagic.blocks.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1036|1040|Item|class|net.minecraft.item.Item
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1048|1052|Item|class|net.minecraft.item.Item
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1053|1069|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1070|1075|block|param|com.fvg.blackmagic.blocks.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1086|1095|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1096|1108|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1111|1124|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/entity/RenderItem;
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1127|1145|getItemModelMesher|method|net.minecraft.client.renderer.entity.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1148|1156|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/resources/model/ModelResourceLocation;)V
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1185|1206|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1231|1240|Reference|class|com.fvg.blackmagic.core.Reference
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1241|1246|MODID|field|com.fvg.blackmagic.core.Reference|MODID
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1260|1278|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com\fvg\blackmagic\blocks\ModBlocks.java|1281|1290|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+   Method End: registerRender(Lnet/minecraft/block/Block;)V
+Class End  : com.fvg.blackmagic.blocks.ModBlocks
+endProcessing com\fvg\blackmagic\blocks\ModBlocks.java
+
+processing com\fvg\blackmagic\blocks\SpawnBlock.java
+@|com\fvg\blackmagic\blocks\SpawnBlock.java|8|33|com.fvg.blackmagic.blocks|package|com.fvg.blackmagic.blocks|(file)
+Class Start: com.fvg.blackmagic.blocks.SpawnBlock
+   Method Start: SpawnBlock(Ljava/lang/String;)V
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|519|529|SpawnBlock|method|com.fvg.blackmagic.blocks.SpawnBlock|SpawnBlock|(Ljava/lang/String;)V
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|530|536|String|class|java.lang.String
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|537|552|unlocalizedName|param|com.fvg.blackmagic.blocks.SpawnBlock|SpawnBlock|(Ljava/lang/String;)V|unlocalizedName|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|569|577|Material|class|net.minecraft.block.material.Material
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|578|582|iron|field|net.minecraft.block.material.Material|iron
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|598|616|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|617|632|unlocalizedName|param|com.fvg.blackmagic.blocks.SpawnBlock|SpawnBlock|(Ljava/lang/String;)V|unlocalizedName|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|648|662|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|663|673|BlackMagic|class|com.fvg.blackmagic.core.BlackMagic
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|674|691|TabBlackMagicCore|field|com.fvg.blackmagic.core.BlackMagic|TabBlackMagicCore
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|707|720|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|741|752|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|774|787|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+   Method End: SpawnBlock(Ljava/lang/String;)V
+   Method Start: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|835|851|onBlockActivated|method|net.minecraft.block.Block|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|852|857|World|class|net.minecraft.world.World
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|858|865|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|867|875|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|876|879|pos|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|881|892|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|893|898|state|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|state|2
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|900|912|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|913|921|playerIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|923|933|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|934|938|side|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|side|4
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|946|950|hitX|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|5
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|958|962|hitY|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|6
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|970|974|hitZ|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|hitZ|7
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|992|999|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1000|1012|getWorldTime|method|net.minecraft.world.World|getWorldTime|()J
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1026|1033|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1034|1046|getWorldTime|method|net.minecraft.world.World|getWorldTime|()J
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1072|1084|EntityZombie|class|net.minecraft.entity.monster.EntityZombie
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1097|1109|EntityZombie|class|net.minecraft.entity.monster.EntityZombie
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1110|1117|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1139|1150|setPosition|method|net.minecraft.entity.Entity|setPosition|(DDD)V
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1151|1154|pos|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1155|1159|getX|method|net.minecraft.util.Vec3i|getX|()I
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1167|1170|pos|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1171|1175|getY|method|net.minecraft.util.Vec3i|getY|()I
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1181|1184|pos|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1185|1189|getZ|method|net.minecraft.util.Vec3i|getZ|()I
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1215|1222|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1223|1231|isRemote|field|net.minecraft.world.World|isRemote
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1251|1258|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1259|1277|spawnEntityInWorld|method|net.minecraft.world.World|spawnEntityInWorld|(Lnet/minecraft/entity/Entity;)Z
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1364|1371|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1372|1388|addWeatherEffect|method|net.minecraft.world.World|addWeatherEffect|(Lnet/minecraft/entity/Entity;)Z
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1410|1429|EntityLightningBolt|class|net.minecraft.entity.effect.EntityLightningBolt
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1430|1437|worldIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1439|1447|playerIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1448|1452|posX|field|net.minecraft.entity.Entity|posX
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1454|1462|playerIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1463|1467|posY|field|net.minecraft.entity.Entity|posY
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1469|1477|playerIn|param|com.fvg.blackmagic.blocks.SpawnBlock|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|com\fvg\blackmagic\blocks\SpawnBlock.java|1478|1482|posZ|field|net.minecraft.entity.Entity|posZ
+   Method End: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumFacing;FFF)Z
+Class End  : com.fvg.blackmagic.blocks.SpawnBlock
+endProcessing com\fvg\blackmagic\blocks\SpawnBlock.java
+
+processing com\fvg\blackmagic\core\BlackMagic.java
+@|com\fvg\blackmagic\core\BlackMagic.java|8|31|com.fvg.blackmagic.core|package|com.fvg.blackmagic.core|(file)
+Class Start: com.fvg.blackmagic.core.BlackMagic
+   @|com\fvg\blackmagic\core\BlackMagic.java|882|893|CommonProxy|class|com.fvg.blackmagic.proxy.CommonProxy
+   @|com\fvg\blackmagic\core\BlackMagic.java|894|899|proxy|field|com.fvg.blackmagic.core.BlackMagic|proxy|
+   @|com\fvg\blackmagic\core\BlackMagic.java|952|962|BlackMagic|class|com.fvg.blackmagic.core.BlackMagic
+   @|com\fvg\blackmagic\core\BlackMagic.java|963|971|instance|field|com.fvg.blackmagic.core.BlackMagic|instance|
+   @|com\fvg\blackmagic\core\BlackMagic.java|992|1004|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\fvg\blackmagic\core\BlackMagic.java|1005|1022|TabBlackMagicCore|field|com.fvg.blackmagic.core.BlackMagic|TabBlackMagicCore|
+   @|com\fvg\blackmagic\core\BlackMagic.java|1029|1046|TabBlackMagicCore|class|com.fvg.blackmagic.creativetab.TabBlackMagicCore
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1112|1119|preInit|method|com.fvg.blackmagic.core.BlackMagic|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1120|1145|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\fvg\blackmagic\core\BlackMagic.java|1146|1151|event|param|com.fvg.blackmagic.core.BlackMagic|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\fvg\blackmagic\core\BlackMagic.java|1162|1170|ModItems|class|com.fvg.blackmagic.items.ModItems
+      @|com\fvg\blackmagic\core\BlackMagic.java|1171|1175|init|method|com.fvg.blackmagic.items.ModItems|init|()V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1187|1195|ModItems|class|com.fvg.blackmagic.items.ModItems
+      @|com\fvg\blackmagic\core\BlackMagic.java|1196|1204|register|method|com.fvg.blackmagic.items.ModItems|register|()V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1216|1225|ModBlocks|class|com.fvg.blackmagic.blocks.ModBlocks
+      @|com\fvg\blackmagic\core\BlackMagic.java|1226|1230|init|method|com.fvg.blackmagic.blocks.ModBlocks|init|()V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1242|1251|ModBlocks|class|com.fvg.blackmagic.blocks.ModBlocks
+      @|com\fvg\blackmagic\core\BlackMagic.java|1252|1260|register|method|com.fvg.blackmagic.blocks.ModBlocks|register|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1312|1316|init|method|com.fvg.blackmagic.core.BlackMagic|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1317|1339|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\fvg\blackmagic\core\BlackMagic.java|1340|1345|event|param|com.fvg.blackmagic.core.BlackMagic|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\fvg\blackmagic\core\BlackMagic.java|1355|1360|proxy|field|com.fvg.blackmagic.core.BlackMagic|proxy
+      @|com\fvg\blackmagic\core\BlackMagic.java|1361|1376|registerRenders|method|com.fvg.blackmagic.proxy.CommonProxy|registerRenders|()V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1387|1392|proxy|field|com.fvg.blackmagic.core.BlackMagic|proxy
+      @|com\fvg\blackmagic\core\BlackMagic.java|1393|1415|registerWorldGenerator|method|com.fvg.blackmagic.proxy.CommonProxy|registerWorldGenerator|()V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1426|1439|RecipeHandler|class|com.fvg.blackmagic.handlers.RecipeHandler
+      @|com\fvg\blackmagic\core\BlackMagic.java|1440|1463|registerCraftingRecipes|method|com.fvg.blackmagic.handlers.RecipeHandler|registerCraftingRecipes|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1515|1523|postInit|method|com.fvg.blackmagic.core.BlackMagic|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\fvg\blackmagic\core\BlackMagic.java|1524|1550|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\fvg\blackmagic\core\BlackMagic.java|1551|1556|event|param|com.fvg.blackmagic.core.BlackMagic|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.fvg.blackmagic.core.BlackMagic
+endProcessing com\fvg\blackmagic\core\BlackMagic.java
+
+processing com\fvg\blackmagic\core\Reference.java
+@|com\fvg\blackmagic\core\Reference.java|8|31|com.fvg.blackmagic.core|package|com.fvg.blackmagic.core|(file)
+Class Start: com.fvg.blackmagic.core.Reference
+   @|com\fvg\blackmagic\core\Reference.java|83|89|String|class|java.lang.String
+   @|com\fvg\blackmagic\core\Reference.java|90|95|MODID|field|com.fvg.blackmagic.core.Reference|MODID|
+   @|com\fvg\blackmagic\core\Reference.java|136|142|String|class|java.lang.String
+   @|com\fvg\blackmagic\core\Reference.java|143|150|VERSION|field|com.fvg.blackmagic.core.Reference|VERSION|
+   @|com\fvg\blackmagic\core\Reference.java|184|190|String|class|java.lang.String
+   @|com\fvg\blackmagic\core\Reference.java|191|209|SERVER_PROXY_CLASS|field|com.fvg.blackmagic.core.Reference|SERVER_PROXY_CLASS|
+   @|com\fvg\blackmagic\core\Reference.java|276|282|String|class|java.lang.String
+   @|com\fvg\blackmagic\core\Reference.java|283|301|CLIENT_PROXY_CLASS|field|com.fvg.blackmagic.core.Reference|CLIENT_PROXY_CLASS|
+Class End  : com.fvg.blackmagic.core.Reference
+endProcessing com\fvg\blackmagic\core\Reference.java
+
+processing com\fvg\blackmagic\creativetab\TabBlackMagicCore.java
+@|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|8|38|com.fvg.blackmagic.creativetab|package|com.fvg.blackmagic.creativetab|(file)
+Class Start: com.fvg.blackmagic.creativetab.TabBlackMagicCore
+   Method Start: TabBlackMagicCore(Ljava/lang/String;)V
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|228|245|TabBlackMagicCore|method|com.fvg.blackmagic.creativetab.TabBlackMagicCore|TabBlackMagicCore|(Ljava/lang/String;)V
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|246|252|String|class|java.lang.String
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|253|258|label|param|com.fvg.blackmagic.creativetab.TabBlackMagicCore|TabBlackMagicCore|(Ljava/lang/String;)V|label|0
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|275|280|label|param|com.fvg.blackmagic.creativetab.TabBlackMagicCore|TabBlackMagicCore|(Ljava/lang/String;)V|label|0
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|296|318|setBackgroundImageName|method|net.minecraft.creativetab.CreativeTabs|setBackgroundImageName|(Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;
+   Method End: TabBlackMagicCore(Ljava/lang/String;)V
+   Method Start: getTabIconItem()Lnet/minecraft/item/Item;
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|370|384|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/Item;
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|365|369|Item|class|net.minecraft.item.Item
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|403|411|ModItems|class|com.fvg.blackmagic.items.ModItems
+      @|com\fvg\blackmagic\creativetab\TabBlackMagicCore.java|412|420|infernus|field|com.fvg.blackmagic.items.ModItems|infernus
+   Method End: getTabIconItem()Lnet/minecraft/item/Item;
+Class End  : com.fvg.blackmagic.creativetab.TabBlackMagicCore
+endProcessing com\fvg\blackmagic\creativetab\TabBlackMagicCore.java
+
+processing com\fvg\blackmagic\handlers\RecipeHandler.java
+@|com\fvg\blackmagic\handlers\RecipeHandler.java|8|35|com.fvg.blackmagic.handlers|package|com.fvg.blackmagic.handlers|(file)
+Class Start: com.fvg.blackmagic.handlers.RecipeHandler
+   Method Start: registerCraftingRecipes()V
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|382|405|registerCraftingRecipes|method|com.fvg.blackmagic.handlers.RecipeHandler|registerCraftingRecipes|()V
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|417|429|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|430|439|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|444|453|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|454|463|ModBlocks|class|com.fvg.blackmagic.blocks.ModBlocks
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|464|474|spawnBlock|field|com.fvg.blackmagic.blocks.ModBlocks|spawnBlock
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|497|503|Object|class|java.lang.Object
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|532|540|ModItems|class|com.fvg.blackmagic.items.ModItems
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|541|549|infernus|field|com.fvg.blackmagic.items.ModItems|infernus
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|556|562|Blocks|class|net.minecraft.init.Blocks
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|563|568|stone|field|net.minecraft.init.Blocks|stone
+   Method End: registerCraftingRecipes()V
+   Method Start: registerFurnaceRecipes()V
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|602|624|registerFurnaceRecipes|method|com.fvg.blackmagic.handlers.RecipeHandler|registerFurnaceRecipes|()V
+   Method End: registerFurnaceRecipes()V
+   Method Start: registerArmorRecipe()V
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|653|672|registerArmorRecipe|method|com.fvg.blackmagic.handlers.RecipeHandler|registerArmorRecipe|()V
+   Method End: registerArmorRecipe()V
+   Method Start: registerToolRecipe()V
+      @|com\fvg\blackmagic\handlers\RecipeHandler.java|701|719|registerToolRecipe|method|com.fvg.blackmagic.handlers.RecipeHandler|registerToolRecipe|()V
+   Method End: registerToolRecipe()V
+Class End  : com.fvg.blackmagic.handlers.RecipeHandler
+endProcessing com\fvg\blackmagic\handlers\RecipeHandler.java
+
+processing com\fvg\blackmagic\items\ModItems.java
+@|com\fvg\blackmagic\items\ModItems.java|8|32|com.fvg.blackmagic.items|package|com.fvg.blackmagic.items|(file)
+Class Start: com.fvg.blackmagic.items.ModItems
+   @|com\fvg\blackmagic\items\ModItems.java|521|538|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\fvg\blackmagic\items\ModItems.java|539|554|satanicMaterial|field|com.fvg.blackmagic.items.ModItems|satanicMaterial|
+   @|com\fvg\blackmagic\items\ModItems.java|557|567|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\fvg\blackmagic\items\ModItems.java|568|583|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com\fvg\blackmagic\items\ModItems.java|665|674|ItemSword|class|net.minecraft.item.ItemSword
+   @|com\fvg\blackmagic\items\ModItems.java|675|687|deathbringer|field|com.fvg.blackmagic.items.ModItems|deathbringer|
+   @|com\fvg\blackmagic\items\ModItems.java|728|732|Item|class|net.minecraft.item.Item
+   @|com\fvg\blackmagic\items\ModItems.java|733|741|infernus|field|com.fvg.blackmagic.items.ModItems|infernus|
+   Method Start: init()V
+      @|com\fvg\blackmagic\items\ModItems.java|767|771|init|method|com.fvg.blackmagic.items.ModItems|init|()V
+      @|com\fvg\blackmagic\items\ModItems.java|801|813|deathbringer|field|com.fvg.blackmagic.items.ModItems|deathbringer
+      @|com\fvg\blackmagic\items\ModItems.java|820|832|ItemModSword|class|com.fvg.blackmagic.items.gear.ItemModSword
+      @|com\fvg\blackmagic\items\ModItems.java|833|848|satanicMaterial|field|com.fvg.blackmagic.items.ModItems|satanicMaterial
+      @|com\fvg\blackmagic\items\ModItems.java|900|908|infernus|field|com.fvg.blackmagic.items.ModItems|infernus
+      @|com\fvg\blackmagic\items\ModItems.java|915|919|Item|class|net.minecraft.item.Item
+      @|com\fvg\blackmagic\items\ModItems.java|922|940|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\fvg\blackmagic\items\ModItems.java|962|970|infernus|field|com.fvg.blackmagic.items.ModItems|infernus
+      @|com\fvg\blackmagic\items\ModItems.java|971|985|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\fvg\blackmagic\items\ModItems.java|986|996|BlackMagic|class|com.fvg.blackmagic.core.BlackMagic
+      @|com\fvg\blackmagic\items\ModItems.java|997|1014|TabBlackMagicCore|field|com.fvg.blackmagic.core.BlackMagic|TabBlackMagicCore
+   Method End: init()V
+   Method Start: register()V
+      @|com\fvg\blackmagic\items\ModItems.java|1048|1056|register|method|com.fvg.blackmagic.items.ModItems|register|()V
+      @|com\fvg\blackmagic\items\ModItems.java|1086|1098|registerItem|method|com.fvg.blackmagic.items.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1099|1111|deathbringer|field|com.fvg.blackmagic.items.ModItems|deathbringer
+      @|com\fvg\blackmagic\items\ModItems.java|1147|1159|registerItem|method|com.fvg.blackmagic.items.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1160|1168|infernus|field|com.fvg.blackmagic.items.ModItems|infernus
+   Method End: register()V
+   Method Start: registerRenders()V
+      @|com\fvg\blackmagic\items\ModItems.java|1202|1217|registerRenders|method|com.fvg.blackmagic.items.ModItems|registerRenders|()V
+      @|com\fvg\blackmagic\items\ModItems.java|1246|1260|registerRender|method|com.fvg.blackmagic.items.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1261|1273|deathbringer|field|com.fvg.blackmagic.items.ModItems|deathbringer
+      @|com\fvg\blackmagic\items\ModItems.java|1309|1323|registerRender|method|com.fvg.blackmagic.items.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1324|1332|infernus|field|com.fvg.blackmagic.items.ModItems|infernus
+   Method End: registerRenders()V
+   Method Start: registerItem(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1365|1377|registerItem|method|com.fvg.blackmagic.items.ModItems|registerItem|(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1378|1382|Item|class|net.minecraft.item.Item
+      @|com\fvg\blackmagic\items\ModItems.java|1383|1387|item|param|com.fvg.blackmagic.items.ModItems|registerItem|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\fvg\blackmagic\items\ModItems.java|1398|1410|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\fvg\blackmagic\items\ModItems.java|1411|1423|registerItem|method|net.minecraftforge.fml.common.registry.GameRegistry|registerItem|(Lnet/minecraft/item/Item;Ljava/lang/String;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1424|1428|item|param|com.fvg.blackmagic.items.ModItems|registerItem|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\fvg\blackmagic\items\ModItems.java|1430|1434|item|param|com.fvg.blackmagic.items.ModItems|registerItem|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\fvg\blackmagic\items\ModItems.java|1435|1453|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com\fvg\blackmagic\items\ModItems.java|1456|1465|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|com\fvg\blackmagic\items\ModItems.java|1479|1485|System|class|java.lang.System
+      @|com\fvg\blackmagic\items\ModItems.java|1486|1489|out|field|java.lang.System|out
+      @|com\fvg\blackmagic\items\ModItems.java|1490|1497|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1520|1524|item|param|com.fvg.blackmagic.items.ModItems|registerItem|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\fvg\blackmagic\items\ModItems.java|1525|1543|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com\fvg\blackmagic\items\ModItems.java|1546|1555|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+   Method End: registerItem(Lnet/minecraft/item/Item;)V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1591|1605|registerRender|method|com.fvg.blackmagic.items.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1606|1610|Item|class|net.minecraft.item.Item
+      @|com\fvg\blackmagic\items\ModItems.java|1611|1615|item|param|com.fvg.blackmagic.items.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\fvg\blackmagic\items\ModItems.java|1625|1634|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\fvg\blackmagic\items\ModItems.java|1635|1647|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\fvg\blackmagic\items\ModItems.java|1650|1663|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/entity/RenderItem;
+      @|com\fvg\blackmagic\items\ModItems.java|1666|1684|getItemModelMesher|method|net.minecraft.client.renderer.entity.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\fvg\blackmagic\items\ModItems.java|1687|1695|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/resources/model/ModelResourceLocation;)V
+      @|com\fvg\blackmagic\items\ModItems.java|1696|1700|item|param|com.fvg.blackmagic.items.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\fvg\blackmagic\items\ModItems.java|1724|1745|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
+      @|com\fvg\blackmagic\items\ModItems.java|1770|1779|Reference|class|com.fvg.blackmagic.core.Reference
+      @|com\fvg\blackmagic\items\ModItems.java|1780|1785|MODID|field|com.fvg.blackmagic.core.Reference|MODID
+      @|com\fvg\blackmagic\items\ModItems.java|1794|1798|item|param|com.fvg.blackmagic.items.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\fvg\blackmagic\items\ModItems.java|1799|1817|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|()Ljava/lang/String;
+      @|com\fvg\blackmagic\items\ModItems.java|1820|1829|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+Class End  : com.fvg.blackmagic.items.ModItems
+endProcessing com\fvg\blackmagic\items\ModItems.java
+
+processing com\fvg\blackmagic\items\gear\IBlackMagicGear.java
+@|com\fvg\blackmagic\items\gear\IBlackMagicGear.java|8|37|com.fvg.blackmagic.items.gear|package|com.fvg.blackmagic.items.gear|(file)
+Class Start: com.fvg.blackmagic.items.gear.IBlackMagicGear
+   Method Start: addPositiveEffect(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com\fvg\blackmagic\items\gear\IBlackMagicGear.java|135|152|addPositiveEffect|method|com.fvg.blackmagic.items.gear.IBlackMagicGear|addPositiveEffect|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|com\fvg\blackmagic\items\gear\IBlackMagicGear.java|153|165|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\fvg\blackmagic\items\gear\IBlackMagicGear.java|166|172|player|param|com.fvg.blackmagic.items.gear.IBlackMagicGear|addPositiveEffect|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
+   Method End: addPositiveEffect(Lnet/minecraft/entity/player/EntityPlayer;)V
+Class End  : com.fvg.blackmagic.items.gear.IBlackMagicGear
+endProcessing com\fvg\blackmagic\items\gear\IBlackMagicGear.java
+
+processing com\fvg\blackmagic\items\gear\ItemModSword.java
+@|com\fvg\blackmagic\items\gear\ItemModSword.java|8|37|com.fvg.blackmagic.items.gear|package|com.fvg.blackmagic.items.gear|(file)
+Class Start: com.fvg.blackmagic.items.gear.ItemModSword
+   Method Start: ItemModSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|463|475|ItemModSword|method|com.fvg.blackmagic.items.gear.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|476|488|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|489|497|material|param|com.fvg.blackmagic.items.gear.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|499|505|String|class|java.lang.String
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|506|521|unlocalizedName|param|com.fvg.blackmagic.items.gear.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|538|546|material|param|com.fvg.blackmagic.items.gear.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|562|580|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|581|596|unlocalizedName|param|com.fvg.blackmagic.items.gear.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|612|626|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|627|637|BlackMagic|class|com.fvg.blackmagic.core.BlackMagic
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|638|655|TabBlackMagicCore|field|com.fvg.blackmagic.core.BlackMagic|TabBlackMagicCore
+   Method End: ItemModSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: onLeftClickEntity(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|698|715|onLeftClickEntity|method|net.minecraft.item.Item|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|716|725|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|726|731|stack|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|stack|0
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|733|745|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|746|752|player|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|player|1
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|754|760|Entity|class|net.minecraft.entity.Entity
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|761|767|entity|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|779|785|entity|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|786|800|getEntityWorld|method|net.minecraft.command.ICommandSender|getEntityWorld|()Lnet/minecraft/world/World;
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|803|819|addWeatherEffect|method|net.minecraft.world.World|addWeatherEffect|(Lnet/minecraft/entity/Entity;)Z
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|824|843|EntityLightningBolt|class|net.minecraft.entity.effect.EntityLightningBolt
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|844|850|entity|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|851|865|getEntityWorld|method|net.minecraft.command.ICommandSender|getEntityWorld|()Lnet/minecraft/world/World;
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|869|875|entity|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|876|880|posX|field|net.minecraft.entity.Entity|posX
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|882|888|entity|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|889|893|posY|field|net.minecraft.entity.Entity|posY
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|895|901|entity|param|com.fvg.blackmagic.items.gear.ItemModSword|onLeftClickEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z|entity|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|902|906|posZ|field|net.minecraft.entity.Entity|posZ
+   Method End: onLeftClickEntity(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/entity/Entity;)Z
+   Method Start: onItemUse(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|975|984|onItemUse|method|net.minecraft.item.Item|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|985|994|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|995|1000|stack|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|stack|0
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1002|1014|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1015|1023|playerIn|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|1
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1025|1030|World|class|net.minecraft.world.World
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1031|1038|worldIn|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1040|1048|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1049|1052|pos|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|3
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1054|1064|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1065|1069|side|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|side|4
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1077|1081|hitX|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|5
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1089|1093|hitY|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|6
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1101|1105|hitZ|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|hitZ|7
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1118|1125|worldIn|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1126|1142|addWeatherEffect|method|net.minecraft.world.World|addWeatherEffect|(Lnet/minecraft/entity/Entity;)Z
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1147|1166|EntityLightningBolt|class|net.minecraft.entity.effect.EntityLightningBolt
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1167|1174|worldIn|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|2
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1176|1179|pos|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|3
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1180|1184|getX|method|net.minecraft.util.Vec3i|getX|()I
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1188|1191|pos|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|3
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1192|1196|getY|method|net.minecraft.util.Vec3i|getY|()I
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1200|1203|pos|param|com.fvg.blackmagic.items.gear.ItemModSword|onItemUse|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|3
+      @|com\fvg\blackmagic\items\gear\ItemModSword.java|1204|1208|getZ|method|net.minecraft.util.Vec3i|getZ|()I
+   Method End: onItemUse(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z
+Class End  : com.fvg.blackmagic.items.gear.ItemModSword
+endProcessing com\fvg\blackmagic\items\gear\ItemModSword.java
+
+processing com\fvg\blackmagic\proxy\ClientProxy.java
+@|com\fvg\blackmagic\proxy\ClientProxy.java|8|32|com.fvg.blackmagic.proxy|package|com.fvg.blackmagic.proxy|(file)
+Class Start: com.fvg.blackmagic.proxy.ClientProxy
+   Method Start: registerRenders()V
+      @|com\fvg\blackmagic\proxy\ClientProxy.java|199|214|registerRenders|method|com.fvg.blackmagic.proxy.CommonProxy|registerRenders|()V
+      @|com\fvg\blackmagic\proxy\ClientProxy.java|227|235|ModItems|class|com.fvg.blackmagic.items.ModItems
+      @|com\fvg\blackmagic\proxy\ClientProxy.java|236|251|registerRenders|method|com.fvg.blackmagic.items.ModItems|registerRenders|()V
+      @|com\fvg\blackmagic\proxy\ClientProxy.java|263|272|ModBlocks|class|com.fvg.blackmagic.blocks.ModBlocks
+      @|com\fvg\blackmagic\proxy\ClientProxy.java|273|288|registerRenders|method|com.fvg.blackmagic.blocks.ModBlocks|registerRenders|()V
+   Method End: registerRenders()V
+Class End  : com.fvg.blackmagic.proxy.ClientProxy
+endProcessing com\fvg\blackmagic\proxy\ClientProxy.java
+
+processing com\fvg\blackmagic\proxy\CommonProxy.java
+@|com\fvg\blackmagic\proxy\CommonProxy.java|8|32|com.fvg.blackmagic.proxy|package|com.fvg.blackmagic.proxy|(file)
+Class Start: com.fvg.blackmagic.proxy.CommonProxy
+   Method Start: registerRenders()V
+      @|com\fvg\blackmagic\proxy\CommonProxy.java|182|197|registerRenders|method|com.fvg.blackmagic.proxy.CommonProxy|registerRenders|()V
+   Method End: registerRenders()V
+   Method Start: registerWorldGenerator()V
+      @|com\fvg\blackmagic\proxy\CommonProxy.java|226|248|registerWorldGenerator|method|com.fvg.blackmagic.proxy.CommonProxy|registerWorldGenerator|()V
+      @|com\fvg\blackmagic\proxy\CommonProxy.java|260|272|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\fvg\blackmagic\proxy\CommonProxy.java|273|295|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|com\fvg\blackmagic\proxy\CommonProxy.java|300|306|OreGen|class|com.fvg.blackmagic.worldgen.OreGen
+   Method End: registerWorldGenerator()V
+Class End  : com.fvg.blackmagic.proxy.CommonProxy
+endProcessing com\fvg\blackmagic\proxy\CommonProxy.java
+
+processing com\fvg\blackmagic\worldgen\OreGen.java
+@|com\fvg\blackmagic\worldgen\OreGen.java|8|35|com.fvg.blackmagic.worldgen|package|com.fvg.blackmagic.worldgen|(file)
+Class Start: com.fvg.blackmagic.worldgen.OreGen
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com\fvg\blackmagic\worldgen\OreGen.java|472|480|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com\fvg\blackmagic\worldgen\OreGen.java|481|487|Random|class|java.util.Random
+      @|com\fvg\blackmagic\worldgen\OreGen.java|488|494|random|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\fvg\blackmagic\worldgen\OreGen.java|500|506|chunkX|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com\fvg\blackmagic\worldgen\OreGen.java|512|518|chunkZ|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com\fvg\blackmagic\worldgen\OreGen.java|520|525|World|class|net.minecraft.world.World
+      @|com\fvg\blackmagic\worldgen\OreGen.java|526|531|world|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\fvg\blackmagic\worldgen\OreGen.java|533|547|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|com\fvg\blackmagic\worldgen\OreGen.java|548|562|chunkGenerator|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|com\fvg\blackmagic\worldgen\OreGen.java|564|578|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|com\fvg\blackmagic\worldgen\OreGen.java|579|592|chunkProvider|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|com\fvg\blackmagic\worldgen\OreGen.java|611|616|world|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\fvg\blackmagic\worldgen\OreGen.java|617|625|provider|field|net.minecraft.world.World|provider
+      @|com\fvg\blackmagic\worldgen\OreGen.java|626|640|getDimensionId|method|net.minecraft.world.WorldProvider|getDimensionId|()I
+      @|com\fvg\blackmagic\worldgen\OreGen.java|739|751|runGenerator|method|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|com\fvg\blackmagic\worldgen\OreGen.java|752|769|infernusGenerator|field|com.fvg.blackmagic.worldgen.OreGen|infernusGenerator
+      @|com\fvg\blackmagic\worldgen\OreGen.java|771|776|world|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\fvg\blackmagic\worldgen\OreGen.java|778|784|random|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\fvg\blackmagic\worldgen\OreGen.java|786|792|chunkX|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com\fvg\blackmagic\worldgen\OreGen.java|794|800|chunkZ|param|com.fvg.blackmagic.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkProvider;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   @|com\fvg\blackmagic\worldgen\OreGen.java|953|967|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|com\fvg\blackmagic\worldgen\OreGen.java|968|985|infernusGenerator|field|com.fvg.blackmagic.worldgen.OreGen|infernusGenerator|
+   Method Start: OreGen()V
+      @|com\fvg\blackmagic\worldgen\OreGen.java|999|1005|OreGen|method|com.fvg.blackmagic.worldgen.OreGen|OreGen|()V
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1017|1034|infernusGenerator|field|com.fvg.blackmagic.worldgen.OreGen|infernusGenerator
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1041|1056|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1057|1066|ModBlocks|class|com.fvg.blackmagic.blocks.ModBlocks
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1067|1087|infernusInfusedStone|field|com.fvg.blackmagic.blocks.ModBlocks|infernusInfusedStone
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1088|1103|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+   Method End: OreGen()V
+   Method Start: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1135|1147|runGenerator|method|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1148|1162|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1163|1172|generator|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1174|1179|World|class|net.minecraft.world.World
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1180|1185|world|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1187|1193|Random|class|java.util.Random
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1194|1198|rand|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1204|1211|chunk_X|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1217|1224|chunk_Z|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1230|1244|chancesToSpawn|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1250|1259|minHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1265|1274|maxHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1290|1299|minHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1307|1316|maxHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1326|1335|minHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1338|1347|maxHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1371|1395|IllegalArgumentException|class|java.lang.IllegalArgumentException
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1470|1479|maxHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1482|1491|minHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1525|1539|chancesToSpawn|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1569|1576|chunk_X|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1584|1588|rand|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1589|1596|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1622|1631|minHeight|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1634|1638|rand|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1639|1646|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1680|1687|chunk_Z|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1695|1699|rand|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1700|1707|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1725|1734|generator|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1735|1743|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/BlockPos;)Z
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1744|1749|world|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1751|1755|rand|param|com.fvg.blackmagic.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\fvg\blackmagic\worldgen\OreGen.java|1761|1769|BlockPos|class|net.minecraft.util.BlockPos
+   Method End: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+Class End  : com.fvg.blackmagic.worldgen.OreGen
+endProcessing com\fvg\blackmagic\worldgen\OreGen.java
+

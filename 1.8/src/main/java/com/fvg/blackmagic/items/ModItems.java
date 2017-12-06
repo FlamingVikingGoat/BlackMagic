@@ -3,6 +3,7 @@ package com.fvg.blackmagic.items;
 import com.fvg.blackmagic.core.BlackMagic;
 import com.fvg.blackmagic.core.Reference;
 import com.fvg.blackmagic.items.gear.ItemModSword;
+import com.fvg.blackmagic.items.gear.ItemStaff;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -12,42 +13,44 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 
-    //Tool Materials
     public static Item.ToolMaterial satanicMaterial = EnumHelper.addToolMaterial("satanicMaterial",3, 9999999, 35.0F, 20.0F, 999);
+    public static Item.ToolMaterial blackInfernus = EnumHelper.addToolMaterial("blackInfernus", 3, 66666, 0.45F, 0.45F, 7);
+    public static Item.ToolMaterial redInfernus = EnumHelper.addToolMaterial("redInfernus", 2, 6666, 0.25F, 0.25F, 6);
+    public static Item.ToolMaterial purpleInfernus = EnumHelper.addToolMaterial("purpleInfernus", 1, 666, 0.10F, 0.10F, 5);
 
-    //Tools
     public static ItemSword deathbringer;
+    public static ItemStaff blackStaff;
+    public static ItemStaff redStaff;
+    public static ItemStaff purpleStaff;
 
-    //Generic Items
+
     public static Item infernus;
 
     public static void init() {
-
-        //Tools
         deathbringer = new ItemModSword(satanicMaterial, "deathbringer");
+        blackStaff = new ItemStaff(blackInfernus, "blackStaff");
+        redStaff = new ItemStaff(redInfernus, "redStaff");
+        purpleStaff = new ItemStaff(purpleInfernus, "purpleStaff");
 
-        //Generic Items
         infernus = new Item().setUnlocalizedName("infernus");
         infernus.setCreativeTab(BlackMagic.TabBlackMagicCore);
-
     }
 
     public static void register() {
-
-        //Tools
         registerItem(deathbringer);
+        registerItem(blackStaff);
+        registerItem(redStaff);
+        registerItem(purpleStaff);
 
-        //Generic Items
         registerItem(infernus);
-
     }
 
     public static void registerRenders(){
-
-        //Tools
         registerRender(deathbringer);
+        registerRender(blackStaff);
+        registerRender(redStaff);
+        registerRender(purpleStaff);
 
-        //Generic Items
         registerRender(infernus);
     }
 
