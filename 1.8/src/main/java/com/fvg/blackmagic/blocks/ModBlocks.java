@@ -25,7 +25,7 @@ public class ModBlocks {
 
     public static void registerRenders(){
         registerRender(spawnBlock);
-        registerRender(spawnBlock);
+        registerRender(infernusInfusedStone);
     }
 
     public static void registerBlock(Block block){
