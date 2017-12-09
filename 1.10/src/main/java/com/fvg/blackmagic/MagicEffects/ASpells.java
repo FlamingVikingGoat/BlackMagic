@@ -12,9 +12,9 @@ import net.minecraft.world.World;
 public class ASpells {
 
     public static void activateMagicBlock(World worldIn, BlockPos pos){
-        Block block = worldIn.getBlockState(pos).getBlock();
-        if(block instanceof AMagicActivated);{
-            ((AMagicActivated) block).setActivated(true);
+        Block possibleMagicBlock = worldIn.getBlockState(pos).getBlock();
+        if(possibleMagicBlock instanceof AMagicActivated){
+            ((AMagicActivated) possibleMagicBlock).setActivated(true);
         }
     }
 
@@ -31,7 +31,8 @@ public class ASpells {
         World worldIn = playerIn.getEntityWorld();
         if (worldIn.getWorldTime() > 17000 && worldIn.getWorldTime() < 19000) {
                 ASpells.instantlySummonDemonOnBlock(worldIn, pos);
-         } else {
+         }
+        else {
                 ASpells.summonLightningOnEntity(playerIn);
          }
 

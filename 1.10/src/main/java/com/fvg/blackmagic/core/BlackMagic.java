@@ -15,6 +15,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
 @Mod(modid = Reference.MODID, version = Reference.VERSION)
@@ -34,6 +35,7 @@ public class BlackMagic {
         ModItems.register();
         ModBlocks.init();
         ModBlocks.register();
+
     }
 
     @EventHandler

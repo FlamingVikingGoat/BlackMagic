@@ -1,6 +1,7 @@
 package com.fvg.blackmagic.items.gear;
 
 import com.fvg.blackmagic.MagicEffects.ASpells;
+import com.fvg.blackmagic.blocks.AMagicActivated;
 import com.fvg.blackmagic.core.BlackMagic;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -27,8 +28,13 @@ public class ItemModSword extends ItemSword{
 
     @Override
     public EnumActionResult onItemUse(ItemStack stack, EntityPlayer playerIn, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-        ASpells.summonLightningOnBlock(worldIn, pos);
+        //ASpells.summonLightningOnBlock(worldIn, pos);
+        if(worldIn.getBlockState(pos).getBlock() instanceof AMagicActivated)
+            System.out.println(worldIn.getBlockState(pos));
         return EnumActionResult.PASS;
+
     }
+
+
 
 }
