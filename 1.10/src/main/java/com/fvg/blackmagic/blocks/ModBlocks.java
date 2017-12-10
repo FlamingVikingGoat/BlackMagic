@@ -1,5 +1,6 @@
 package com.fvg.blackmagic.blocks;
 
+import com.fvg.blackmagic.blocks.item.ItemSpawnBlock;
 import com.fvg.blackmagic.core.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;

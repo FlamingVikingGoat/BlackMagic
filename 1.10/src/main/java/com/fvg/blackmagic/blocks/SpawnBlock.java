@@ -35,6 +35,7 @@ public class SpawnBlock extends AMagicActivated{
         System.out.println(worldIn.getBlockState(pos).getValue(TYPE));
         if(this.isActivated && worldIn.getBlockState(pos).getValue(TYPE).equals(BlackEnums.SacrificialStatus.YES_SACRIFICE)) {
             ASpells.rituallySummonDemonOnBlock(playerIn, pos);
+            worldIn.setBlockState(pos, state.withProperty(TYPE, BlackEnums.SacrificialStatus.NO_SACRIFICE));
             this.setActivated(false);
             return false;
         }
