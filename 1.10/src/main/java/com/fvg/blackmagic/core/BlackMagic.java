@@ -36,11 +36,12 @@ public class BlackMagic {
         ModBlocks.init();
         ModBlocks.register();
 
+        proxy.registerRenders();
     }
 
     @EventHandler
     public static void init(FMLInitializationEvent event){
-       proxy.registerRenders();
+
        proxy.registerWorldGenerator();
        RecipeHandler.registerCraftingRecipes();
     }

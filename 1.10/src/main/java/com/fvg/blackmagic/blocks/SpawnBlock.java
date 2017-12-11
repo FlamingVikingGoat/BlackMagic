@@ -24,6 +24,7 @@ public class SpawnBlock extends AMagicActivated{
     public SpawnBlock(String unlocalizedName){
         super(Material.IRON);
         this.setUnlocalizedName(unlocalizedName);
+        this.setRegistryName(unlocalizedName);
         this.setCreativeTab(BlackMagic.TabBlackMagicCore);
         this.setLightLevel(1.0F);
         this.setHardness(10.0F);
@@ -35,8 +36,8 @@ public class SpawnBlock extends AMagicActivated{
         System.out.println(worldIn.getBlockState(pos).getValue(TYPE));
         if(this.isActivated && worldIn.getBlockState(pos).getValue(TYPE).equals(BlackEnums.SacrificialStatus.YES_SACRIFICE)) {
             ASpells.rituallySummonDemonOnBlock(playerIn, pos);
-            worldIn.setBlockState(pos, state.withProperty(TYPE, BlackEnums.SacrificialStatus.NO_SACRIFICE));
             this.setActivated(false);
+            worldIn.setBlockState(pos, state.withProperty(TYPE, BlackEnums.SacrificialStatus.NO_SACRIFICE));
             return false;
         }
         else if(this.isActivated){

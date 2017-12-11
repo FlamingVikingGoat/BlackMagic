@@ -9,6 +9,7 @@ public class InfernusInfusedStone extends Block{
     public InfernusInfusedStone(String unlocalizedName){
         super(Material.ROCK);
         this.setUnlocalizedName(unlocalizedName);
+        this.setRegistryName(unlocalizedName);
         this.setCreativeTab(BlackMagic.TabBlackMagicCore);
     }
 }

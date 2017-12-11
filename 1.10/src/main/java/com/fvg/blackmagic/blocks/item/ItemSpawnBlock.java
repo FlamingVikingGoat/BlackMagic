@@ -27,7 +27,7 @@ public class ItemSpawnBlock extends ItemBlock{
 
     public ItemSpawnBlock(Block block) {
         super(block);
-        if(!(block instanceof  IMetaBlockName)){
+        if(!(block instanceof IMetaBlockName)){
             throw new IllegalArgumentException(String.format("The given Block %s is not an instance of IMetaBlockName!", block.getUnlocalizedName()));
         }
         this.setHasSubtypes(true);
@@ -39,5 +39,9 @@ public class ItemSpawnBlock extends ItemBlock{
     @Override
     public String getUnlocalizedName(ItemStack stack) {
         return super.getUnlocalizedName() + "." + ((IMetaBlockName)this.block).getSpecialName(stack);
+    }
+
+    public int getMetadata(int damage) {
+        return damage;
     }
 }

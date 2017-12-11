@@ -8,6 +8,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSword;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -60,9 +62,8 @@ public class ModItems {
     }
 
     public static void registerRender(Item item){
-       Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0,
-               new ModelResourceLocation(
-                       Reference.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"
-               ));
+        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(
+                new ResourceLocation(Reference.MODID, item.getUnlocalizedName().substring(5)), "inventory"
+        ));
     }
 }
