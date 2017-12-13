@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blackmagic:blocks/spawnBlock"
+        "all": "blackmagic:blocks/spawnBlock_no_sacrifice"
     }
 }

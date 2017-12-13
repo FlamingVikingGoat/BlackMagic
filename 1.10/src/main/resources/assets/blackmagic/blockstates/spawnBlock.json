@@ -1,5 +1,6 @@
 {
   "variants" : {
-    "normal" : {"model" : "blackmagic:spawnBlock"}
+    "type=no_sacrifice" : {"model" : "blackmagic:spawnBlock_no_sacrifice"},
+    "type=yes_sacrifice" : {"model" : "blackmagic:spawnBlock_yes_sacrifice"}
   }
 }

@@ -1,5 +1,7 @@
 package com.fvg.blackmagic.blocks;
 
+import com.fvg.blackmagic.HasSacrificeProvider;
+import com.fvg.blackmagic.blocks.item.IMetaBlockName;
 import com.fvg.blackmagic.handlers.BlackEnums;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -7,12 +9,15 @@ import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
-public abstract class AMagicActivated extends net.minecraft.block.Block{
+public abstract class AMagicActivated extends net.minecraft.block.Block implements IMetaBlockName{
     public static final PropertyEnum TYPE = PropertyEnum.create("type", BlackEnums.SacrificialStatus.class);
 
     public AMagicActivated(Material material){
@@ -42,6 +47,16 @@ public abstract class AMagicActivated extends net.minecraft.block.Block{
     public IBlockState getStateFromMeta(int meta) {
         return this.getDefaultState().withProperty(TYPE, BlackEnums.SacrificialStatus.values()[meta]);
 
+    }
+
+    @Override
+    public String getSpecialName(ItemStack stack) {
+        return BlackEnums.SacrificialStatus.values()[stack.getItemDamage()].getName();
+    }
+
+    @Override
+    public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos, EntityPlayer player) {
+        return new ItemStack(Item.getItemFromBlock(this), 1, getMetaFromState(world.getBlockState(pos)));
     }
 
     public boolean isActivated = false;

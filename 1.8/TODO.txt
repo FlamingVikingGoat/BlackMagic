@@ -23,7 +23,6 @@ Features required for 1.0.0 release:
 		*[I]Infused Infernus Stone will be generated and smeltable to Infernus.
 		*[N]Infernus can be refined to Purple, Red, and Black Infernus.
 	-Magic
-
 		*[N]ME pool the player can draw from
 		*[N]Different spells available
 		*[N]Different spells discoverable
