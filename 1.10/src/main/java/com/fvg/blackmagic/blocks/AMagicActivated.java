@@ -1,6 +1,5 @@
 package com.fvg.blackmagic.blocks;
 
-import com.fvg.blackmagic.HasSacrificeProvider;
 import com.fvg.blackmagic.blocks.item.IMetaBlockName;
 import com.fvg.blackmagic.handlers.BlackEnums;
 import net.minecraft.block.material.Material;

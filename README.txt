@@ -6,7 +6,8 @@ Features required for 1.0.0 release:
 			#[i]Spawn Block will only spawn an entity if clicked by a special item
 			#[i]Spawn Block will only spawn an entity after a sacrifice
 		*[N]Spawn Block will call a custom Demon Entity
-			#[n]Spawn Block will spawn a custom entity(Demon)
+			#[i]Custom entity Demon textured and only spawns on summon
+			#[i]Spawn Block will spawn a custom entity(Demon)
 			#[n]Demon will be interactable
 			#[n]Demon will activate intermediate magic
 		*[N]Spawn Block will be a multiblock structure

@@ -1,6 +1,7 @@
 package com.fvg.blackmagic.MagicEffects;
 
 import com.fvg.blackmagic.blocks.AMagicActivated;
+import com.fvg.blackmagic.entitites.EntityDemon;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.EntityLightningBolt;
@@ -40,7 +41,7 @@ public class ASpells {
 
     public static void instantlySummonDemonOnBlock(World worldIn, BlockPos pos){
 
-        EntityZombie demon = new EntityZombie(worldIn);
+        EntityDemon demon = new EntityDemon(worldIn);
         demon.setPosition(pos.getX() + 0.5, pos.getY() + 1, pos.getZ() + 0.5);
         if (!worldIn.isRemote) {
             worldIn.spawnEntityInWorld(demon);

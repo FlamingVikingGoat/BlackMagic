@@ -14,5 +14,7 @@ public class CommonProxy {
     }
 
     public void registerModelBakeryVariants(){}
+
+    public void registerEntityRenders(){}
 }
 

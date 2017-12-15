@@ -1,7 +1,5 @@
 package com.fvg.blackmagic.blocks.item;
 
-import com.fvg.blackmagic.HasSacrificeProvider;
-import com.fvg.blackmagic.blocks.AMagicActivated;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
