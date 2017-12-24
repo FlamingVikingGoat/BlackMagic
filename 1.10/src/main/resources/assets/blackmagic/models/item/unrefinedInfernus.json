@@ -1,7 +1,7 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "blackmagic:items/infernus"
+    "layer0": "blackmagic:items/unrefinedInfernus"
   },
   "display": {
     "thirdperson": {

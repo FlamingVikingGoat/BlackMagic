@@ -53,6 +53,7 @@ public class BlackMagic {
        proxy.registerEntityRenders();
        proxy.registerWorldGenerator();
        RecipeHandler.registerCraftingRecipes();
+       RecipeHandler.registerFurnaceRecipes();
     }
 
     @EventHandler

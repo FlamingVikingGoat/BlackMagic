@@ -45,7 +45,6 @@ public abstract class AMagicActivated extends net.minecraft.block.Block implemen
     @Override
     public IBlockState getStateFromMeta(int meta) {
         return this.getDefaultState().withProperty(TYPE, BlackEnums.SacrificialStatus.values()[meta]);
-
     }
 
     @Override
@@ -59,9 +58,6 @@ public abstract class AMagicActivated extends net.minecraft.block.Block implemen
     }
 
     public boolean isActivated = false;
-
-
-
 
     public void setActivated(boolean activated) {
         this.isActivated = activated;

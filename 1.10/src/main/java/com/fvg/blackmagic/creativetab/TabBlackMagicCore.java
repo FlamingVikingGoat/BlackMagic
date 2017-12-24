@@ -13,7 +13,7 @@ public class TabBlackMagicCore extends CreativeTabs{
 
     @Override
     public Item getTabIconItem(){
-        return ModItems.infernus;
+        return ModItems.unrefinedInfernus;
     }
 
 }

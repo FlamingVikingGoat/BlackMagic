@@ -1,9 +1,13 @@
 tile.spawnBlock.name=Spawn Block
 tile.infernusInfusedStone.name=Infernus Infused Stone
-item.infernus.name=Infernus
+
 item.deathbringer.name=Deathbringer
 item.blackStaff.name=Black Staff
 item.redStaff.name=Red Staff
 item.purpleStaff.name=Purple Staff
+item.unrefinedInfernus.name=Unrefined Infernus
+item.purple_infernus.name=Purple Infernus
+item.red_infernus.name=Red Infernus
+item.black_infernus.name=Black Infernus
 
 itemGroup.tabBlackMagicCore=Black Magic

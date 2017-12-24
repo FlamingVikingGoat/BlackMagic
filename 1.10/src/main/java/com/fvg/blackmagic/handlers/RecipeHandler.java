@@ -11,13 +11,13 @@ public class RecipeHandler {
 
     public static void registerCraftingRecipes(){
         GameRegistry.addRecipe(new ItemStack(ModBlocks.spawnBlock),
-                new Object[]{"SSS", "SIS", "SSS", 'I', ModItems.infernus, 'S', Blocks.STONE});
+                new Object[]{"SSS", "SIS", "SSS", 'I', ModItems.unrefinedInfernus, 'S', Blocks.STONE});
         GameRegistry.addRecipe(new ItemStack(ModItems.blackStaff),
-                new Object[]{" SI", " SS", "S  ", 'S', Items.STICK, 'I', ModItems.infernus});
+                new Object[]{" SI", " SS", "S  ", 'S', Items.STICK, 'I', ModItems.unrefinedInfernus});
 
     }
     public static void registerFurnaceRecipes(){
-        GameRegistry.addSmelting(ModBlocks.infernusInfusedStone, new ItemStack(ModItems.infernus), 6.66F);
+        GameRegistry.addSmelting(ModBlocks.infernusInfusedStone, new ItemStack(ModItems.unrefinedInfernus), 6.66F);
     }
     public static void registerArmorRecipe(){}
 

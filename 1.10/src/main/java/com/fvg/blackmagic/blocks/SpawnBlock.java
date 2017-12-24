@@ -3,11 +3,7 @@ package com.fvg.blackmagic.blocks;
 import com.fvg.blackmagic.MagicEffects.ASpells;
 import com.fvg.blackmagic.core.BlackMagic;
 import com.fvg.blackmagic.handlers.BlackEnums;
-import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
-import net.minecraft.block.properties.PropertyBool;
-import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -36,9 +32,6 @@ public class SpawnBlock extends AMagicActivated{
         System.out.println(worldIn.getBlockState(pos).getValue(TYPE));
         if(this.isActivated && worldIn.getBlockState(pos).getValue(TYPE).equals(BlackEnums.SacrificialStatus.YES_SACRIFICE)) {
             ASpells.rituallySummonDemonOnBlock(playerIn, pos);
-            this.setActivated(false);
-            worldIn.setBlockState(pos, state.withProperty(TYPE, BlackEnums.SacrificialStatus.NO_SACRIFICE));
-            return false;
         }
         else if(this.isActivated){
             this.setActivated(false);
