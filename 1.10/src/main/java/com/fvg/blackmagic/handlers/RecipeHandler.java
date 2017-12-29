@@ -14,30 +14,44 @@ public class RecipeHandler {
 
     public static void registerCraftingRecipes(){
         GameRegistry.addRecipe(new ItemStack(ModBlocks.spawnBlock),
-                new Object[]{"SSS", "SIS", "SSS", 'I', ModItems.unrefinedInfernus, 'S', Blocks.STONE});
+                "SSS", "SIS", "SSS",
+                    'I', ModItems.unrefinedInfernus,
+                    'S', Blocks.STONE);
+
         GameRegistry.addRecipe(new ItemStack(ModItems.blackStaff),
-                new Object[]{" SI", " SS", "S  ", 'S', Items.STICK, 'I', ModItems.unrefinedInfernus});
+                " SI", " SS", "S  ",
+                    'S', Items.STICK,
+                    'I', ModItems.black_infernus);
+
+        GameRegistry.addRecipe(new ItemStack(ModItems.redStaff),
+                 " SI", " SS", "S  ",
+                    'S', Items.STICK,
+                    'I', ModItems.red_infernus);
+
+        GameRegistry.addRecipe(new ItemStack(ModItems.purpleStaff),
+                " SI", " SS", "S  ",
+                    'S', Items.STICK,
+                    'I', ModItems.purple_infernus);
+
+        GameRegistry.addRecipe(new ItemStack(ModItems.magicBook),
+                "LGW", "SB ", "TEA",
+                    'L', Items.LEATHER,
+                    'G', Items.GUNPOWDER,
+                    'W', Blocks.WOOL,
+                    'S', Items.STRING,
+                    'B', Items.BOOK,
+                    'T', Items.STICK,
+                    'E', Items.WHEAT_SEEDS,
+                    'A', new ItemStack(Items.DYE, 1, 4));
 
     }
     public static void registerFurnaceRecipes(){
         GameRegistry.addSmelting(ModBlocks.infernusInfusedStone, new ItemStack(ModItems.unrefinedInfernus), 6.66F);
-        GameRegistry.addSmelting(ModItems.unrefinedInfernus, generateOneOfThreeItems(ModItems.black_infernus, ModItems.red_infernus, ModItems.purple_infernus), 6.66F);
+        GameRegistry.addSmelting(ModItems.unrefinedInfernus, new ItemStack(ModItems.purple_infernus), 6.66F);
 
     }
     public static void registerArmorRecipe(){}
 
     public static void registerToolRecipe(){}
 
-    public static ItemStack generateOneOfThreeItems(Item possibleItem1, Item possibleItem2, Item possibleItem3){
-        ItemStack returnedItem = new ItemStack(Items.STICK);
-        Random rn = new Random();
-        int rgn = rn.nextInt(3);
-        switch (rgn){
-            case 0: returnedItem = new ItemStack(possibleItem1); break;
-            case 1: returnedItem = new ItemStack(possibleItem2); break;
-            case 2: returnedItem = new ItemStack(possibleItem3); break;
-        }
-        System.out.println(returnedItem);
-        return returnedItem;
-    }
 }
