@@ -3,10 +3,13 @@ package com.fvg.blackmagic.handlers;
 import com.fvg.blackmagic.blocks.AMagicActivated;
 import com.fvg.blackmagic.capabilities.IMana;
 import com.fvg.blackmagic.capabilities.ManaProvider;
+import com.fvg.blackmagic.items.magic.MagicBook;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
@@ -58,42 +61,13 @@ public class BlackEvents {
     }
 
     @SubscribeEvent
-    public void onPlayerSleep(PlayerSleepInBedEvent event){
-        EntityPlayer player = event.getEntityPlayer();
-
-        if(player.worldObj.isRemote) return;
-
-        IMana mana = player.getCapability(ManaProvider.MANA_CAP, null);
-
-        if(mana.getMana() == 0){
-            mana.set(50);
-        }
-        else {
-            mana.fill(50);
+    public void onMagicBookCrafted(PlayerEvent.ItemCraftedEvent event){
+        ItemStack itemCrafted = event.crafting;
+        EntityPlayer player = event.player;
+        if(itemCrafted.getItem() instanceof MagicBook) {
+            player.getCapability(ManaProvider.MANA_CAP, null).isMagical(true);
         }
     }
 
-    @SubscribeEvent
-    public void onPlayerFalls(LivingFallEvent event){
-        Entity entity = event.getEntity();
-
-        if(entity.worldObj.isRemote || !(entity instanceof EntityPlayerMP) || event.getDistance() < 3) return;
-
-        EntityPlayer player = (EntityPlayer) entity;
-
-        IMana mana = player.getCapability(ManaProvider.MANA_CAP, null);
-
-        float points = mana.getMana();
-        float cost = event.getDistance() * 2;
-
-        if(points > cost){
-            mana.consume(cost);
-
-            String message = String.format("You absorbed fall damage. It costed %d", (int)cost);
-            player.addChatMessage(new TextComponentString(message));
-
-            event.setCanceled(true);
-        }
-    }
 
 }

@@ -1,44 +1,60 @@
 package com.fvg.blackmagic.capabilities;
 
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.text.TextComponentString;
+
 public class Mana implements IMana{
-    private float mana = 250.0F;
+    private float mana = 0.0F;
+    private float maxMana = 0.0F;
     private boolean isMagical = false;
-    private byte isMagicalByte = 0;
-
 
     @Override
-    public void consume(float points) {
-        this.mana -= points;
-    }
-
-    @Override
-    public void fill(float points) {
-        this.mana += points;
-    }
-
-    @Override
-    public void set(float points) {
+    public void set(float points){
         this.mana = points;
+    }
+
+    @Override
+    public void takeFromManaPool(float points, EntityPlayer playerIn) {
+        if(points > this.mana){
+            String message = "Not enough Mana!";
+            playerIn.addChatMessage(new TextComponentString(message));
+        }
+    }
+
+    @Override
+    public void addToManaPool(float points) {
+        if(this.mana+points < this.maxMana){
+            this.mana += points;
+        } else {
+            this.mana = this.maxMana;
+        }
+    }
+
+    @Override
+    public void increaseMaxMana(float points) {
+        this.maxMana += this.maxMana*points;
+    }
+
+    @Override
+    public void decreaseMaxMana(float points) {
+        this.maxMana -= this.maxMana*points;
+    }
+
+    @Override
+    public void setMaxMana(float points) {
+        this.maxMana = points;
     }
 
     @Override
     public void isMagical(boolean isMagical) {
         this.isMagical = isMagical;
-        if(isMagical){
-            setMagicalByteStorage(((byte)1));
-        } else {
-            setMagicalByteStorage(((byte)0));
+        if (isMagical) {
+            setMaxMana((this.maxMana == 0 ? 50.0F : this.getMana()));
         }
     }
-
     @Override
-    public void setMagicalByteStorage(byte isMagicalByte) {
-        this.isMagicalByte = isMagicalByte;
-        if(isMagicalByte == ((byte)1)){
-            this.isMagical = true;
-        } else if(isMagicalByte == ((byte)0)){
-            this.isMagical = false;
-        }
+    public float getMaxMana() {
+        return this.maxMana;
     }
 
     @Override
@@ -49,10 +65,5 @@ public class Mana implements IMana{
     @Override
     public boolean getMagical() {
         return this.isMagical;
-    }
-
-    @Override
-    public byte getMagicalByteStorage() {
-        return isMagicalByte;
     }
 }
