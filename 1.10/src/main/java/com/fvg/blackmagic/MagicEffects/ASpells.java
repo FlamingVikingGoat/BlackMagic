@@ -2,10 +2,11 @@ package com.fvg.blackmagic.MagicEffects;
 
 import com.fvg.blackmagic.blocks.AMagicActivated;
 import com.fvg.blackmagic.entitites.EntityDemon;
+import com.fvg.blackmagic.handlers.BlackEnums;
 import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.EntityLightningBolt;
-import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -30,13 +31,17 @@ public class ASpells {
 
     public static void rituallySummonDemonOnBlock(EntityPlayer playerIn, BlockPos pos){
         World worldIn = playerIn.getEntityWorld();
-        if (worldIn.getWorldTime() > 17000 && worldIn.getWorldTime() < 19000) {
-                ASpells.instantlySummonDemonOnBlock(worldIn, pos);
-         }
-        else {
-                ASpells.summonLightningOnEntity(playerIn);
-         }
-
+        IBlockState state = worldIn.getBlockState(pos);
+        Block block = state.getBlock();
+        if (worldIn.getWorldTime() > 14000 && worldIn.getWorldTime() < 22000) {
+            ASpells.instantlySummonDemonOnBlock(worldIn, pos);
+        }else {
+            ASpells.summonLightningOnEntity(playerIn);
+        }
+        if(block instanceof AMagicActivated){
+            ((AMagicActivated) block).setActivated(false);
+            worldIn.setBlockState(pos, state.withProperty(AMagicActivated.TYPE, BlackEnums.SacrificialStatus.NO_SACRIFICE));
+        }
     }
 
     public static void instantlySummonDemonOnBlock(World worldIn, BlockPos pos){

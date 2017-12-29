@@ -1,9 +1,18 @@
 package com.fvg.blackmagic.capabilities;
 
-public interface IMana {
-    void consume(float points);
-    void fill(float points);
-    void set(float points);
+import net.minecraft.entity.player.EntityPlayer;
 
+public interface IMana {
+    void takeFromManaPool(float points, EntityPlayer playerIn);
+    void addToManaPool(float points);
+    void increaseMaxMana(float points);
+    void decreaseMaxMana(float points);
+    void set(float points);
+    void setMaxMana(float points);
+    void setMagical(boolean isMagical);
+
+    float getMaxMana();
     float getMana();
+    boolean isMagical();
+
 }

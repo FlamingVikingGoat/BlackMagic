@@ -1,0 +1,48 @@
+Domains of Magic and their Representitive Objects:
+	Control - String
+	Pain - Leather
+	Obliteration - Gunpowder 
+	Deconstruction - Wool
+	Domination - Stick
+	Creation - Seed
+	Enchantment - lapis
+Domain Groups:
+	Control{Control}, 
+	Destruction{Pain, Obliteration, Deconstruction}, 
+	Construction{Domination, Creation, Enchantment} 
+
+--------------------------------------------------------------------------------------------------------------------
+
+Control: The seed of all magic, Control only contains one (self-named) domain; control is represented by a spider's
+web. While this group is not stronger or weaker against any other types of magic, control magic takes precedent
+over other types.
+
+	The Control Domain is focused on effects that make or change rules; this magic restricts, imprisons,
+	and manipulates. Control Mages are refered to as Nobles (a reference to their magic's rule-setting abilities),
+	and it's main item is a piece of string.
+		Restricting: Control Magic can be used to create areas that have different rules than outside
+		that area. Control magic can enchant tracks of land that limit magic usage, change costs and
+		effectiveness of spells, and high level Nobles are even able to change the life-forces of entities
+		in enchanted areas.
+		
+		Imprisoning: Control Magic is perhaps most infamous batle-wise for its ability to remove abilities
+		from others as if the target were imprisoned(note that Imprisoning is different from Restricting
+		based on target- Restricting targets and area, while Imprisoning targets entities). This includes
+		stopping movement and limiting actions- including spellcasting. A powerful Noble can even stop an
+		entity from breathing, slowly killing the victim.
+
+		Maniplation: Control Magic in its most powerful form is the ability to manipulate both the concrete
+		and the abstract. At early stages, Nobles practicing manipulation can only move objects around; At 
+		higher stages, Nobles manipulate the fabric of reality itself. They can change the growth stage of 
+		an object, and even change the rate of time!
+
+--------------------------------------------------------------------------------------------------------------------
+
+Destruction: Magic focusing on tearing objects away from the fabric of reality, Destruction contains three domains:
+Pain, Obliteration, and Deconstruction. Pain accomplishes Destruction's goal by brutishly choping away at objects:
+it burns trees, scratches flesh, and wears down sanity. Obliteration, perhaps the most literal form of Destruction,
+replaces existence with void; it removes wholly an object from the fabric of reality. Deconstruction is perhaps best
+described as Pain's controlled cousin; it carefully divides an object by its aspects and separates them. Sometimes
+this takes the form of partitioning and separating an object, sometimes it simply removes one or two aspects from an
+object.
+		

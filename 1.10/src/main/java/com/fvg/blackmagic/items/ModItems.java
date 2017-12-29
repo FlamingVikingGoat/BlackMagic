@@ -4,7 +4,7 @@ import com.fvg.blackmagic.core.BlackMagic;
 import com.fvg.blackmagic.core.Reference;
 import com.fvg.blackmagic.items.gear.ItemModSword;
 import com.fvg.blackmagic.items.gear.ItemStaff;
-import net.minecraft.client.Minecraft;
+import com.fvg.blackmagic.items.magic.MagicBook;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSword;
@@ -26,7 +26,12 @@ public class ModItems {
     public static ItemStaff purpleStaff;
 
 
-    public static Item infernus;
+    public static Item unrefinedInfernus;
+    public static Item purple_infernus;
+    public static Item red_infernus;
+    public static Item black_infernus;
+    public static MagicBook magicBook;
+
 
     public static void init() {
         deathbringer = new ItemModSword(satanicMaterial, "deathbringer");
@@ -34,8 +39,18 @@ public class ModItems {
         redStaff = new ItemStaff(redInfernus, "redStaff");
         purpleStaff = new ItemStaff(purpleInfernus, "purpleStaff");
 
-        infernus = new Item().setUnlocalizedName("infernus");
-        infernus.setCreativeTab(BlackMagic.TabBlackMagicCore);
+        unrefinedInfernus = new Item().setUnlocalizedName("unrefinedInfernus");
+        purple_infernus = new Item().setUnlocalizedName("purple_infernus");
+        red_infernus = new Item().setUnlocalizedName("red_infernus");
+        black_infernus = new Item().setUnlocalizedName("black_infernus");
+        magicBook = new MagicBook("magicBook");
+
+        unrefinedInfernus.setCreativeTab(BlackMagic.TabBlackMagicCore);
+        purple_infernus.setCreativeTab(BlackMagic.TabBlackMagicCore);
+        red_infernus.setCreativeTab(BlackMagic.TabBlackMagicCore);
+        black_infernus.setCreativeTab(BlackMagic.TabBlackMagicCore);
+        magicBook.setCreativeTab(BlackMagic.TabBlackMagicCore);
+
     }
 
     public static void register() {
@@ -43,8 +58,12 @@ public class ModItems {
         registerItem(blackStaff);
         registerItem(redStaff);
         registerItem(purpleStaff);
+        registerItem(unrefinedInfernus);
+        registerItem(purple_infernus);
+        registerItem(red_infernus);
+        registerItem(black_infernus);
+        registerItem(magicBook);
 
-        registerItem(infernus);
     }
 
     public static void registerRenders(){
@@ -52,8 +71,12 @@ public class ModItems {
         registerRender(blackStaff);
         registerRender(redStaff);
         registerRender(purpleStaff);
+        registerRender(unrefinedInfernus);
+        registerRender(purple_infernus);
+        registerRender(red_infernus);
+        registerRender(black_infernus);
+        registerRender(magicBook);
 
-        registerRender(infernus);
     }
 
     public static void registerItem(Item item){
