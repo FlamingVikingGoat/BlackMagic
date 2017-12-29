@@ -8,7 +8,7 @@ public class ManaStorage implements Capability.IStorage<IMana> {
     @Override
     public NBTBase writeNBT(Capability<IMana> capability, IMana instance, EnumFacing side) {
         NBTTagCompound tag = new NBTTagCompound();
-        tag.setBoolean("Is Magical", instance.getMagical());
+        tag.setBoolean("Is Magical", instance.isMagical());
         tag.setFloat("Mana", instance.getMana());
         tag.setFloat("Max Mana", instance.getMaxMana());
         return tag;
@@ -18,6 +18,6 @@ public class ManaStorage implements Capability.IStorage<IMana> {
     public void readNBT(Capability<IMana> capability, IMana instance, EnumFacing side, NBTBase nbt) {
         instance.setMaxMana(((NBTTagCompound)nbt).getFloat("Max Mana"));
         instance.set(((NBTTagCompound)nbt).getFloat("Mana"));
-        instance.isMagical(((NBTTagCompound)nbt).getBoolean("Is Magical"));
+        instance.setMagical(((NBTTagCompound)nbt).getBoolean("Is Magical"));
     }
 }

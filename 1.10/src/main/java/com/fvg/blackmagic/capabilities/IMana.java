@@ -9,10 +9,10 @@ public interface IMana {
     void decreaseMaxMana(float points);
     void set(float points);
     void setMaxMana(float points);
-    void isMagical(boolean isMagical);
+    void setMagical(boolean isMagical);
 
     float getMaxMana();
     float getMana();
-    boolean getMagical();
+    boolean isMagical();
 
 }

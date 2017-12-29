@@ -6,6 +6,9 @@ import com.fvg.blackmagic.capabilities.CapabilityHandler;
 import com.fvg.blackmagic.capabilities.IMana;
 import com.fvg.blackmagic.capabilities.Mana;
 import com.fvg.blackmagic.capabilities.ManaStorage;
+import com.fvg.blackmagic.commands.CommandMagicStatus;
+import com.fvg.blackmagic.commands.CommandSetMagicical;
+import com.fvg.blackmagic.commands.CommandSetMaxMana;
 import com.fvg.blackmagic.creativetab.TabBlackMagicCore;
 import com.fvg.blackmagic.entitites.ModEntities;
 import com.fvg.blackmagic.handlers.BlackEvents;
@@ -21,6 +24,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
@@ -35,7 +39,7 @@ public class BlackMagic {
 
     public static CreativeTabs TabBlackMagicCore = new TabBlackMagicCore("tabBlackMagicCore");
 
-    @EventHandler
+    @Mod.EventHandler
     public  static void preInit(FMLPreInitializationEvent event){
         ModItems.init();
         ModItems.register();
@@ -47,7 +51,7 @@ public class BlackMagic {
 
     }
 
-    @EventHandler
+    @Mod.EventHandler
     public static void init(FMLInitializationEvent event){
 
        proxy.registerEntityRenders();
@@ -56,9 +60,17 @@ public class BlackMagic {
        RecipeHandler.registerFurnaceRecipes();
     }
 
-    @EventHandler
+    @Mod.EventHandler
     public static void postInit(FMLPostInitializationEvent event){
         MinecraftForge.EVENT_BUS.register(new BlackEvents());
         MinecraftForge.EVENT_BUS.register(new CapabilityHandler());
     }
+
+    @Mod.EventHandler
+    public static void serverLoad(FMLServerStartingEvent event){
+        event.registerServerCommand(new CommandSetMaxMana());
+        event.registerServerCommand(new CommandMagicStatus());
+        event.registerServerCommand(new CommandSetMagicical());
+    }
+
 }

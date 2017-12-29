@@ -33,6 +33,7 @@ public class Mana implements IMana{
     @Override
     public void increaseMaxMana(float points) {
         this.maxMana += this.maxMana*points;
+
     }
 
     @Override
@@ -43,13 +44,16 @@ public class Mana implements IMana{
     @Override
     public void setMaxMana(float points) {
         this.maxMana = points;
+        set(points);
     }
 
     @Override
-    public void isMagical(boolean isMagical) {
+    public void setMagical(boolean isMagical) {
         this.isMagical = isMagical;
         if (isMagical) {
-            setMaxMana((this.maxMana == 0 ? 50.0F : this.getMana()));
+            setMaxMana((this.maxMana == 0 ? 50.0F : this.getMaxMana()));
+        }else {
+            setMaxMana(0);
         }
     }
     @Override
@@ -63,7 +67,7 @@ public class Mana implements IMana{
     }
 
     @Override
-    public boolean getMagical() {
+    public boolean isMagical() {
         return this.isMagical;
     }
 }

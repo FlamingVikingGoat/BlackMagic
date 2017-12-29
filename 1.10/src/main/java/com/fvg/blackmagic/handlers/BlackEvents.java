@@ -5,16 +5,11 @@ import com.fvg.blackmagic.capabilities.IMana;
 import com.fvg.blackmagic.capabilities.ManaProvider;
 import com.fvg.blackmagic.items.magic.MagicBook;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
-import net.minecraftforge.event.entity.living.LivingFallEvent;
-import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 
@@ -64,8 +59,13 @@ public class BlackEvents {
     public void onMagicBookCrafted(PlayerEvent.ItemCraftedEvent event){
         ItemStack itemCrafted = event.crafting;
         EntityPlayer player = event.player;
-        if(itemCrafted.getItem() instanceof MagicBook) {
-            player.getCapability(ManaProvider.MANA_CAP, null).isMagical(true);
+        IMana mana = player.getCapability(ManaProvider.MANA_CAP, null);
+        if(itemCrafted.getItem() instanceof MagicBook && !event.player.getEntityWorld().isRemote) {
+            player.getCapability(ManaProvider.MANA_CAP, null).setMagical(true);
+            String message = String.format("Max mana is %d \ncurrent mana is %d",
+            (int) mana.getMaxMana(),
+            (int) mana.getMana());
+        player.addChatMessage(new TextComponentString(message));
         }
     }
 
