@@ -1,4 +1,4 @@
-tile.spawnBlock.name=Spawn Block
+tile.spawnBlock.no_sacrifice.name=Spawn Block
 tile.infernusInfusedStone.name=Infernus Infused Stone
 
 item.deathbringer.name=Deathbringer
