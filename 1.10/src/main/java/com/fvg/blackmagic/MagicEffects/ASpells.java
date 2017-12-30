@@ -1,6 +1,8 @@
 package com.fvg.blackmagic.MagicEffects;
 
 import com.fvg.blackmagic.blocks.AMagicActivated;
+import com.fvg.blackmagic.capabilities.IMana;
+import com.fvg.blackmagic.capabilities.ManaProvider;
 import com.fvg.blackmagic.entitites.EntityDemon;
 import com.fvg.blackmagic.handlers.BlackEnums;
 import net.minecraft.block.Block;
@@ -33,8 +35,11 @@ public class ASpells {
         World worldIn = playerIn.getEntityWorld();
         IBlockState state = worldIn.getBlockState(pos);
         Block block = state.getBlock();
+        IMana mana = playerIn.getCapability(ManaProvider.MANA_CAP, null);
         if (worldIn.getWorldTime() > 14000 && worldIn.getWorldTime() < 22000) {
-            ASpells.instantlySummonDemonOnBlock(worldIn, pos);
+            if(mana.takeFromManaPool(40F, playerIn)){
+                ASpells.instantlySummonDemonOnBlock(worldIn, pos);
+            }
         }else {
             ASpells.summonLightningOnEntity(playerIn);
         }

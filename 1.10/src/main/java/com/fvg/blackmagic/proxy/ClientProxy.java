@@ -2,6 +2,7 @@ package com.fvg.blackmagic.proxy;
 
 import com.fvg.blackmagic.blocks.ModBlocks;
 import com.fvg.blackmagic.client.entity.RenderDemon;
+import com.fvg.blackmagic.client.gui.GuiMagicBook;
 import com.fvg.blackmagic.client.model.ModelDemon;
 import com.fvg.blackmagic.core.Reference;
 import com.fvg.blackmagic.entitites.EntityDemon;
@@ -31,5 +32,10 @@ public class ClientProxy extends CommonProxy {
         RenderingRegistry.registerEntityRenderingHandler(EntityDemon.class,
                 new RenderDemon(Minecraft.getMinecraft().getRenderManager(),
                         new ModelDemon(1), 0.7f));
+    }
+
+    @Override
+    public void openMyGui() {
+        Minecraft.getMinecraft().displayGuiScreen(new GuiMagicBook());
     }
 }
