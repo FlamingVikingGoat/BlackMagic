@@ -1,4 +1,4 @@
-package com.fvg.blackmagic.MagicEffects;
+package com.fvg.blackmagic.galdr;
 
 import com.fvg.blackmagic.blocks.AMagicActivated;
 import com.fvg.blackmagic.capabilities.IMana;

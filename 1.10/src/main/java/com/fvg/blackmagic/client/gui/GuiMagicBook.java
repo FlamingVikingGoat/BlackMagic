@@ -1,6 +1,8 @@
 package com.fvg.blackmagic.client.gui;
 
+import com.fvg.blackmagic.client.gui.GaldrButtons.GuiButtonControl;
 import com.fvg.blackmagic.core.Reference;
+import com.fvg.blackmagic.lib.LibGaldrContentLabels;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
@@ -15,15 +17,21 @@ import java.io.IOException;
 import static com.fvg.blackmagic.client.gui.GuiMagicBook.bookPageTextures;
 
 public class GuiMagicBook extends GuiScreen {
-    private final int BOOK_IMAGE_HIEGHT = 192;
-    private final int BOOK_IMAGE_WIDTH = 192;
+    private final int BOOK_IMAGE_HEIGHT = 300;
+    private final int BOOK_IMAGE_WIDTH = 500;
+    private final int TEXTURE_HEIGHT = 512;
+    private final int TEXTURE_WIDTH = 512;
     private int currentPage = 0;
     private static int bookTotalPages = 4;
-    protected static ResourceLocation[] bookPageTextures = new ResourceLocation[bookTotalPages];
+    public static ResourceLocation[] bookPageTextures = new ResourceLocation[bookTotalPages];
     private static String[] stringPageText = new String[bookTotalPages];
-    private GuiButton buttonDone;
+
     private NextPageButton buttonNextValidPage;
     private NextPageButton buttonPreviousValidPage;
+    private GuiButtonControl buttonControlJump;
+
+    int left, top;
+
 
     public GuiMagicBook(){
         bookPageTextures[0] = new ResourceLocation(
@@ -36,8 +44,29 @@ public class GuiMagicBook extends GuiScreen {
                 Reference.MODID+":textures/gui/book.png");
 
         stringPageText[0] = "";
-        stringPageText[1] = "The Mysterious Stranger admired your family cow and asked if it was for sale." +
-                "\n\nWhen you nodded, he offered to trade some Magic Beans, that (if planted in tilled dirt) would lead to more wealth than you could imagine.";
+        stringPageText[1] =
+                "Control: The seed of all magic, Control only contains one (self-named) domain; control is represented by a spider's\n" +
+                        "web. While this group is not stronger or weaker against any other types of magic, control magic takes precedent\n" +
+                        "over other types.\n" +
+                        "\n" +
+                        "\tThe Control Domain is focused on effects that make or change rules; this magic restricts, imprisons,\n" +
+                        "\tand manipulates. Control Mages are refered to as Nobles (a reference to their magic's rule-setting abilities),\n" +
+                        "\tand it's main item is a piece of string.\n" +
+                        "\t\tRestricting: Control Magic can be used to create areas that have different rules than outside\n" +
+                        "\t\tthat area. Control magic can enchant tracks of land that limit magic usage, change costs and\n" +
+                        "\t\teffectiveness of spells, and high level Nobles are even able to change the life-forces of entities\n" +
+                        "\t\tin enchanted areas.\n" +
+                        "\t\t\n" +
+                        "\t\tImprisoning: Control Magic is perhaps most infamous batle-wise for its ability to remove abilities\n" +
+                        "\t\tfrom others as if the target were imprisoned(note that Imprisoning is different from Restricting\n" +
+                        "\t\tbased on target- Restricting targets and area, while Imprisoning targets entities). This includes\n" +
+                        "\t\tstopping movement and limiting actions- including spellcasting. A powerful Noble can even stop an\n" +
+                        "\t\tentity from breathing, slowly killing the victim.\n" +
+                        "\n" +
+                        "\t\tManiplation: Control Magic in its most powerful form is the ability to manipulate both the concrete\n" +
+                        "\t\tand the abstract. At early stages, Nobles practicing manipulation can only move objects around; At \n" +
+                        "\t\thigher stages, Nobles manipulate the fabric of reality itself. They can change the growth stage of \n" +
+                        "\t\tan object, and even change the rate of time!";
         stringPageText[2]="So you handed him your cow, and grabbed the Magic Beans." +
                 "\n\nPleased with yourself, you hurried away, looking for tilled dirt in which to plant the Magic Beans." +
                 "\n\nYou couldn't wait to see how proud your mother would be for";
@@ -50,38 +79,51 @@ public class GuiMagicBook extends GuiScreen {
     public void initGui() {
         buttonList.clear();
 
-        buttonDone = new GuiButton(0, width / 2 + 2, 4 + BOOK_IMAGE_HIEGHT,
-                98, 20, I18n.format("gui.done"));
+        left = width / 2 - BOOK_IMAGE_WIDTH / 2;
+        top = height / 2 - BOOK_IMAGE_HEIGHT / 2;
 
-        buttonList.add(buttonDone);
         int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
-        buttonList.add(buttonNextValidPage = new NextPageButton(1,
-                offsetFromScreenLeft + 120, 156, true));
-        buttonList.add(buttonPreviousValidPage = new NextPageButton(2,
-                offsetFromScreenLeft + 38, 156, false));
+        buttonList.add(buttonNextValidPage = new NextPageButton(0,
+                offsetFromScreenLeft + 120, top + 20, true));
+        buttonList.add(buttonPreviousValidPage = new NextPageButton(1,
+                offsetFromScreenLeft + 38, top + 20, false));
+        buttonList.add(buttonControlJump = new GuiButtonControl(2,
+                offsetFromScreenLeft + 35, top + 20));
     }
 
     @Override
     public void updateScreen() {
-        buttonDone.visible = (currentPage == 3);
         buttonNextValidPage.visible = (currentPage < bookTotalPages -1);
         buttonPreviousValidPage.visible = (currentPage > 0);
+        buttonControlJump.visible = (currentPage == 0);
     }
 
     @Override
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-        mc.renderEngine.bindTexture(bookPageTextures[1]);
+        mc.renderEngine.bindTexture(bookPageTextures[0]);
         int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
-        drawTexturedModalRect(offsetFromScreenLeft, 2, 0, 0, BOOK_IMAGE_WIDTH, BOOK_IMAGE_HIEGHT);
+        drawModalRectWithCustomSizedTexture(left, top, 0, 0, BOOK_IMAGE_WIDTH, BOOK_IMAGE_HEIGHT, TEXTURE_WIDTH, TEXTURE_HEIGHT);
         String stringPageIndicator = I18n.format("book.pageIndicator",
                 Integer.valueOf(currentPage+1), bookTotalPages);
         int widthOfString = fontRendererObj.getStringWidth(stringPageIndicator);
-        fontRendererObj.drawString(stringPageIndicator, offsetFromScreenLeft - widthOfString + BOOK_IMAGE_WIDTH - 44,
+        int xValueForFontRender = offsetFromScreenLeft - widthOfString + BOOK_IMAGE_WIDTH - 44;
+
+        drawTableOfContentStrings();
+        fontRendererObj.drawString(stringPageIndicator, xValueForFontRender,
                 18, 0);
         fontRendererObj.drawSplitString(stringPageText[currentPage],
-                offsetFromScreenLeft + 36, 34, 116, 0);
+                offsetFromScreenLeft + 36, top + 30, offsetFromScreenLeft + 240, 0);
         super.drawScreen(mouseX, mouseY, partialTicks);
+    }
+
+    public void drawTableOfContentStrings(){
+        int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
+
+        if(currentPage == 0) {
+            fontRendererObj.drawSplitString(GaldrContentTableLabelStrings.getLabel(LibGaldrContentLabels.CONTROL),
+                    offsetFromScreenLeft + 60, top, offsetFromScreenLeft + 240, 0);
+        }
     }
 
     @Override
@@ -91,12 +133,12 @@ public class GuiMagicBook extends GuiScreen {
 
     @Override
     protected void actionPerformed(GuiButton button) throws IOException {
-        if(button == buttonDone){
-            mc.displayGuiScreen(null);
-        } else if (button == buttonNextValidPage){
+        if (button == buttonNextValidPage){
             ++currentPage;
         } else if (button == buttonPreviousValidPage){
             --currentPage;
+        } else if (button == buttonControlJump){
+            currentPage = 1;
         }
     }
 
