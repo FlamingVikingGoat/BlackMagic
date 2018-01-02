@@ -1,4 +1,4 @@
-package com.fvg.blackmagic.MagicEffects;
+package com.fvg.blackmagic.magiceffects;
 
 import com.fvg.blackmagic.blocks.AMagicActivated;
 import com.fvg.blackmagic.entitites.EntityDemon;

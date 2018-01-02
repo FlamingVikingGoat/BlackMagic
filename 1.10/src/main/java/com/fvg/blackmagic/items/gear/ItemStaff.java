@@ -1,7 +1,7 @@
 package com.fvg.blackmagic.items.gear;
 
 
-import com.fvg.blackmagic.MagicEffects.ASpells;
+import com.fvg.blackmagic.magiceffects.ASpells;
 import com.fvg.blackmagic.core.BlackMagic;
 import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
