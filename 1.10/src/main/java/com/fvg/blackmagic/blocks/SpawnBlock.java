@@ -1,6 +1,7 @@
 package com.fvg.blackmagic.blocks;
 
-import com.fvg.blackmagic.magiceffects.ASpells;
+import com.fvg.blackmagic.galdr.ASpells;
+
 import com.fvg.blackmagic.core.BlackMagic;
 import com.fvg.blackmagic.handlers.BlackEnums;
 import net.minecraft.block.material.Material;

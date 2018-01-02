@@ -14,11 +14,16 @@ public class Mana implements IMana{
     }
 
     @Override
-    public void takeFromManaPool(float points, EntityPlayer playerIn) {
+    public boolean takeFromManaPool(float points, EntityPlayer playerIn) {
         if(points > this.mana){
             String message = "Not enough Mana!";
             playerIn.addChatMessage(new TextComponentString(message));
+            this.mana = 0;
+            return false;
         }
+        this.mana -= points;
+        String message = String.format("Mana consumed: %d \nMana left: %d", (int) points, (int) this.mana);
+        return true;
     }
 
     @Override
@@ -44,7 +49,6 @@ public class Mana implements IMana{
     @Override
     public void setMaxMana(float points) {
         this.maxMana = points;
-        set(points);
     }
 
     @Override

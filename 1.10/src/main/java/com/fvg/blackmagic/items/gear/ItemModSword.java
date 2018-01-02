@@ -1,7 +1,6 @@
 package com.fvg.blackmagic.items.gear;
 
-import com.fvg.blackmagic.magiceffects.ASpells;
-import com.fvg.blackmagic.blocks.AMagicActivated;
+import com.fvg.blackmagic.galdr.ASpells;
 import com.fvg.blackmagic.core.BlackMagic;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;

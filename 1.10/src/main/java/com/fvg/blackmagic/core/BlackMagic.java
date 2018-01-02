@@ -14,6 +14,7 @@ import com.fvg.blackmagic.entitites.ModEntities;
 import com.fvg.blackmagic.handlers.BlackEvents;
 import com.fvg.blackmagic.handlers.RecipeHandler;
 import com.fvg.blackmagic.items.ModItems;
+import com.fvg.blackmagic.network.GuiHandler;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +26,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
@@ -53,11 +55,11 @@ public class BlackMagic {
 
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event){
-
        proxy.registerEntityRenders();
        proxy.registerWorldGenerator();
        RecipeHandler.registerCraftingRecipes();
        RecipeHandler.registerFurnaceRecipes();
+       NetworkRegistry.INSTANCE.registerGuiHandler(BlackMagic.instance, new GuiHandler());
     }
 
     @Mod.EventHandler

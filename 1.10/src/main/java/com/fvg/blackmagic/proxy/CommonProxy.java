@@ -23,5 +23,7 @@ public class CommonProxy {
     public void registerModelBakeryVariants(){}
 
     public void registerEntityRenders(){}
+
+    public void openMyGui(){}
 }
 
