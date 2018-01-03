@@ -6,6 +6,9 @@ import com.fvg.blackmagic.capabilities.CapabilityHandler;
 import com.fvg.blackmagic.capabilities.IMana;
 import com.fvg.blackmagic.capabilities.Mana;
 import com.fvg.blackmagic.capabilities.ManaStorage;
+import com.fvg.blackmagic.capabilities.knownpages.IPagesKnown;
+import com.fvg.blackmagic.capabilities.knownpages.PagesKnown;
+import com.fvg.blackmagic.capabilities.knownpages.PagesKnownStorage;
 import com.fvg.blackmagic.commands.CommandMagicStatus;
 import com.fvg.blackmagic.commands.CommandSetMagicical;
 import com.fvg.blackmagic.commands.CommandSetMaxMana;
@@ -49,6 +52,7 @@ public class BlackMagic {
         ModBlocks.register();
         ModEntities.registerEntities();
         CapabilityManager.INSTANCE.register(IMana.class, new ManaStorage(), Mana.class);
+        CapabilityManager.INSTANCE.register(IPagesKnown.class, new PagesKnownStorage(), PagesKnown.class);
         proxy.registerRenders();
 
     }
