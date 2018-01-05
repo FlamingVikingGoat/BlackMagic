@@ -2,6 +2,8 @@ package com.fvg.blackmagic.client.gui;
 
 import com.fvg.blackmagic.client.gui.GaldrButtons.GuiButtonControl;
 import com.fvg.blackmagic.core.Reference;
+import com.fvg.blackmagic.items.magic.MagicBookLoader;
+import com.fvg.blackmagic.items.magic.MagicBookPage;
 import com.fvg.blackmagic.lib.LibGaldrContentLabels;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
@@ -13,8 +15,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import org.lwjgl.opengl.GL11;
 
 import java.io.IOException;
-
-import static com.fvg.blackmagic.client.gui.GuiMagicBook.bookPageTextures;
+import java.util.List;
 
 public class GuiMagicBook extends GuiScreen {
     private final int BOOK_IMAGE_HEIGHT = 300;
@@ -22,9 +23,8 @@ public class GuiMagicBook extends GuiScreen {
     private final int TEXTURE_HEIGHT = 512;
     private final int TEXTURE_WIDTH = 512;
     private int currentPage = 0;
-    private static int bookTotalPages = 4;
-    public static ResourceLocation[] bookPageTextures = new ResourceLocation[bookTotalPages];
-    private static String[] stringPageText = new String[bookTotalPages];
+    private int bookTotalPages = 0;
+    private List<MagicBookPage> availablePages;
 
     private NextPageButton buttonNextValidPage;
     private NextPageButton buttonPreviousValidPage;
@@ -33,46 +33,20 @@ public class GuiMagicBook extends GuiScreen {
     int left, top;
 
 
-    public GuiMagicBook(){
-        bookPageTextures[0] = new ResourceLocation(
-                Reference.MODID+":textures/gui/book_cover.png");
-        bookPageTextures[1] = new ResourceLocation(
-                Reference.MODID + ":textures/gui/book.png");
-        bookPageTextures[2] = new ResourceLocation(
-                Reference.MODID+":textures/gui/book.png");
-        bookPageTextures[3] = new ResourceLocation(
-                Reference.MODID+":textures/gui/book.png");
+    public GuiMagicBook(List<MagicBookPage> pageList){
+        this.availablePages = pageList;
 
-        stringPageText[0] = "";
-        stringPageText[1] =
-                "Control: The seed of all magic, Control only contains one (self-named) domain; control is represented by a spider's\n" +
-                        "web. While this group is not stronger or weaker against any other types of magic, control magic takes precedent\n" +
-                        "over other types.\n" +
-                        "\n" +
-                        "\tThe Control Domain is focused on effects that make or change rules; this magic restricts, imprisons,\n" +
-                        "\tand manipulates. Control Mages are refered to as Nobles (a reference to their magic's rule-setting abilities),\n" +
-                        "\tand it's main item is a piece of string.\n" +
-                        "\t\tRestricting: Control Magic can be used to create areas that have different rules than outside\n" +
-                        "\t\tthat area. Control magic can enchant tracks of land that limit magic usage, change costs and\n" +
-                        "\t\teffectiveness of spells, and high level Nobles are even able to change the life-forces of entities\n" +
-                        "\t\tin enchanted areas.\n" +
-                        "\t\t\n" +
-                        "\t\tImprisoning: Control Magic is perhaps most infamous batle-wise for its ability to remove abilities\n" +
-                        "\t\tfrom others as if the target were imprisoned(note that Imprisoning is different from Restricting\n" +
-                        "\t\tbased on target- Restricting targets and area, while Imprisoning targets entities). This includes\n" +
-                        "\t\tstopping movement and limiting actions- including spellcasting. A powerful Noble can even stop an\n" +
-                        "\t\tentity from breathing, slowly killing the victim.\n" +
-                        "\n" +
-                        "\t\tManiplation: Control Magic in its most powerful form is the ability to manipulate both the concrete\n" +
-                        "\t\tand the abstract. At early stages, Nobles practicing manipulation can only move objects around; At \n" +
-                        "\t\thigher stages, Nobles manipulate the fabric of reality itself. They can change the growth stage of \n" +
-                        "\t\tan object, and even change the rate of time!";
-        stringPageText[2]="So you handed him your cow, and grabbed the Magic Beans." +
-                "\n\nPleased with yourself, you hurried away, looking for tilled dirt in which to plant the Magic Beans." +
-                "\n\nYou couldn't wait to see how proud your mother would be for";
-        stringPageText[3]="being so shrewd!  Untold wealth in return for an old, milkless cow; what a good deal you made!" +
-                "\n\nSo off you went, looking for a place to plant the Magic Beans with room to grow...";
 
+
+        bookTotalPages = 5;
+        /*
+        for(MagicBookPage page: availablePages){
+            if(!page.getPageName().equals("")){
+                bookTotalPages++;
+            }
+        }
+        */
+        MagicBookLoader.setPages();
     }
 
     @Override
@@ -100,8 +74,10 @@ public class GuiMagicBook extends GuiScreen {
 
     @Override
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
+
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-        mc.renderEngine.bindTexture(bookPageTextures[0]);
+        mc.renderEngine.bindTexture(availablePages.get(currentPage).getTexture());
+
         int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
         drawModalRectWithCustomSizedTexture(left, top, 0, 0, BOOK_IMAGE_WIDTH, BOOK_IMAGE_HEIGHT, TEXTURE_WIDTH, TEXTURE_HEIGHT);
         String stringPageIndicator = I18n.format("book.pageIndicator",
@@ -112,8 +88,12 @@ public class GuiMagicBook extends GuiScreen {
         drawTableOfContentStrings();
         fontRendererObj.drawString(stringPageIndicator, xValueForFontRender,
                 18, 0);
-        fontRendererObj.drawSplitString(stringPageText[currentPage],
-                offsetFromScreenLeft + 36, top + 30, offsetFromScreenLeft + 240, 0);
+
+        fontRendererObj.drawSplitString(availablePages.get(currentPage).getFirstPageText(),
+                offsetFromScreenLeft + 36, top + 30, 200, 0);
+        fontRendererObj.drawSplitString(availablePages.get(currentPage).getSecondPageText(),
+                offsetFromScreenLeft + BOOK_IMAGE_WIDTH/2 + 36, top + 30, 200, 0);
+
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
 
@@ -122,7 +102,7 @@ public class GuiMagicBook extends GuiScreen {
 
         if(currentPage == 0) {
             fontRendererObj.drawSplitString(GaldrContentTableLabelStrings.getLabel(LibGaldrContentLabels.CONTROL),
-                    offsetFromScreenLeft + 60, top, offsetFromScreenLeft + 240, 0);
+                    offsetFromScreenLeft + 60, top, 220, 0);
         }
     }
 
@@ -134,11 +114,29 @@ public class GuiMagicBook extends GuiScreen {
     @Override
     protected void actionPerformed(GuiButton button) throws IOException {
         if (button == buttonNextValidPage){
-            ++currentPage;
+
+            for(int i = 0; i < availablePages.size(); i++){
+                if(i <= currentPage){
+                    continue;
+                }
+                if(!availablePages.get(i).getPageName().equals("")){
+                    currentPage = i;
+                    break;
+                }
+            }
+
         } else if (button == buttonPreviousValidPage){
-            --currentPage;
+            for(int i = bookTotalPages; i >= 0; i--){
+                if(i >= currentPage){
+                    continue;
+                }
+                if(!availablePages.get(i).getPageName().equals("")){
+                    currentPage = i;
+                    break;
+                }
+            }
         } else if (button == buttonControlJump){
-            currentPage = 1;
+            currentPage = 2; /*availablePages.indexOf(MagicBookLoader.controlIntro )*/
         }
     }
 
@@ -172,7 +170,7 @@ class NextPageButton extends GuiButton{
                     mouseX < xPosition + width &&
                     mouseY < yPosition + height);
             GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-            mc.getTextureManager().bindTexture(bookPageTextures[1]);
+            mc.getTextureManager().bindTexture(new ResourceLocation(Reference.MODID+":textures/gui/book.png"));
             int textureX = 0;
             int textureY = 192;
 

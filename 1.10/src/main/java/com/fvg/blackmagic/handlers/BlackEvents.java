@@ -81,7 +81,7 @@ public class BlackEvents {
         Entity entity = event.getEntity();
         EntityPlayer player = event.getWorld().getClosestPlayerToEntity(entity, 20.0D);
         String message = "You have summoned me, Charles, the Demon of Deals!";
-        if(entity instanceof EntityDemon && !event.getWorld().isRemote){
+        if(entity instanceof EntityDemon && !event.getWorld().isRemote && player != null){
             System.out.println("Entity is a demon");
             player.addChatMessage(new TextComponentString(message));
         }

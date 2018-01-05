@@ -51,6 +51,10 @@ public class MagicBookPage {
         return secondPageText;
     }
 
+    public ResourceLocation getTexture() {
+        return texture;
+    }
+
     public boolean isKnown() {
         return isKnown;
     }
@@ -66,4 +70,5 @@ public class MagicBookPage {
     public void setKnown(boolean known) {
         isKnown = known;
     }
+
 }
