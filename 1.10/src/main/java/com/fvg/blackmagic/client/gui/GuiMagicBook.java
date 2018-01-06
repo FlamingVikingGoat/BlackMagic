@@ -35,17 +35,11 @@ public class GuiMagicBook extends GuiScreen {
 
     public GuiMagicBook(List<MagicBookPage> pageList){
         this.availablePages = pageList;
-
-
-
-        bookTotalPages = 5;
-        /*
         for(MagicBookPage page: availablePages){
             if(!page.getPageName().equals("")){
                 bookTotalPages++;
             }
         }
-        */
         MagicBookLoader.setPages();
     }
 
@@ -67,9 +61,9 @@ public class GuiMagicBook extends GuiScreen {
 
     @Override
     public void updateScreen() {
-        buttonNextValidPage.visible = (currentPage < bookTotalPages -1);
-        buttonPreviousValidPage.visible = (currentPage > 0);
-        buttonControlJump.visible = (currentPage == 0);
+        buttonNextValidPage.visible = (currentPage < bookTotalPages-1);
+        buttonPreviousValidPage.visible = (currentPage > availablePages.indexOf(MagicBookLoader.contentTable));
+        buttonControlJump.visible = (currentPage == availablePages.indexOf(MagicBookLoader.contentTable));
     }
 
     @Override
@@ -85,7 +79,6 @@ public class GuiMagicBook extends GuiScreen {
         int widthOfString = fontRendererObj.getStringWidth(stringPageIndicator);
         int xValueForFontRender = offsetFromScreenLeft - widthOfString + BOOK_IMAGE_WIDTH - 44;
 
-        drawTableOfContentStrings();
         fontRendererObj.drawString(stringPageIndicator, xValueForFontRender,
                 18, 0);
 
@@ -96,16 +89,7 @@ public class GuiMagicBook extends GuiScreen {
 
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
-
-    public void drawTableOfContentStrings(){
-        int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
-
-        if(currentPage == 0) {
-            fontRendererObj.drawSplitString(GaldrContentTableLabelStrings.getLabel(LibGaldrContentLabels.CONTROL),
-                    offsetFromScreenLeft + 60, top, 220, 0);
-        }
-    }
-
+    
     @Override
     protected void mouseClickMove(int mouseX, int mouseY, int clickedMouseButton, long timeSinceLastClick) {
         super.mouseClickMove(mouseX, mouseY, clickedMouseButton, timeSinceLastClick);
