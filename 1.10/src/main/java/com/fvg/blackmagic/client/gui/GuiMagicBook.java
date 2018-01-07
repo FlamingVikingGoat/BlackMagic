@@ -15,6 +15,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import org.lwjgl.opengl.GL11;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class GuiMagicBook extends GuiScreen {
@@ -24,7 +25,9 @@ public class GuiMagicBook extends GuiScreen {
     private final int TEXTURE_WIDTH = 512;
     private int currentPage = 0;
     private int bookTotalPages = 0;
-    private List<MagicBookPage> availablePages;
+    private List<MagicBookPage> availablePages = new ArrayList<MagicBookPage>();
+    private List<MagicBookPage> pageList;
+    int availablePageNumber = 0;
 
     private NextPageButton buttonNextValidPage;
     private NextPageButton buttonPreviousValidPage;
@@ -32,20 +35,28 @@ public class GuiMagicBook extends GuiScreen {
 
     int left, top;
 
-
     public GuiMagicBook(List<MagicBookPage> pageList){
-        this.availablePages = pageList;
-        for(MagicBookPage page: availablePages){
-            if(!page.getPageName().equals("")){
-                bookTotalPages++;
-            }
-        }
+        this.pageList = pageList;
         MagicBookLoader.setPages();
     }
 
     @Override
     public void initGui() {
         buttonList.clear();
+        availablePages.clear();
+
+        System.out.println(availablePageNumber);
+        System.out.println(bookTotalPages);
+        for(MagicBookPage page : pageList){
+            if(!page.getPageName().equals("")){
+                availablePages.add(availablePageNumber, page);
+                availablePageNumber++;
+                bookTotalPages++;
+            }
+        }
+        availablePageNumber = 0;
+        System.out.println(availablePageNumber);
+        System.out.println(bookTotalPages);
 
         left = width / 2 - BOOK_IMAGE_WIDTH / 2;
         top = height / 2 - BOOK_IMAGE_HEIGHT / 2;
@@ -68,17 +79,16 @@ public class GuiMagicBook extends GuiScreen {
 
     @Override
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
+        int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
 
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
         mc.renderEngine.bindTexture(availablePages.get(currentPage).getTexture());
-
-        int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
         drawModalRectWithCustomSizedTexture(left, top, 0, 0, BOOK_IMAGE_WIDTH, BOOK_IMAGE_HEIGHT, TEXTURE_WIDTH, TEXTURE_HEIGHT);
-        String stringPageIndicator = I18n.format("book.pageIndicator",
-                Integer.valueOf(currentPage+1), bookTotalPages);
+
+        //Draws "Page X of Y"
+        String stringPageIndicator = I18n.format("book.pageIndicator", currentPage+1, bookTotalPages);
         int widthOfString = fontRendererObj.getStringWidth(stringPageIndicator);
         int xValueForFontRender = offsetFromScreenLeft - widthOfString + BOOK_IMAGE_WIDTH - 44;
-
         fontRendererObj.drawString(stringPageIndicator, xValueForFontRender,
                 18, 0);
 
@@ -89,7 +99,7 @@ public class GuiMagicBook extends GuiScreen {
 
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
-    
+
     @Override
     protected void mouseClickMove(int mouseX, int mouseY, int clickedMouseButton, long timeSinceLastClick) {
         super.mouseClickMove(mouseX, mouseY, clickedMouseButton, timeSinceLastClick);
@@ -98,34 +108,17 @@ public class GuiMagicBook extends GuiScreen {
     @Override
     protected void actionPerformed(GuiButton button) throws IOException {
         if (button == buttonNextValidPage){
-
-            for(int i = 0; i < availablePages.size(); i++){
-                if(i <= currentPage){
-                    continue;
-                }
-                if(!availablePages.get(i).getPageName().equals("")){
-                    currentPage = i;
-                    break;
-                }
-            }
-
+            ++currentPage;
         } else if (button == buttonPreviousValidPage){
-            for(int i = bookTotalPages; i >= 0; i--){
-                if(i >= currentPage){
-                    continue;
-                }
-                if(!availablePages.get(i).getPageName().equals("")){
-                    currentPage = i;
-                    break;
-                }
-            }
+            --currentPage;
         } else if (button == buttonControlJump){
-            currentPage = 2; /*availablePages.indexOf(MagicBookLoader.controlIntro )*/
+            currentPage = availablePages.indexOf(MagicBookLoader.controlIntro);
         }
     }
 
     @Override
     public void onGuiClosed() {
+        pageList.clear();
         super.onGuiClosed();
     }
 

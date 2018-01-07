@@ -23,7 +23,6 @@ public class GuiHandler implements IGuiHandler {
                 return new GuiMagicBook(pagesKnown.getKnownPages());
 
         }
-
         return null;
     }
 }
