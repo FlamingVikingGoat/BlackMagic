@@ -1,17 +1,12 @@
 package com.fvg.blackmagic.client.gui;
 
 import com.fvg.blackmagic.client.gui.GaldrButtons.GuiButtonControl;
-import com.fvg.blackmagic.core.Reference;
+import com.fvg.blackmagic.client.gui.GaldrButtons.NextPageButton;
 import com.fvg.blackmagic.items.magic.MagicBookLoader;
 import com.fvg.blackmagic.items.magic.MagicBookPage;
-import com.fvg.blackmagic.lib.LibGaldrContentLabels;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 import org.lwjgl.opengl.GL11;
 
 import java.io.IOException;
@@ -26,7 +21,7 @@ public class GuiMagicBook extends GuiScreen {
     private int currentPage = 0;
     private int bookTotalPages = 0;
     private List<MagicBookPage> availablePages = new ArrayList<MagicBookPage>();
-    private List<MagicBookPage> pageList;
+    private List<MagicBookPage> pageList = new ArrayList<MagicBookPage>();
     int availablePageNumber = 0;
 
     private NextPageButton buttonNextValidPage;
@@ -43,10 +38,7 @@ public class GuiMagicBook extends GuiScreen {
     @Override
     public void initGui() {
         buttonList.clear();
-        availablePages.clear();
 
-        System.out.println(availablePageNumber);
-        System.out.println(bookTotalPages);
         for(MagicBookPage page : pageList){
             if(!page.getPageName().equals("")){
                 availablePages.add(availablePageNumber, page);
@@ -55,13 +47,11 @@ public class GuiMagicBook extends GuiScreen {
             }
         }
         availablePageNumber = 0;
-        System.out.println(availablePageNumber);
-        System.out.println(bookTotalPages);
 
         left = width / 2 - BOOK_IMAGE_WIDTH / 2;
         top = height / 2 - BOOK_IMAGE_HEIGHT / 2;
-
         int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
+
         buttonList.add(buttonNextValidPage = new NextPageButton(0,
                 offsetFromScreenLeft + 120, top + 20, true));
         buttonList.add(buttonPreviousValidPage = new NextPageButton(1,
@@ -85,19 +75,29 @@ public class GuiMagicBook extends GuiScreen {
         mc.renderEngine.bindTexture(availablePages.get(currentPage).getTexture());
         drawModalRectWithCustomSizedTexture(left, top, 0, 0, BOOK_IMAGE_WIDTH, BOOK_IMAGE_HEIGHT, TEXTURE_WIDTH, TEXTURE_HEIGHT);
 
-        //Draws "Page X of Y"
-        String stringPageIndicator = I18n.format("book.pageIndicator", currentPage+1, bookTotalPages);
-        int widthOfString = fontRendererObj.getStringWidth(stringPageIndicator);
-        int xValueForFontRender = offsetFromScreenLeft - widthOfString + BOOK_IMAGE_WIDTH - 44;
-        fontRendererObj.drawString(stringPageIndicator, xValueForFontRender,
-                18, 0);
-
         fontRendererObj.drawSplitString(availablePages.get(currentPage).getFirstPageText(),
                 offsetFromScreenLeft + 36, top + 30, 200, 0);
         fontRendererObj.drawSplitString(availablePages.get(currentPage).getSecondPageText(),
                 offsetFromScreenLeft + BOOK_IMAGE_WIDTH/2 + 36, top + 30, 200, 0);
 
+        //Draws "Page X of Y"
+        String stringPageIndicator = I18n.format("book.pageIndicator", currentPage+1, bookTotalPages);
+        int widthOfString = fontRendererObj.getStringWidth(stringPageIndicator);
+        int xValueForFontRender = offsetFromScreenLeft - widthOfString + BOOK_IMAGE_WIDTH - 44;
+        fontRendererObj.drawString(stringPageIndicator, xValueForFontRender, 18, 0);
+
         super.drawScreen(mouseX, mouseY, partialTicks);
+    }
+
+    public void drawPage(MagicBookPage page){
+        GL11.glColor4f(1F, 1F, 1F, 1F);
+        mc.renderEngine.bindTexture(page.getTexture());
+        drawModalRectWithCustomSizedTexture(left, top, 0, 0, BOOK_IMAGE_WIDTH, BOOK_IMAGE_HEIGHT, TEXTURE_WIDTH, TEXTURE_HEIGHT);
+        drawPageString(page);
+    }
+
+    public void drawPageString(MagicBookPage page){
+
     }
 
     @Override
@@ -126,39 +126,6 @@ public class GuiMagicBook extends GuiScreen {
     public boolean doesGuiPauseGame() {
         return false;
     }
+
 }
 
-@SideOnly(Side.CLIENT)
-class NextPageButton extends GuiButton{
-
-    private final boolean isNextButton;
-
-    public NextPageButton(int buttonId, int x, int y, boolean isNextButton) {
-        super(buttonId, x, y, 23, 13, "");
-        this.isNextButton = isNextButton;
-    }
-
-    @Override
-    public void drawButton(Minecraft mc, int mouseX, int mouseY) {
-        if (visible){
-            boolean isButtonPressed = (
-                    mouseX >= xPosition &&
-                    mouseY >= yPosition &&
-                    mouseX < xPosition + width &&
-                    mouseY < yPosition + height);
-            GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-            mc.getTextureManager().bindTexture(new ResourceLocation(Reference.MODID+":textures/gui/book.png"));
-            int textureX = 0;
-            int textureY = 192;
-
-            if(isButtonPressed){
-                textureX += 23;
-            }
-            if(!isNextButton){
-                textureY += 13;
-            }
-
-            drawTexturedModalRect(xPosition, yPosition, textureX, textureY, 23, 13);
-        }
-    }
-}

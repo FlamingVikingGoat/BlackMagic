@@ -8,20 +8,21 @@ public class MagicBookPage {
     private String pageName = "";
     private String firstPageText = "";
     private String secondPageText = "";
-    private ResourceLocation texture = new ResourceLocation(Reference.MODID+":textures/gui/book_cover.png");
+    private ResourceLocation texture = new ResourceLocation(Reference.MODID+":textures/gui/book_base.png");
     private boolean isKnown = false;
+    private int[] stringPosOffset = new int[]{0, 0, 0, 0, 0, 0};
 
     MagicBookPage(){
-        this(null, "", "book_cover.png", false);
+        this(null, "", "book_base.png", false);
     }
 
     MagicBookPage(Integer index, String pageName){
-        this(index, pageName, "book_cover.png", false);
+        this(index, pageName, "book_base.png", false);
     }
 
 
     MagicBookPage(Integer index, String pageName, boolean known){
-        this(index, pageName, "book_cover.png", known);
+        this(index, pageName, "book_base.png", known);
     }
 
 
@@ -59,6 +60,10 @@ public class MagicBookPage {
         return isKnown;
     }
 
+    public void setStringPosOffset(int... args) {
+        System.arraycopy(args, 0, stringPosOffset, 0, args.length);
+    }
+
     public void setFirstPageText(String firstPageText) {
         this.firstPageText = firstPageText;
     }
@@ -71,4 +76,7 @@ public class MagicBookPage {
         isKnown = known;
     }
 
+    public int[] getStringPosOffset() {
+        return stringPosOffset;
+    }
 }

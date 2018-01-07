@@ -8,12 +8,11 @@ public final class MagicBookLoader {
     public static MagicBookPage emptyPage = new MagicBookPage();
 
     public static MagicBookPage contentTable = new MagicBookPage(0, "Content Table", true);
-    public static MagicBookPage testPage = new MagicBookPage(1, "Test Page", false);
-    public static MagicBookPage controlIntro = new MagicBookPage(2, "Control Introduction", true);
-    public static MagicBookPage randomPage = new MagicBookPage(3, "Random page", false);
+    public static MagicBookPage controlIntro = new MagicBookPage(1, "Control Introduction", true);
 
     public static void setPages(){
-        contentTable.setFirstPageText("text");
+        contentTable.setFirstPageText(
+                "");
         contentTable.setSecondPageText("text");
 
         controlIntro.setFirstPageText(
@@ -40,5 +39,7 @@ public final class MagicBookLoader {
                         "At higher stages, Nobles manipulate the fabric of reality itself. They can change the growth stage " +
                         "of tan object, and even change the rate of time!");
         controlIntro.setSecondPageText("text");
+
+
     }
 }
