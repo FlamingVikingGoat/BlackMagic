@@ -13,8 +13,10 @@ public final class MagicBookLoader {
 
     public static void setPages(){
         contentTable.setFirstPageText(
-                "");
+                "Basic Information(Start Here)\n\n"+
+                "Control Magic Information");
         contentTable.setSecondPageText("text");
+        contentTable.setStringPosOffset(65, 30);
 
         controlIntro.setFirstPageText(
                 "Control: The seed of all magic, Control only contains one (self-named) domain; control is represented " +
