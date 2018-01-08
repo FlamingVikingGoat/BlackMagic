@@ -16,7 +16,17 @@ public final class MagicBookLoader {
                 "Basic Information(Start Here)\n\n"+
                 "Control Magic Information");
         contentTable.setSecondPageText("text");
-        contentTable.setStringPosOffset(65, 30);
+        contentTable.setStringPosOffset(65, 30, 0x0000FF);
+
+        basicInfo.setFirstPageText(
+                "Welcome, young spellcaster, to the tome that will guide you through your magical journey.\n\n" +
+                        "This tome comes with several features for your convenience, the main two being jumping and expanding.\n\n" +
+                        "\"Jumping\" allows the reader to jump to certain locations in this tome. It is enabled by pressing " +
+                        "on a symbol followed by blue text; the blue text describes where the jump will go.\n\n" +
+                        "\"Expanding\" allows for the dynamic size of this tome; rather than containing all that can be known," +
+                        "information is made ready for the reader when they are prepared to handle it. Magic can be very dangerous;" +
+                        "a slight error on an advanced-level spell can wipe out a whole city.\n\n" +
+                        "Now that you know how this book works, visit the sections on the right to start learning.");
 
         controlIntro.setFirstPageText(
                 "Control: The seed of all magic, Control only contains one (self-named) domain; control is represented " +

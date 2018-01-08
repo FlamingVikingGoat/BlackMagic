@@ -99,7 +99,7 @@ public class GuiMagicBook extends GuiScreen {
     public void drawPageString(MagicBookPage page){
         int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
         fontRendererObj.drawSplitString(page.getFirstPageText(),
-                offsetFromScreenLeft + page.getStringPosOffset()[0], top + page.getStringPosOffset()[1], 200, 0);
+                offsetFromScreenLeft + page.getStringPosOffset()[0], top + page.getStringPosOffset()[1], 200, page.getStringPosOffset()[2]);
     }
 
     @Override
