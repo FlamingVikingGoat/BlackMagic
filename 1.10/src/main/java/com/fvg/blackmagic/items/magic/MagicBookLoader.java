@@ -8,7 +8,8 @@ public final class MagicBookLoader {
     public static MagicBookPage emptyPage = new MagicBookPage();
 
     public static MagicBookPage contentTable = new MagicBookPage(0, "Content Table", true);
-    public static MagicBookPage controlIntro = new MagicBookPage(1, "Control Introduction", true);
+    public static MagicBookPage basicInfo = new MagicBookPage(1, "Basic Information", true);
+    public static MagicBookPage controlIntro = new MagicBookPage(2, "Control Introduction", true);
 
     public static void setPages(){
         contentTable.setFirstPageText(

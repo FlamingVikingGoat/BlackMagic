@@ -10,7 +10,7 @@ public class MagicBookPage {
     private String secondPageText = "";
     private ResourceLocation texture = new ResourceLocation(Reference.MODID+":textures/gui/book_base.png");
     private boolean isKnown = false;
-    private int[] stringPosOffset = new int[]{0, 0, 0, 0, 0, 0};
+    private int[] stringPosOffset = new int[]{36, 40};
 
     MagicBookPage(){
         this(null, "", "book_base.png", false);
