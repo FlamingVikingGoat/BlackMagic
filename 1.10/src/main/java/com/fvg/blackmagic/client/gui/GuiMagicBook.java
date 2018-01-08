@@ -78,14 +78,7 @@ public class GuiMagicBook extends GuiScreen {
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
         int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
 
-        GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-        mc.renderEngine.bindTexture(availablePages.get(currentPage).getTexture());
-        drawModalRectWithCustomSizedTexture(left, top, 0, 0, BOOK_IMAGE_WIDTH, BOOK_IMAGE_HEIGHT, TEXTURE_WIDTH, TEXTURE_HEIGHT);
-
-        fontRendererObj.drawSplitString(availablePages.get(currentPage).getFirstPageText(),
-                offsetFromScreenLeft + 36, top + 30, 200, 0);
-        fontRendererObj.drawSplitString(availablePages.get(currentPage).getSecondPageText(),
-                offsetFromScreenLeft + BOOK_IMAGE_WIDTH/2 + 36, top + 30, 200, 0);
+        drawPage(availablePages.get(currentPage));
 
         //Draws "Page X of Y"
         String stringPageIndicator = I18n.format("book.pageIndicator", currentPage+1, bookTotalPages);
