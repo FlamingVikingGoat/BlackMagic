@@ -1,7 +1,12 @@
 package com.fvg.blackmagic.items.magic;
 
 import com.fvg.blackmagic.core.Reference;
+import net.minecraft.client.gui.GuiButton;
 import net.minecraft.util.ResourceLocation;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class MagicBookPage {
     private Integer index;
@@ -12,6 +17,7 @@ public class MagicBookPage {
     private boolean isKnown = false;
     private int[] firstPageStringPosOffset = new int[]{45, 30, 0};
     private int[] secondPageStringPosOffset = new int[]{45, 30, 0};
+
 
     MagicBookPage(){
         this(null, "", "book_base.png", false);
@@ -87,5 +93,10 @@ public class MagicBookPage {
 
     public int[] getSecondPageStringPosOffset() {
         return secondPageStringPosOffset;
+    }
+
+    @Override
+    public String toString() {
+        return pageName;
     }
 }

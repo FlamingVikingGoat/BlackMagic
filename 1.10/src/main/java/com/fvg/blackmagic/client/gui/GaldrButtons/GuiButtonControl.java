@@ -1,6 +1,7 @@
 package com.fvg.blackmagic.client.gui.GaldrButtons;
 
 import com.fvg.blackmagic.core.Reference;
+import com.fvg.blackmagic.items.magic.MagicBookLoader;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.util.ResourceLocation;
@@ -9,29 +10,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
-public class GuiButtonControl extends GuiButton{
-    public GuiButtonControl(int buttonId, int leftOffset, int topOffset) {
-        super(buttonId, leftOffset + 45, topOffset + 42, 16, 16, "");
-        this.visible = false;
-    }
-
-    @Override
-    public void drawButton(Minecraft mc, int mouseX, int mouseY) {
-        if(visible){
-            boolean isButtonPressed = (
-                    mouseX >= xPosition &&
-                    mouseY >= yPosition &&
-                    mouseX < xPosition + width &&
-                    mouseY < yPosition + height);
-            GL11.glColor4f(1F, 1F, 1F, 1F);
-            mc.renderEngine.bindTexture(new ResourceLocation(Reference.MODID+":textures/gui/buttons.png"));
-            int textureX = 0;
-            int textureY = 17;
-            if(isButtonPressed){
-                textureX += 17;
-            }
-
-            drawModalRectWithCustomSizedTexture(xPosition, yPosition, textureX, textureY, 16, 16, 512, 512);
-        }
+public class GuiButtonControl extends GuiButtonMagicBook{
+    public GuiButtonControl(int buttonId, int leftOffset, int topOffset){
+        super(buttonId, leftOffset, topOffset, 2, MagicBookLoader.controlIntro, MagicBookLoader.contentTable);
     }
 }

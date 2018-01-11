@@ -2,7 +2,10 @@ package com.fvg.blackmagic.capabilities.knownpages;
 
 import com.fvg.blackmagic.items.magic.MagicBookLoader;
 import com.fvg.blackmagic.items.magic.MagicBookPage;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.text.TextComponentBase;
+import net.minecraft.util.text.TextComponentString;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,8 +54,10 @@ public class PagesKnown implements IPagesKnown{
     }
 
     @Override
-    public void makePageKnown(MagicBookPage pageLearned) {
+    public void makePageKnown(MagicBookPage pageLearned, EntityPlayer playerIn) {
         knownPages.add(pageLearned.getIndex(), pageLearned);
         pageLearned.setKnown(true);
+        String message = String.format("New page learned: %s!", pageLearned);
+        playerIn.addChatMessage(new TextComponentString(message));
     }
 }

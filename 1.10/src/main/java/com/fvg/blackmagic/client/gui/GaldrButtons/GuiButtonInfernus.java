@@ -1,24 +1,13 @@
 package com.fvg.blackmagic.client.gui.GaldrButtons;
 
-import com.fvg.blackmagic.core.Reference;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiButton;
-import net.minecraft.util.ResourceLocation;
-import org.lwjgl.opengl.GL11;
+import com.fvg.blackmagic.items.magic.MagicBookLoader;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class GuiButtonInfernus extends GuiButton{
+@SideOnly(Side.CLIENT)
+public class GuiButtonInfernus extends GuiButtonMagicBook{
     public GuiButtonInfernus(int buttonId, int leftOffset, int topOffset) {
-        super(buttonId, leftOffset+45, topOffset+42, 16, 16, "");
+        super(buttonId, leftOffset, topOffset, 2,MagicBookLoader.infernusInfo, MagicBookLoader.modContents);
     }
 
-    @Override
-    public void drawButton(Minecraft mc, int mouseX, int mouseY) {
-        if(visible){
-            GL11.glColor4f(1f, 1f, 1f, 1f);
-            mc.renderEngine.bindTexture(new ResourceLocation(Reference.MODID, "textures/gui/buttons.png"));
-            int textureX = 0;
-            int textureY = 51;
-            drawModalRectWithCustomSizedTexture(xPosition, yPosition, textureX, textureY, 16, 16, 512, 512);
-        }
-    }
 }

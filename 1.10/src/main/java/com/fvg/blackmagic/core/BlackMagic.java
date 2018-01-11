@@ -15,6 +15,7 @@ import com.fvg.blackmagic.commands.CommandSetMaxMana;
 import com.fvg.blackmagic.creativetab.TabBlackMagicCore;
 import com.fvg.blackmagic.entitites.ModEntities;
 import com.fvg.blackmagic.handlers.BlackEvents;
+import com.fvg.blackmagic.handlers.BookEvents;
 import com.fvg.blackmagic.handlers.RecipeHandler;
 import com.fvg.blackmagic.items.ModItems;
 import com.fvg.blackmagic.network.GuiHandler;
@@ -69,6 +70,7 @@ public class BlackMagic {
     @Mod.EventHandler
     public static void postInit(FMLPostInitializationEvent event){
         MinecraftForge.EVENT_BUS.register(new BlackEvents());
+        MinecraftForge.EVENT_BUS.register(new BookEvents());
         MinecraftForge.EVENT_BUS.register(new CapabilityHandler());
     }
 

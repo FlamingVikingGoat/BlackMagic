@@ -1,5 +1,7 @@
 package com.fvg.blackmagic.items.magic;
 
+import com.fvg.blackmagic.client.gui.GuiMagicBook;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +16,7 @@ public final class MagicBookLoader {
     public static MagicBookPage staffInfo = new MagicBookPage(4, "Staff Information", true);
     public static MagicBookPage infernusInfo = new MagicBookPage(5, "Infernus Information", true);
     public static MagicBookPage summonBlockInfo = new MagicBookPage(6, "Summon Block Information", true);
+    public static MagicBookPage summonRitual = new MagicBookPage(7, "How to Summon a Demon", false);
 
     public static void setPages(){
         contentTable.setFirstPageText(
@@ -58,6 +61,7 @@ public final class MagicBookLoader {
 
         summonBlockInfo.setFirstPageText("" +
                 "The summoning block is a special block used for certain rites and rituals too advanced for the beginning magician.");
+        summonRitual.setFirstPageText("dummy text");
     }
 
 
