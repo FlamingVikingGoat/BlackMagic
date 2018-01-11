@@ -10,7 +10,8 @@ public class MagicBookPage {
     private String secondPageText = "";
     private ResourceLocation texture = new ResourceLocation(Reference.MODID+":textures/gui/book_base.png");
     private boolean isKnown = false;
-    private int[] stringPosOffset = new int[]{45, 40, 0};
+    private int[] firstPageStringPosOffset = new int[]{45, 30, 0};
+    private int[] secondPageStringPosOffset = new int[]{45, 30, 0};
 
     MagicBookPage(){
         this(null, "", "book_base.png", false);
@@ -60,8 +61,12 @@ public class MagicBookPage {
         return isKnown;
     }
 
-    public void setStringPosOffset(int... args) {
-        System.arraycopy(args, 0, stringPosOffset, 0, args.length);
+    public void setFirstPageStringPosOffset(int... args) {
+        System.arraycopy(args, 0, firstPageStringPosOffset, 0, args.length);
+    }
+
+    public void setSecondPageStringPosOffset(int... args) {
+        System.arraycopy(args, 0, secondPageStringPosOffset, 0, args.length);
     }
 
     public void setFirstPageText(String firstPageText) {
@@ -76,7 +81,11 @@ public class MagicBookPage {
         isKnown = known;
     }
 
-    public int[] getStringPosOffset() {
-        return stringPosOffset;
+    public int[] getFirstPageStringPosOffset() {
+        return firstPageStringPosOffset;
+    }
+
+    public int[] getSecondPageStringPosOffset() {
+        return secondPageStringPosOffset;
     }
 }

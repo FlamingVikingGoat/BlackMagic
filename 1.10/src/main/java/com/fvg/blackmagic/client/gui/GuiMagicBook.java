@@ -1,8 +1,7 @@
 package com.fvg.blackmagic.client.gui;
 
-import com.fvg.blackmagic.client.gui.GaldrButtons.GuiButtonBasic;
-import com.fvg.blackmagic.client.gui.GaldrButtons.GuiButtonControl;
-import com.fvg.blackmagic.client.gui.GaldrButtons.NextPageButton;
+import com.fvg.blackmagic.client.gui.GaldrButtons.*;
+import com.fvg.blackmagic.items.magic.MagicBook;
 import com.fvg.blackmagic.items.magic.MagicBookLoader;
 import com.fvg.blackmagic.items.magic.MagicBookPage;
 import net.minecraft.client.gui.GuiButton;
@@ -29,6 +28,9 @@ public class GuiMagicBook extends GuiScreen {
     private NextPageButton buttonPreviousValidPage;
     private GuiButtonBasic buttonBasicJump;
     private GuiButtonControl buttonControlJump;
+    private GuiButtonStaff buttonStaffJump;
+    private GuiButtonInfernus buttonInfernusJump;
+    private GuiButtonSummonBlock buttonSummonBlockJump;
 
     int left, top;
 
@@ -64,6 +66,14 @@ public class GuiMagicBook extends GuiScreen {
                 offsetFromScreenLeft, top));
         buttonList.add(buttonControlJump = new GuiButtonControl(3,
                 offsetFromScreenLeft, top));
+        buttonList.add(buttonStaffJump = new GuiButtonStaff(4,
+                offsetFromScreenLeft + BOOK_IMAGE_WIDTH/2, top));
+        buttonList.add(buttonInfernusJump = new GuiButtonInfernus(5, offsetFromScreenLeft + BOOK_IMAGE_WIDTH/2, top));
+        buttonList.add(buttonSummonBlockJump = new GuiButtonSummonBlock(6, offsetFromScreenLeft + BOOK_IMAGE_WIDTH/2, top));
+
+        for(GuiButton button : buttonList){
+            button.visible = false;
+        }
     }
 
     @Override
@@ -72,6 +82,9 @@ public class GuiMagicBook extends GuiScreen {
         buttonPreviousValidPage.visible = (currentPage > availablePages.indexOf(MagicBookLoader.contentTable));
         buttonBasicJump.visible = (currentPage == availablePages.indexOf(MagicBookLoader.contentTable));
         buttonControlJump.visible = (currentPage == availablePages.indexOf(MagicBookLoader.contentTable));
+        buttonStaffJump.visible = (currentPage == availablePages.indexOf(MagicBookLoader.modContents));
+        buttonInfernusJump.visible = (currentPage == availablePages.indexOf(MagicBookLoader.modContents));
+        buttonSummonBlockJump.visible = (currentPage == availablePages.indexOf(MagicBookLoader.modContents));
     }
 
     @Override
@@ -99,7 +112,9 @@ public class GuiMagicBook extends GuiScreen {
     public void drawPageString(MagicBookPage page){
         int offsetFromScreenLeft = (width - BOOK_IMAGE_WIDTH) / 2;
         fontRendererObj.drawSplitString(page.getFirstPageText(),
-                offsetFromScreenLeft + page.getStringPosOffset()[0], top + page.getStringPosOffset()[1], 200, page.getStringPosOffset()[2]);
+                offsetFromScreenLeft + page.getFirstPageStringPosOffset()[0], top + page.getFirstPageStringPosOffset()[1], 200, page.getFirstPageStringPosOffset()[2]);
+        fontRendererObj.drawSplitString(page.getSecondPageText(),
+                offsetFromScreenLeft + BOOK_IMAGE_WIDTH / 2 + page.getSecondPageStringPosOffset()[0], top + page.getSecondPageStringPosOffset()[1], 200, page.getSecondPageStringPosOffset()[2]);
     }
 
     @Override
@@ -117,6 +132,12 @@ public class GuiMagicBook extends GuiScreen {
             currentPage = availablePages.indexOf(MagicBookLoader.basicInfo);
         } else if (button == buttonControlJump){
             currentPage = availablePages.indexOf(MagicBookLoader.controlIntro);
+        } else if (button == buttonStaffJump){
+            currentPage = availablePages.indexOf(MagicBookLoader.modContents);
+        } else if (button == buttonInfernusJump) {
+            currentPage = availablePages.indexOf(MagicBookLoader.modContents);
+        } else if (button == buttonSummonBlockJump){
+            currentPage = availablePages.indexOf(MagicBookLoader.modContents);
         }
     }
 
