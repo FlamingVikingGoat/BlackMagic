@@ -133,11 +133,11 @@ public class GuiMagicBook extends GuiScreen {
         } else if (button == buttonControlJump){
             currentPage = availablePages.indexOf(MagicBookLoader.controlIntro);
         } else if (button == buttonStaffJump){
-            currentPage = availablePages.indexOf(MagicBookLoader.modContents);
+            currentPage = availablePages.indexOf(MagicBookLoader.staffInfo);
         } else if (button == buttonInfernusJump) {
-            currentPage = availablePages.indexOf(MagicBookLoader.modContents);
+            currentPage = availablePages.indexOf(MagicBookLoader.infernusInfo);
         } else if (button == buttonSummonBlockJump){
-            currentPage = availablePages.indexOf(MagicBookLoader.modContents);
+            currentPage = availablePages.indexOf(MagicBookLoader.summonBlockInfo);
         }
     }
 
