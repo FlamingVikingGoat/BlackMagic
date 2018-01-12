@@ -20,9 +20,9 @@ public final class MagicBookLoader {
 
     public static void setPages(){
         contentTable.setFirstPageText(
-                "Basic Information(Start Here)\n\n"+
-                "Control Magic Information");
+                contentTable.buttonStrings(basicInfo, controlIntro, summonRitual));
         contentTable.setFirstPageStringPosOffset(65, 30, 0x0000FF);
+
 
         basicInfo.setFirstPageText("" +
                 "Welcome, young spellcaster, to the tome that will guide you through your magical journey.\n\n" +

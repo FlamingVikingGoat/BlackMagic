@@ -24,14 +24,14 @@ public class GuiMagicBook extends GuiScreen {
     private List<MagicBookPage> pageList = new ArrayList<MagicBookPage>();
     int availablePageNumber = 0;
 
-    public NextPageButton buttonNextValidPage;
-    public NextPageButton buttonPreviousValidPage;
-    public GuiButtonBasic buttonBasicJump;
-    public GuiButtonControl buttonControlJump;
-    public GuiButtonStaff buttonStaffJump;
-    public GuiButtonInfernus buttonInfernusJump;
-    public GuiButtonSummonBlock buttonSummonBlockJump;
-    private GuiButtonSummonRitual buttonSummonRitualJump;
+    public static NextPageButton buttonNextValidPage;
+    public static NextPageButton buttonPreviousValidPage;
+    public static GuiButtonBasic buttonBasicJump;
+    public static GuiButtonControl buttonControlJump;
+    public static GuiButtonStaff buttonStaffJump;
+    public static GuiButtonInfernus buttonInfernusJump;
+    public static GuiButtonSummonBlock buttonSummonBlockJump;
+    public static GuiButtonSummonRitual buttonSummonRitualJump;
 
     int left, top;
 

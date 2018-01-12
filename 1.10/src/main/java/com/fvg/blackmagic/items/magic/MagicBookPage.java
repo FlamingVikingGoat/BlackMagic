@@ -1,5 +1,6 @@
 package com.fvg.blackmagic.items.magic;
 
+import com.fvg.blackmagic.client.gui.GaldrButtons.GuiButtonMagicBook;
 import com.fvg.blackmagic.core.Reference;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.util.ResourceLocation;
@@ -93,6 +94,17 @@ public class MagicBookPage {
 
     public int[] getSecondPageStringPosOffset() {
         return secondPageStringPosOffset;
+    }
+
+    public String buttonStrings(MagicBookPage... args){
+        StringBuilder buttonString = new StringBuilder();
+        for (MagicBookPage page : args) {
+            if(page.isKnown()){
+                buttonString.append(page);
+                buttonString.append("\n\n");
+            }
+        }
+        return buttonString.toString();
     }
 
     @Override

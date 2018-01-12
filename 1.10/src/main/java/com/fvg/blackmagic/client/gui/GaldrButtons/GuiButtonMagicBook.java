@@ -51,6 +51,10 @@ public class GuiButtonMagicBook extends GuiButton{
         return jumpPage.getIndex();
     }
 
+    public MagicBookPage getJumpPage() {
+        return jumpPage;
+    }
+
     public void checkVisible(int currentPage, List<MagicBookPage> pageListIn){
         this.visible = (pageListIn.get(currentPage) == originPage && jumpPage.isKnown());
     }
