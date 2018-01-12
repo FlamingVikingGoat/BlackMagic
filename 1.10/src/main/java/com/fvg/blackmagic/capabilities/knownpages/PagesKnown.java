@@ -55,7 +55,7 @@ public class PagesKnown implements IPagesKnown{
 
     @Override
     public void makePageKnown(MagicBookPage pageLearned, EntityPlayer playerIn) {
-        knownPages.add(pageLearned.getIndex(), pageLearned);
+        knownPages.set(pageLearned.getIndex(), pageLearned);
         pageLearned.setKnown(true);
         String message = String.format("New page learned: %s!", pageLearned);
         playerIn.addChatMessage(new TextComponentString(message));
