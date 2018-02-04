@@ -7,11 +7,9 @@ import net.minecraft.nbt.NBTTagCompound;
 import java.util.List;
 
 public interface IPagesKnown {
-    NBTTagCompound saveKnownPages();
-    List<MagicBookPage> getKnownPages();
-    MagicBookPage getPageFromIndex(int index);
-    int getIndexFromPage(MagicBookPage page);
+    int[] saveKnownPages();
+    int[] getKnownPages();
 
-    void loadKnownPages(boolean known, int index);
+    void loadKnownPages(int[] loadedPages);
     void makePageKnown(MagicBookPage pageLearned, EntityPlayer playerIn);
 }

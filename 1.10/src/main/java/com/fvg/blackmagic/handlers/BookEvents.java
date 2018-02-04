@@ -10,6 +10,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 
+import java.util.List;
+
 public class BookEvents {
 
     @SubscribeEvent
@@ -17,8 +19,9 @@ public class BookEvents {
         ItemStack itemCrafted = event.crafting;
         EntityPlayer player = event.player;
         IPagesKnown pagesKnown = player.getCapability(PagesKnownProvider.KNOWN_PAGES, null);
+        pagesKnown.getKnownPages();
 
-        if(Block.getBlockFromItem(itemCrafted.getItem()) instanceof SpawnBlock && !event.player.getEntityWorld().isRemote){
+        if(Block.getBlockFromItem(itemCrafted.getItem()) instanceof SpawnBlock && !player.getEntityWorld().isRemote){
             pagesKnown.makePageKnown(MagicBookLoader.summonRitual, player);
         }
     }

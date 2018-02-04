@@ -1,5 +1,6 @@
 package com.fvg.blackmagic.client.gui.GaldrButtons;
 
+import com.fvg.blackmagic.client.gui.DummyClass;
 import com.fvg.blackmagic.core.Reference;
 import com.fvg.blackmagic.items.magic.MagicBookPage;
 import net.minecraft.client.Minecraft;
@@ -56,6 +57,8 @@ public class GuiButtonMagicBook extends GuiButton{
     }
 
     public void checkVisible(int currentPage, List<MagicBookPage> pageListIn){
-        this.visible = (pageListIn.get(currentPage) == originPage && jumpPage.isKnown());
+        boolean pageIsKnown = (DummyClass.getDummyArr()[jumpPage.getIndex()] == 1);
+        this.visible = (pageListIn.get(currentPage) == originPage && pageIsKnown);
+
     }
 }

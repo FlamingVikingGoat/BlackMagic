@@ -18,6 +18,7 @@ import com.fvg.blackmagic.handlers.BlackEvents;
 import com.fvg.blackmagic.handlers.BookEvents;
 import com.fvg.blackmagic.handlers.RecipeHandler;
 import com.fvg.blackmagic.items.ModItems;
+import com.fvg.blackmagic.network.BlackPackets;
 import com.fvg.blackmagic.network.GuiHandler;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
@@ -54,6 +55,7 @@ public class BlackMagic {
         ModEntities.registerEntities();
         CapabilityManager.INSTANCE.register(IMana.class, new ManaStorage(), Mana.class);
         CapabilityManager.INSTANCE.register(IPagesKnown.class, new PagesKnownStorage(), PagesKnown.class);
+        BlackPackets.registerMessages();
         proxy.registerRenders();
 
     }

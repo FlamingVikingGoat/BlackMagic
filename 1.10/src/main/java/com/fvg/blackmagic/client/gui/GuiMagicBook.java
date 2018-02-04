@@ -4,9 +4,13 @@ import com.fvg.blackmagic.client.gui.GaldrButtons.*;
 import com.fvg.blackmagic.items.magic.MagicBook;
 import com.fvg.blackmagic.items.magic.MagicBookLoader;
 import com.fvg.blackmagic.items.magic.MagicBookPage;
+import com.fvg.blackmagic.network.BlackPackets;
+import com.fvg.blackmagic.network.PacketServerResponseWithKnownPagesOfPlayer;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.resources.I18n;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import org.lwjgl.opengl.GL11;
 
 import java.io.IOException;
@@ -21,7 +25,7 @@ public class GuiMagicBook extends GuiScreen {
     private int currentPage = 0;
     private int bookTotalPages = 0;
     private List<MagicBookPage> availablePages = new ArrayList<MagicBookPage>();
-    private List<MagicBookPage> pageList = new ArrayList<MagicBookPage>();
+    private int[] knownPages = new int[MagicBookLoader.pages.size()];
     int availablePageNumber = 0;
 
     public static NextPageButton buttonNextValidPage;
@@ -35,25 +39,27 @@ public class GuiMagicBook extends GuiScreen {
 
     int left, top;
 
-    public GuiMagicBook(List<MagicBookPage> pageList){
-        this.pageList.clear();
-        this.pageList = pageList;
+    public GuiMagicBook(){
+        knownPages = DummyClass.getDummyArr();
+
         MagicBookLoader.setPages();
     }
 
     @Override
     public void initGui() {
         buttonList.clear();
-
-        for(MagicBookPage page : pageList){
-            if(!page.getPageName().equals("")){
-                availablePages.add(availablePageNumber, page);
+        availablePageNumber = 0;
+        bookTotalPages = 0;
+        availablePages.clear();
+        for(int i = 0; i < knownPages.length; i++){
+            if(knownPages[i] == 1){
+                availablePages.add(MagicBookLoader.pages.get(i));
                 availablePageNumber++;
                 bookTotalPages++;
             }
         }
+
         availablePageNumber = 0;
-        this.pageList.clear();
 
         left = width / 2 - BOOK_IMAGE_WIDTH / 2;
         top = height / 2 - BOOK_IMAGE_HEIGHT / 2;
@@ -148,7 +154,6 @@ public class GuiMagicBook extends GuiScreen {
 
     @Override
     public void onGuiClosed() {
-        pageList.clear();
         super.onGuiClosed();
     }
 
@@ -158,4 +163,6 @@ public class GuiMagicBook extends GuiScreen {
     }
 
 }
+
+
 
