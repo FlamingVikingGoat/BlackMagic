@@ -2,13 +2,13 @@
 {
   "modid": "blackmagic",
   "name": "Black Magic",
-  "description": "Example placeholder mod.",
-  "version": "1.0",
-  "mcversion": "1.8",
+  "description": "Feel the power flow from the base of the world to the base of your soul!",
+  "version": "0.1.0",
+  "mcversion": "1.10.2",
   "url": "",
   "updateUrl": "",
   "authorList": ["FlamingVikingGoat"],
-  "credits": "The Forge and FML guys, for making this example",
+  "credits": "Skeleben99, and the helpful folks over on the forms(diesieben07 & Draco18s are two notable people)",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

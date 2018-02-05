@@ -14,6 +14,12 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 public class ClientProxy extends CommonProxy {
+
+    @Override
+    public void preInit() {
+        super.preInit();
+    }
+
     @Override
     public void registerRenders() {
         ModItems.registerRenders();
@@ -34,8 +40,4 @@ public class ClientProxy extends CommonProxy {
                         new ModelDemon(1), 0.7f));
     }
 
-    @Override
-    public void openMyGui() {
-        Minecraft.getMinecraft().displayGuiScreen(new GuiMagicBook());
-    }
 }

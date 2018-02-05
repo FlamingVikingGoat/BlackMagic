@@ -6,14 +6,19 @@ import com.fvg.blackmagic.capabilities.CapabilityHandler;
 import com.fvg.blackmagic.capabilities.IMana;
 import com.fvg.blackmagic.capabilities.Mana;
 import com.fvg.blackmagic.capabilities.ManaStorage;
+import com.fvg.blackmagic.capabilities.knownpages.IPagesKnown;
+import com.fvg.blackmagic.capabilities.knownpages.PagesKnown;
+import com.fvg.blackmagic.capabilities.knownpages.PagesKnownStorage;
 import com.fvg.blackmagic.commands.CommandMagicStatus;
 import com.fvg.blackmagic.commands.CommandSetMagicical;
 import com.fvg.blackmagic.commands.CommandSetMaxMana;
 import com.fvg.blackmagic.creativetab.TabBlackMagicCore;
 import com.fvg.blackmagic.entitites.ModEntities;
 import com.fvg.blackmagic.handlers.BlackEvents;
+import com.fvg.blackmagic.handlers.BookEvents;
 import com.fvg.blackmagic.handlers.RecipeHandler;
 import com.fvg.blackmagic.items.ModItems;
+import com.fvg.blackmagic.network.BlackPackets;
 import com.fvg.blackmagic.network.GuiHandler;
 import com.fvg.blackmagic.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
@@ -30,7 +35,7 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
-@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_MINECRAFT_VERSIONS)
 public class BlackMagic {
 
     @SidedProxy(serverSide = Reference.SERVER_PROXY_CLASS, clientSide = Reference.CLIENT_PROXY_CLASS)
@@ -49,6 +54,8 @@ public class BlackMagic {
         ModBlocks.register();
         ModEntities.registerEntities();
         CapabilityManager.INSTANCE.register(IMana.class, new ManaStorage(), Mana.class);
+        CapabilityManager.INSTANCE.register(IPagesKnown.class, new PagesKnownStorage(), PagesKnown.class);
+        proxy.preInit();
         proxy.registerRenders();
 
     }
@@ -65,6 +72,7 @@ public class BlackMagic {
     @Mod.EventHandler
     public static void postInit(FMLPostInitializationEvent event){
         MinecraftForge.EVENT_BUS.register(new BlackEvents());
+        MinecraftForge.EVENT_BUS.register(new BookEvents());
         MinecraftForge.EVENT_BUS.register(new CapabilityHandler());
     }
 
