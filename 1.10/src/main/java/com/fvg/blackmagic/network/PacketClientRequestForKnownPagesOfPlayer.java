@@ -57,7 +57,7 @@ public class PacketClientRequestForKnownPagesOfPlayer implements IMessage{
             }
 
             Minecraft.getMinecraft().addScheduledTask(() -> {
-                Minecraft.getMinecraft().thePlayer.openGui(BlackMagic.instance, 0, Minecraft.getMinecraft().theWorld, 0, 0, 0);
+                Minecraft.getMinecraft().thePlayer.openGui(BlackMagic.instance, 0, Minecraft.getMinecraft().thePlayer.getEntityWorld(), 0, 0, 0);
             });
 
             return null;

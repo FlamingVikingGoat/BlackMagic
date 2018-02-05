@@ -6,6 +6,7 @@ import com.fvg.blackmagic.capabilities.Mana;
 import com.fvg.blackmagic.capabilities.ManaStorage;
 import com.fvg.blackmagic.entitites.ModEntities;
 import com.fvg.blackmagic.items.ModItems;
+import com.fvg.blackmagic.network.BlackPackets;
 import com.fvg.blackmagic.worldgen.OreGen;
 import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraftforge.common.capabilities.CapabilityManager;
@@ -13,6 +14,10 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CommonProxy {
+
+    public void preInit(){
+        BlackPackets.registerMessages();
+    }
 
     public void registerRenders() {}
 

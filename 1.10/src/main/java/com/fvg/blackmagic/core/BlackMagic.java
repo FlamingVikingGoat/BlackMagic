@@ -55,7 +55,7 @@ public class BlackMagic {
         ModEntities.registerEntities();
         CapabilityManager.INSTANCE.register(IMana.class, new ManaStorage(), Mana.class);
         CapabilityManager.INSTANCE.register(IPagesKnown.class, new PagesKnownStorage(), PagesKnown.class);
-        BlackPackets.registerMessages();
+        proxy.preInit();
         proxy.registerRenders();
 
     }

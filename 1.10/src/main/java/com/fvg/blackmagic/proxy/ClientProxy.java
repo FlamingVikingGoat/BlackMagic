@@ -14,6 +14,12 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 public class ClientProxy extends CommonProxy {
+
+    @Override
+    public void preInit() {
+        super.preInit();
+    }
+
     @Override
     public void registerRenders() {
         ModItems.registerRenders();
